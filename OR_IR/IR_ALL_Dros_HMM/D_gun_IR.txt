@@ -1,0 +1,1526 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.3.2 (Nov 2020); http://hmmer.org/
+# Copyright (C) 2020 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  /home/u4897529/HMM/IR.hmm
+# target sequence database:        /home/u4897529/HMM/Pt_faa/Dgun_JAMKOV01.fasta
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       Lig_chan  [M=149]
+Accession:   PF00060.29
+Description: Ligand-gated ion channel
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence     Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------     -----------
+      1e-70  236.0   0.0    8.1e-49  164.9   0.0    2.7  2  KAI8034102.1  hypothetical protein M5D96_013136 [Drosophila g
+    4.6e-57  191.7   0.0    8.3e-57  190.9   0.0    1.5  1  KAI8040220.1  hypothetical protein M5D96_006159 [Drosophila g
+    7.4e-49  165.1   0.6    1.4e-48  164.2   0.6    1.5  1  KAI8036457.1  hypothetical protein M5D96_010763 [Drosophila g
+    3.6e-48  162.8   0.2    4.7e-46  156.0   0.1    2.3  2  KAI8046451.1  hypothetical protein M5D96_002661 [Drosophila g
+    1.3e-44  151.3   0.1    2.4e-44  150.5   0.1    1.4  1  KAI8038123.1  hypothetical protein M5D96_009164 [Drosophila g
+    2.3e-41  140.7   0.3    4.8e-41  139.7   0.3    1.5  1  KAI8038121.1  hypothetical protein M5D96_009162 [Drosophila g
+    5.6e-36  123.3   0.0    9.6e-36  122.5   0.0    1.4  1  KAI8035401.1  hypothetical protein M5D96_011844 [Drosophila g
+    3.1e-34  117.6   0.0    9.9e-33  112.7   0.0    2.6  2  KAI8038126.1  hypothetical protein M5D96_009167 [Drosophila g
+    8.7e-25   86.9   0.2    1.3e-24   86.4   0.2    1.3  1  KAI8036619.1  hypothetical protein M5D96_010420 [Drosophila g
+    1.3e-14   53.9   7.2    1.2e-06   28.1   0.0    4.1  4  KAI8041633.1  hypothetical protein M5D96_005898 [Drosophila g
+    5.9e-13   48.5   0.1    1.2e-12   47.5   0.1    1.6  1  KAI8040269.1  hypothetical protein M5D96_006209 [Drosophila g
+    1.6e-12   47.1   0.0    1.4e-11   44.1   0.0    2.2  1  KAI8040725.1  hypothetical protein M5D96_006668 [Drosophila g
+    6.9e-09   35.4   0.2    1.1e-08   34.7   0.1    1.6  1  KAI8043341.1  hypothetical protein M5D96_004670 [Drosophila g
+    3.3e-08   33.2   1.4    7.5e-08   32.0   1.4    1.6  1  KAI8040990.1  hypothetical protein M5D96_005239 [Drosophila g
+    2.5e-07   30.3   1.0    4.3e-07   29.5   0.0    1.9  1  KAI8045835.1  hypothetical protein M5D96_002024, partial [Dro
+    3.1e-06   26.7   8.6     0.0077   15.7   0.3    3.6  2  KAI8039508.1  hypothetical protein M5D96_006920 [Drosophila g
+    4.1e-06   26.4   2.5    6.1e-06   25.8   2.5    1.4  1  KAI8036686.1  hypothetical protein M5D96_010487 [Drosophila g
+    4.1e-05   23.1   0.0    8.6e-05   22.1   0.0    1.6  1  KAI8035276.1  hypothetical protein M5D96_011933 [Drosophila g
+    9.5e-05   21.9   0.0    0.00015   21.3   0.0    1.5  1  KAI8038572.1  hypothetical protein M5D96_008479 [Drosophila g
+    0.00012   21.6   0.0    0.00022   20.7   0.0    1.5  1  KAI8046661.1  hypothetical protein M5D96_002874 [Drosophila g
+     0.0003   20.3   0.0    0.00074   19.0   0.0    1.6  1  KAI8035302.1  hypothetical protein M5D96_011960 [Drosophila g
+     0.0003   20.3   2.1      0.018   14.5   0.0    2.7  2  KAI8039870.1  hypothetical protein M5D96_007295 [Drosophila g
+    0.00055   19.4   0.3     0.0013   18.2   0.3    1.7  1  KAI8038569.1  hypothetical protein M5D96_008476 [Drosophila g
+     0.0012   18.3   2.4     0.0015   18.1   0.0    2.4  2  KAI8040090.1  hypothetical protein M5D96_007518 [Drosophila g
+     0.0021   17.6   0.0     0.0021   17.6   0.0    1.7  2  KAI8039758.1  hypothetical protein M5D96_007180 [Drosophila g
+     0.0047   16.4   0.0       0.01   15.3   0.0    1.7  1  KAI8046552.1  hypothetical protein M5D96_002763 [Drosophila g
+     0.0058   16.1   0.1      0.011   15.3   0.1    1.5  1  KAI8046001.1  hypothetical protein M5D96_002201 [Drosophila g
+      0.007   15.8   0.0      0.013   14.9   0.0    1.6  1  KAI8044164.1  hypothetical protein M5D96_000315 [Drosophila g
+    3.6e-44  149.2   0.1    8.1e-44  148.1   0.1    1.6  1  KAI8034102.1  hypothetical protein M5D96_013136 [Drosophila g
+    1.7e-43  147.0   0.0    3.9e-43  145.9   0.0    1.6  1  KAI8036457.1  hypothetical protein M5D96_010763 [Drosophila g
+    1.5e-40  137.5   0.0    3.1e-40  136.6   0.0    1.5  1  KAI8040220.1  hypothetical protein M5D96_006159 [Drosophila g
+    3.3e-39  133.2   0.0    5.7e-39  132.5   0.0    1.4  1  KAI8038123.1  hypothetical protein M5D96_009164 [Drosophila g
+    2.6e-36  123.9   0.0    5.4e-36  122.9   0.0    1.5  1  KAI8046451.1  hypothetical protein M5D96_002661 [Drosophila g
+      5e-35  119.8   0.1    1.2e-34  118.5   0.1    1.7  1  KAI8038121.1  hypothetical protein M5D96_009162 [Drosophila g
+    5.6e-35  119.6   0.0      1e-34  118.7   0.0    1.4  1  KAI8038126.1  hypothetical protein M5D96_009167 [Drosophila g
+    1.1e-34  118.7   0.0    2.7e-34  117.4   0.0    1.7  1  KAI8035401.1  hypothetical protein M5D96_011844 [Drosophila g
+    7.9e-09   35.3   0.0    1.7e-08   34.2   0.0    1.5  1  KAI8035276.1  hypothetical protein M5D96_011933 [Drosophila g
+    6.1e-06   26.0   0.0    1.2e-05   25.0   0.0    1.5  1  KAI8038210.1  hypothetical protein M5D96_008899 [Drosophila g
+    1.2e-05   25.0   0.0    2.2e-05   24.2   0.0    1.3  1  KAI8046661.1  hypothetical protein M5D96_002874 [Drosophila g
+    1.5e-05   24.7   0.0    2.8e-05   23.9   0.0    1.4  1  KAI8034878.1  hypothetical protein M5D96_012394 [Drosophila g
+    1.7e-05   24.6   0.1    5.1e-05   23.0   0.0    1.8  2  KAI8040725.1  hypothetical protein M5D96_006668 [Drosophila g
+    6.8e-05   22.6   0.0    0.00015   21.5   0.0    1.5  1  KAI8036619.1  hypothetical protein M5D96_010420 [Drosophila g
+    9.2e-05   22.2   0.0    0.00018   21.3   0.0    1.4  1  KAI8033676.1  hypothetical protein M5D96_013554 [Drosophila g
+    0.00012   21.9   0.1    0.00036   20.3   0.0    1.8  1  KAI8040990.1  hypothetical protein M5D96_005239 [Drosophila g
+     0.0053   16.5   0.0      0.011   15.5   0.0    1.5  1  KAI8036686.1  hypothetical protein M5D96_010487 [Drosophila g
+  ------ inclusion threshold ------
+      0.023   14.5   0.0      0.042   13.6   0.0    1.4  1  KAI8045736.1  hypothetical protein M5D96_001920 [Drosophila g
+      0.029   14.2   0.0      0.056   13.2   0.0    1.4  1  KAI8039961.1  hypothetical protein M5D96_007386 [Drosophila g
+      0.029   14.1   0.0       0.83    9.5   0.0    3.0  3  KAI8041633.1  hypothetical protein M5D96_005898 [Drosophila g
+       0.08   12.7   0.0       0.24   11.2   0.0    1.7  2  KAI8035303.1  hypothetical protein M5D96_011961 [Drosophila g
+      0.083   12.7   0.0       0.15   11.8   0.0    1.4  1  KAI8035300.1  hypothetical protein M5D96_011958 [Drosophila g
+       0.01   15.3   0.7      0.023   14.2   0.7    1.6  1  KAI8039656.1  hypothetical protein M5D96_007076 [Drosophila g
+      0.011   15.2   8.3       0.04   13.4   0.1    2.8  2  KAI8040429.1  hypothetical protein M5D96_006372 [Drosophila g
+      0.015   14.8   0.0      0.022   14.2   0.0    1.3  1  KAI8046561.1  hypothetical protein M5D96_002772, partial [Dro
+      0.015   14.7   0.1      0.029   13.8   0.1    1.5  1  KAI8036733.1  hypothetical protein M5D96_010534 [Drosophila g
+      0.017   14.6   1.1      0.057   12.9   1.1    1.9  1  KAI8040038.1  hypothetical protein M5D96_007463 [Drosophila g
+      0.023   14.2   1.9      0.036   13.5   1.9    1.3  1  KAI8038831.1  hypothetical protein M5D96_008741 [Drosophila g
+      0.025   14.1   0.1      0.025   14.1   0.1    2.9  2  KAI8037691.1  hypothetical protein M5D96_009191 [Drosophila g
+      0.063   12.8   0.0       0.14   11.7   0.0    1.7  1  KAI8033551.1  hypothetical protein M5D96_013699 [Drosophila g
+      0.091   12.2   0.7        1.1    8.8   1.4    2.0  1  KAI8040034.1  hypothetical protein M5D96_007459, partial [Dro
+       0.11   12.0   2.0       0.42   10.1   1.6    2.3  1  KAI8035300.1  hypothetical protein M5D96_011958 [Drosophila g
+       0.12   11.9   0.8        0.2   11.2   0.8    1.4  1  KAI8034878.1  hypothetical protein M5D96_012394 [Drosophila g
+       0.16   11.4   1.4        0.5    9.8   0.0    2.2  2  KAI8039456.1  hypothetical protein M5D96_008180 [Drosophila g
+          5    6.6   7.7       0.92    9.0   0.9    2.5  2  KAI8046105.1  hypothetical protein M5D96_002305 [Drosophila g
+
+
+Domain annotation for each sequence (and alignments):
+>> KAI8034102.1  hypothetical protein M5D96_013136 [Drosophila gunungcola]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   67.9   0.3   1.9e-21   6.5e-19       2      69 ..     563     632 ..     562     645 .. 0.89
+   2 !  164.9   0.0   2.4e-51   8.1e-49       2     149 .]     649    1003 ..     648    1003 .. 0.92
+
+  Alignments for each domain:
+  == domain 1  score: 67.9 bits;  conditional E-value: 1.9e-21
+                   CHHHHHHHHHHHHHHHHHHHCHHCXXXXXXXXXXX.XXX..XXXHHTTTCHHHHHHHHCTTSSSSBXXSSH CS
+                   xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx.xxx..xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx RF
+      Lig_chan   2 levWlsvlvalilvsivlflverfspyewrepeea.aet..veneftlsnslwfslgalvqqGcdesprsv 69 
+                   +e+Wl+vl+a+ilvs++lf+++rfspyew++p+++ +et  ven+f++sns+wf++g++++qG+  +p+ +
+  KAI8034102.1 563 IEIWLYVLAAYILVSFALFVMARFSPYEWKNPHPCyKETdiVENQFSVSNSFWFITGTFLRQGSGLNPK-I 632
+                   69*******************************99666699***********************99997.4 PP
+
+  == domain 2  score: 164.9 bits;  conditional E-value: 2.4e-51
+                    CHHHHHHHHHHHHHHHHHHHCHHCXXXXXX................................................................. CS
+                    xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx................................................................. RF
+      Lig_chan    2 levWlsvlvalilvsivlflverfspyewr................................................................. 31  
+                    +e+W+++++ +i+vsi++++v+r+sp ew                                                                  
+  KAI8034102.1  649 IEIWFYIAFGYIFVSICIWIVARLSPIEWVnskppcsmacdhilreiqkencfdeqlelihrkrisehdeevylntdhkisksnnyiehddslcg 743 
+                    69****************************89999999999999999888888888888888888888888888888777777777777777777 PP
+
+                    ...........XXXXXXXX............XXXHHTTTCHHHHHHHHCTTSSSSBXXSSHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHSSSSX CS
+                    ...........xxxxxxxx............xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx RF
+      Lig_chan   32 ...........epeeaaet............veneftlsnslwfslgalvqqGcdesprsvsgRivvavWwffvlillssYtAnLaafltvermq 103 
+                               +      +             +n+ftl ns+wf++gal+qqG+d  pr++s+Riv ++W+ff+li++ssYtAnLaafltverm 
+  KAI8034102.1  744 hdlpfppsndvN------EdasddntvdlvrIQNNFTLKNSFWFAIGALMQQGSDLYPRATSTRIVGGCWFFFCLIIISSYTANLAAFLTVERMI 832 
+                    666666555441......04555667899999*************************************************************** PP
+
+                    XSSSSCCHHHTGS.................................................................................. CS
+                    xxxxxxxxxxxxx.................................................................................. RF
+      Lig_chan  104 tpiksledLakqt.................................................................................. 116 
+                    +pi+s++dLa+qt                                                                                  
+  KAI8034102.1  833 SPIESASDLAEQTeisygtleggstmtffrdskigiyqkmwrymenrkaavfvktyedgikrvmegsyaflmestmldyavqrdcnltqigglld 927 
+                    *********************************************************************************************** PP
+
+                    ..........................................SSXSXSSXXXTTXTT..XTHHHHHHHHHHHHHHH CS
+                    ..........................................xxxxxxxxxxxxxxxx.xxxxxxxxxxxxxxxxx RF
+      Lig_chan  117 ..........................................kaeCsseksaekssse.LslsnvagiFlilligl 149 
+                                                                 C++++++++s+++ L+++n++g+F++ll+gl
+  KAI8034102.1  928 skgygiatpkgspwrdkislailelqekgiiqilydkwwkntGDVCNRDDKSKESKANaLGVENIGGVFVVLLCGL 1003
+                    ****************************************9855899988888887777***************96 PP
+
+>> KAI8040220.1  hypothetical protein M5D96_006159 [Drosophila gunungcola]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  190.9   0.0   2.5e-59   8.3e-57       1     149 []     611     908 ..     611     908 .. 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 190.9 bits;  conditional E-value: 2.5e-59
+                   TCHHHHHHHHHHHHHHHHHHHCHHCXXXXXXXXXXX.XXX........................XXXHHTTTCHHHHHHHHCTTSSSSBXXSSHHHH CS
+                   xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx.xxx........................xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx RF
+      Lig_chan   1 slevWlsvlvalilvsivlflverfspyewrepeea.aet........................veneftlsnslwfslgalvqqGcdesprsvsgR 72 
+                   s+e+W+sv++++++vs+vl++v+rf pyewr  +++ a++                          neft++ns+w+sl+a++qqGcd sp s++gR
+  KAI8040220.1 611 SQEIWISVILSYVGVSLVLYFVTRFPPYEWRIVRRPqADStaqqppgiiggatlseqqlhqppvPANEFTMLNSFWYSLAAFMQQGCDLSPPSIAGR 707
+                   68*****************************66555333356677777777777777778888899******************************* PP
+
+                   HHHHHHHHHHHHHHHHHHHHHHHHHHSSSSXXSSSSCCHHHTGS..................................................... CS
+                   xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx..................................................... RF
+      Lig_chan  73 ivvavWwffvlillssYtAnLaafltvermqtpiksledLakqt..................................................... 116
+                   i++avWwff++il+ssYtAnLaafltverm+ pik++edLa+qt                                                     
+  KAI8040220.1 708 IAAAVWWFFTIILISSYTANLAAFLTVERMVAPIKTPEDLAMQTdvnygtilhgstweffkrsqiglhnkmweymnanqhhsvrsydegirrvrask 804
+                   ************************************************************************************************* PP
+
+                   ........................................................................SSXSXSSXXXTTXTT.XTHHHHHHH CS
+                   ........................................................................xxxxxxxxxxxxxxxxxxxxxxxxx RF
+      Lig_chan 117 ........................................................................kaeCsseksaekssseLslsnvagi 141
+                                                                                           k+eC+ ++++++ ++ Lslsnvagi
+  KAI8040220.1 805 gkyallvespkneyvnarppcdtmkvgrnidtkgfgvatpigsplrkrlneavltlkengellrirnkwwfdKTECNLDQETSTPNE-LSLSNVAGI 900
+                   ***********************************************************************989**********986.********* PP
+
+                   HHHHHHHH CS
+                   xxxxxxxx RF
+      Lig_chan 142 Flilligl 149
+                   ++il++gl
+  KAI8040220.1 901 YYILIGGL 908
+                   ******96 PP
+
+>> KAI8036457.1  hypothetical protein M5D96_010763 [Drosophila gunungcola]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  164.2   0.6   4.1e-51   1.4e-48       2     149 .]     541     816 ..     540     816 .. 0.97
+
+  Alignments for each domain:
+  == domain 1  score: 164.2 bits;  conditional E-value: 4.1e-51
+                   CHHHHHHHHHHHHHHHHHHHCHHCXXXXXXXXXXX.XXX..XXXHHTTTCHHHHHHHHCTTSSSSBXXSSHHHHHHHHHHHHHHHHHHHHHHHHHHH CS
+                   xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx.xxx..xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx RF
+      Lig_chan   2 levWlsvlvalilvsivlflverfspyewrepeea.aet..veneftlsnslwfslgalvqqGcdesprsvsgRivvavWwffvlillssYtAnLaa 95 
+                   +e+W++vl+a++lvsi++++v ++sp ew+  +++  ++   +n+ftl +s+wf++g+l+qq++d+ pr++s+Ri++++W ff li+++sYtAnLaa
+  KAI8036457.1 541 IEIWIYVLIAYFLVSICIYIVGKLSPIEWKYTHPCdLDNisISNQFTLTDSFWFTIGTLMQQSTDIYPRALSTRIISSIWGFFSLIIVASYTANLAA 637
+                   69****************************998886444679******************************************************* PP
+
+                   HHHSSSSXXSSSSCCHHHTGS............................................................................ CS
+                   xxxxxxxxxxxxxxxxxxxxx............................................................................ RF
+      Lig_chan  96 fltvermqtpiksledLakqt............................................................................ 116
+                   flt+erm +pi+++edLa+qt                                                                            
+  KAI8036457.1 638 FLTTERMINPIENAEDLASQTeisygtlesgstmtffrdsmietykkmwrsmdnkkptaftttyeegirrvnqgnyaylmestmldyivqrdcnltq 734
+                   ********************9**************************************************************************** PP
+
+                   ................................................SSXSXSSXXXTTXTT..XTHHHHHHHHHHHHHHH CS
+                   ................................................xxxxxxxxxxxxxxxx.xxxxxxxxxxxxxxxxx RF
+      Lig_chan 117 ................................................kaeCsseksaekssse.LslsnvagiFlilligl 149
+                                                                    ++C++++++++s+++ L+l++++g+F++l++g+
+  KAI8036457.1 735 igglldtkgygiatpkgspwrdkislailelqekgdiqmlydkwwkntDETCNRRSTSKQSKANaLGLESIGGVFVVLIAGI 816
+                   **********************************************99779***99999998888**************996 PP
+
+>> KAI8046451.1  hypothetical protein M5D96_002661 [Drosophila gunungcola]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  156.0   0.1   1.4e-48   4.7e-46       2     148 ..     509     783 ..     508     784 .. 0.97
+   2 ?    4.6   0.0     0.059        20     122     148 ..     806     832 ..     797     833 .. 0.74
+
+  Alignments for each domain:
+  == domain 1  score: 156.0 bits;  conditional E-value: 1.4e-48
+                   CHHHHHHHHHHHHHHHHHHHCHHCXXXXXXXXXXX.XXX..XXXHHTTTCHHHHHHHHCTTSSSSBXXSSHHHHHHHHHHHHHHHHHHHHHHHHHHH CS
+                   xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx.xxx..xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx RF
+      Lig_chan   2 levWlsvlvalilvsivlflverfspyewrepeea.aet..veneftlsnslwfslgalvqqGcdesprsvsgRivvavWwffvlillssYtAnLaa 95 
+                    evWl + +a+++vsi +f++ r+sp ew++p ++ +e    en+f++ n+lwfs+gal+qqG++ +p++ s+R v+a+Wwff+lil+ssYtAnLaa
+  KAI8046451.1 509 GEVWLWLGLAYMGVSISMFVLGRLSPAEWDNPYPCiEEPteLENQFSFANCLWFSIGALLQQGSELAPKAYSTRAVAASWWFFTLILVSSYTANLAA 605
+                   59******************************99976656799****************************************************** PP
+
+                   HHHSSSSXXSSSSCCHHHTGS............................................................................ CS
+                   xxxxxxxxxxxxxxxxxxxxx............................................................................ RF
+      Lig_chan  96 fltvermqtpiksledLakqt............................................................................ 116
+                   fltve+++tpi+ ++dL+k++                                                                            
+  KAI8046451.1 606 FLTVESLVTPINDADDLSKNKggvnygakiggatfnffkesnyptyqrmyefmrdnpqymtntnqegvdrvensnyaflmesttieyiterrctltq 702
+                   ******************9999*************************************************************************** PP
+
+                   ..................................................SSXSXSSXXXTTXTT.XTHHHHHHHHHHHHHH CS
+                   ..................................................xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx RF
+      Lig_chan 117 ..................................................kaeCsseksaekssseLslsnvagiFlillig 148
+                                                                      + Cs++++++   + L++sn++g+Fl++++g
+  KAI8046451.1 703 vgalldekgygiamrknwpyrdtlsqavlemqeqglltkmktkwwqekrgGGACSDSDEDSGAVA-LEISNLGGVFLVMGVG 783
+                   ************************************************98779*99999999765.*************998 PP
+
+  == domain 2  score: 4.6 bits;  conditional E-value: 0.059
+                   SSXXXTTXTT.XTHHHHHHHHHHHHHH CS
+                   xxxxxxxxxxxxxxxxxxxxxxxxxxx RF
+      Lig_chan 122 seksaekssseLslsnvagiFlillig 148
+                   +++ a++++s+L++ n++g++l++++g
+  KAI8046451.1 806 NQEAADSDASSLGFANLGGVYLVMFVG 832
+                   33444444555*************998 PP
+
+>> KAI8038123.1  hypothetical protein M5D96_009164 [Drosophila gunungcola]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  150.5   0.1   6.9e-47   2.4e-44       1     149 []     523     801 ..     523     801 .. 0.97
+
+  Alignments for each domain:
+  == domain 1  score: 150.5 bits;  conditional E-value: 6.9e-47
+                   TCHHHHHHHHHHHHHHHHHHHCHHCXXXXXXXXXXX.XXX..XXXHHTTTCHHHHHHHHCTTSSSSBXXSSHHHHHHHHHHHHHHHHHHHHHHHHHH CS
+                   xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx.xxx..xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx RF
+      Lig_chan   1 slevWlsvlvalilvsivlflverfspyewrepeea.aet..veneftlsnslwfslgalvqqGcdesprsvsgRivvavWwffvlillssYtAnLa 94 
+                   sl+vW+++  a++++s++lf ++r+ p +w++p+++ +    ven ++++n+ w+s+g+l+ qGcd+ p++ s+R+v+++Wwff+l++l sYtAnLa
+  KAI8038123.1 523 SLDVWIYMGSAYLFISLLLFALARMAPDDWENPHPCkE-PeeVENIWSIMNTTWLSIGSLMGQGCDILPKAASTRLVTGMWWFFALMMLNSYTANLA 618
+                   579******************************99953.33599***************************************************** PP
+
+                   HHHHSSSSXXSSSSCCHHHTGS........................................................................... CS
+                   xxxxxxxxxxxxxxxxxxxxxx........................................................................... RF
+      Lig_chan  95 afltvermqtpiksledLakqt........................................................................... 116
+                   aflt +r  ++i+++edLa q+                                                                           
+  KAI8038123.1 619 AFLTNSRQANSINNAEDLAAQNkikygamaggstmaffrdsnfstyqkmwtamesaspsvftktndegvervqkgknlyafmmesttleynverkcd 715
+                   *******************9999************************************************************************** PP
+
+                   .....................................................SSXSXSSXXXTTXTT.XTHHHHHHHHHHHHHHH CS
+                   .....................................................xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx RF
+      Lig_chan 117 .....................................................kaeCsseksaekssseLslsnvagiFlilligl 149
+                                                                         ++C++++++  ++ eL+l+nv+g+Fl+l++gl
+  KAI8038123.1 716 lvqiggwldyksygiampfnspyrkqisgavlklgelgqlaelkrkwwkemhgGGNCEKSDEEGGDTPELGLENVGGVFLVLGLGL 801
+                   ****************************************************9779***************************996 PP
+
+>> KAI8038121.1  hypothetical protein M5D96_009162 [Drosophila gunungcola]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  139.7   0.3   1.4e-43   4.8e-41       2     149 .]     689     946 ..     688     946 .. 0.97
+
+  Alignments for each domain:
+  == domain 1  score: 139.7 bits;  conditional E-value: 1.4e-43
+                   CHHHHHHHHHHHHHHHHHHHCHHCXXXXXXXXXXX.XXX..XXXHHTTTCHHHHHHHHCTTSSSSBXXSSHHHHHHHHHHHHHHHHHHHHHHHHHHH CS
+                   xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx.xxx..xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx RF
+      Lig_chan   2 levWlsvlvalilvsivlflverfspyewrepeea.aet..veneftlsnslwfslgalvqqGcdesprsvsgRivvavWwffvlillssYtAnLaa 95 
+                   +evW+++++a +++++++++++r+s  ew  p++a ++    en +++ ns w+++g+++qqGcd+ pr  ++Ri++++Wwff+l++ls+YtAnLaa
+  KAI8038121.1 689 VEVWIYMIFAQLVMTLAFVFIARLSYREWLPPNPAiQDPdeLENIWNVNNSTWLMVGSIMQQGCDILPRGPHMRILTGMWWFFALMMLSTYTANLAA 785
+                   69****************************9988866556699****************************************************** PP
+
+                   HHHSSSSXXSSSSCCHHHTGS............................................................................ CS
+                   xxxxxxxxxxxxxxxxxxxxx............................................................................ RF
+      Lig_chan  96 fltvermqtpiksledLakqt............................................................................ 116
+                   flt++++q++iksl+dL++q+                                                                            
+  KAI8038121.1 786 FLTSNKWQSSIKSLQDLIEQDesndtdyqrawnqmkdfnpsaftstnkegvarvrkekgdyaflmettsltynierncdltqigeqigekhyglavp 882
+                   ******************9999*************************************************************************** PP
+
+                   .................................SSXSXSSXXXTTXTT.XTHHHHHHHHHHHHHHH CS
+                   .................................xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx RF
+      Lig_chan 117 .................................kaeCsseksaekssseLslsnvagiFlilligl 149
+                                                    + +C+s ++ + +  eLs+ +++g+Fl+l++g+
+  KAI8038121.1 883 lgadyrtnlsvsilqlsekgelykmknkwwknhNVTCDSFHEVDGD--ELSIIELGGVFLVLAGGV 946
+                   *******************************976689999999997..4**************995 PP
+
+>> KAI8035401.1  hypothetical protein M5D96_011844 [Drosophila gunungcola]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  122.5   0.0   2.8e-38   9.6e-36       3     149 .]     564     838 ..     562     838 .. 0.97
+
+  Alignments for each domain:
+  == domain 1  score: 122.5 bits;  conditional E-value: 2.8e-38
+                   HHHHHHHHHHHHHHHHHHHCHHCXXXXXXXXXXX.XXX..XXXHHTTTCHHHHHHHHCTTSSSSBXXSSHHHHHHHHHHHHHHHHHHHHHHHHHHHH CS
+                   xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx.xxx..xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx RF
+      Lig_chan   3 evWlsvlvalilvsivlflverfspyewrepeea.aet..veneftlsnslwfslgalvqqGcdesprsvsgRivvavWwffvlillssYtAnLaaf 96 
+                   evW+ +l+++++v+++ ++v+r+s+ +w++p+++ ++    en+++++n+ w+++++++ +Gcd+ prs   R+  a+Ww+f++i+  sYtAnLaaf
+  KAI8035401.1 564 EVWIWILISVFVVTFLKTIVARISKMDWENPHPCdRDPevLENQWHIHNTGWLTVASIMTAGCDILPRSPQVRMFEATWWIFAIIIANSYTANLAAF 660
+                   8******************************99955447799******************************************************* PP
+
+                   HHSSSSXXSSSSCCHHHTGS............................................................................. CS
+                   xxxxxxxxxxxxxxxxxxxx............................................................................. RF
+      Lig_chan  97 ltvermqtpiksledLakqt............................................................................. 116
+                   lt+++m+ +i +l+dL+ q+                                                                             
+  KAI8035401.1 661 LTSSKMEGSIANLKDLSGQKkvkfgtiyggstynlladsnetvyrlafnlmnnddpsaytkdnvegvdrvkkneggymflmetttleyhreqncdlr 757
+                   *****************8888**************************************************************************** PP
+
+                   .................................................SSXSXSSXXXTTXTT.XTHHHHHHHHHHHHHHH CS
+                   .................................................xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx RF
+      Lig_chan 117 .................................................kaeCsseksaekssseLslsnvagiFlilligl 149
+                                                                    +a+C +e + +++ + +++++++giF+ l +g+
+  KAI8035401.1 758 svgekfgekhyaiavpfgaeyrsnlsvailrlsergalydlkqkwwknpNASCFEEPDPDATPD-MTFEELRGIFYTLYMGI 838
+                   ***********************************************99889999999888876.*************9996 PP
+
+>> KAI8038126.1  hypothetical protein M5D96_009167 [Drosophila gunungcola]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  112.7   0.0   2.9e-35   9.9e-33       2     149 .]     556     842 ..     555     842 .. 0.94
+   2 ?    2.1   0.1      0.35   1.2e+02       7      53 ..     842     885 ..     841     891 .. 0.83
+
+  Alignments for each domain:
+  == domain 1  score: 112.7 bits;  conditional E-value: 2.9e-35
+                   CHHHHHHHHHHHHHHHHHHHCHHCXXXXXXXXXXX.XXX..XXXHHTTTCHHHHHHHHCTTSSSSBXXSS...........HHHHHHHHHHHHHHHH CS
+                   xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx.xxx..xxxxxxxxxxxxxxxxxxxxxxxxxxxxx...........xxxxxxxxxxxxxxxx RF
+      Lig_chan   2 levWlsvlvalilvsivlflverfspyewrepeea.aet..veneftlsnslwfslgalvqqGcdesprs...........vsgRivvavWwffvli 84 
+                   +evWl+v++a+++++++l+l  r+ + ew++p e+ +++  +en ++l n++w++lg++++qGcd  pr+           + +R+++a+Ww+f+l+
+  KAI8038126.1 556 VEVWLYVMIAMMITALALILTGRMDQFEWEHPVENvDHEmeRENIWHLNNTMWLVLGSILNQGCDLLPRQsgnsivaqnlgLPMRLLTAFWWIFALL 652
+                   69****************************998876544668999**********************99633333333333568************* PP
+
+                   HHHHHHHHHHHHHHSSSSXXSSSSCCHHHTGS................................................................. CS
+                   xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx................................................................. RF
+      Lig_chan  85 llssYtAnLaafltvermqtpiksledLakqt................................................................. 116
+                   + ++Y+A Laaf+t++++  +i sl+dL++q+                                                                 
+  KAI8038126.1 653 ISQTYIAKLAAFITSSKIAGNIGSLHDLVDQNkvqfgtirggatsvyfsesndtenrmawnkmlsfkpdaftknneegvdrvklsrgayaflmettn 749
+                   *****************************9999**************************************************************** PP
+
+                   .............................................................SSXSXSSXXXTTXTT.XTHHHHHHHHHHHHHHH CS
+                   .............................................................xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx RF
+      Lig_chan 117 .............................................................kaeCsseksaekssseLslsnvagiFlilligl 149
+                                                                                +++C+ + sa ++ + +++++v+g+F++l++g+
+  KAI8038126.1 750 lqyyvqrnceltqigesfgekhygiavplnanfrsnlsvgilklseqgvlynlrnkwfnnnESTCNLDASAVDNGQ-FDMESVGGLFVVLIVGV 842
+                   ***********************************************************98779*********976.***************95 PP
+
+  == domain 2  score: 2.1 bits;  conditional E-value: 0.35
+                   HHHHHHHHHHHHHHHCHHCXXXXXXXXXXXXXXXXXHHTTTCHHHHH CS
+                   xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx RF
+      Lig_chan   7 svlvalilvsivlflverfspyewrepeeaaetveneftlsnslwfs 53 
+                   ++++++i+++ +l+ v+r+s +e   p     + + ef+++  +w++
+  KAI8038126.1 842 VIIAFMIGIAEFLWHVHRISVKEKIPPM---LALKAEFHFLVRFWLT 885
+                   58999***************99977773...3356788888888875 PP
+
+>> KAI8036619.1  hypothetical protein M5D96_010420 [Drosophila gunungcola]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   86.4   0.2   3.8e-27   1.3e-24       4     148 ..     185     459 ..     182     480 .. 0.83
+
+  Alignments for each domain:
+  == domain 1  score: 86.4 bits;  conditional E-value: 3.8e-27
+                   HHHHHHHHHHHHHHHHHHCHHCXXXXXXXXXXXXXXXXXHHTTTCHHHHHHHHCTTSSSSBXXSSHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHSS CS
+                   xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx RF
+      Lig_chan   4 vWlsvlvalilvsivlflverfspyewrepeeaaetveneftlsnslwfslgalvqqGcdesprsvsgRivvavWwffvlillssYtAnLaafltve 100
+                   vW+++lv+l+ v+ +++++  + +            +++ ++l ++ wf++gal++qG+  sp + s+R++ a+Ww+f+ il+s YtAnL+aflt++
+  KAI8036619.1 185 VWILILVSLLAVGPIIYVLIILRNRLTGDG------QQTPYSLGHCAWFVYGALMKQGSTLSPIADSTRLLFATWWIFITILTSFYTANLTAFLTLS 275
+                   8****************9988877665544......4689********************************************************* PP
+
+                   SSXXSSSSCCHHH.TGS................................................................................ CS
+                   xxxxxxxxxxxxx.xxx................................................................................ RF
+      Lig_chan 101 rmqtpiksledLa.kqt................................................................................ 116
+                   +++ p ++++d+  k++                                                                                
+  KAI8036619.1 276 KFTLPYNTVDDILsKNKhfvsmrgggveyairttneslsmlnrmiqnnyavfsdetndtynlqnyverngyvfvrdrpainimlyqdylyrksisfs 372
+                   ***********65255589999999999999999999999999998888888888888888888888888888888888888888888888888888 PP
+
+                   .........................................................SSXSXSSXXXTTXTT.XTHHHHHHHHHHHHHH CS
+                   .........................................................xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx RF
+      Lig_chan 117 .........................................................kaeCsseksaekssseLslsnvagiFlillig 148
+                                                                             + C+++  +++   +L+  ++   ++i+l+g
+  KAI8036619.1 373 dekvhcpfamakepflkkkrtfaypigsnlsqlfdpellnlvesgivkhlsnrdlpsAEICPQDLGGTER--QLRNGDLMMTYYIMLAG 459
+                   8877777777777777777777777777777777777777777777777777777764457666666554..37777777777776666 PP
+
+>> KAI8041633.1  hypothetical protein M5D96_005898 [Drosophila gunungcola]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -1.5   1.3       4.6   1.6e+03       3      23 ..     248     268 ..     246     278 .. 0.82
+   2 !    7.4   0.0    0.0082       2.8      69     117 ..     291     374 ..     285     556 .. 0.77
+   3 !   28.1   0.0   3.5e-09   1.2e-06      27     148 ..     697     917 ..     685     918 .. 0.88
+   4 !   19.5   0.0   1.6e-06   0.00053      52     116 ..    1185    1249 ..    1179    1374 .. 0.75
+
+  Alignments for each domain:
+  == domain 1  score: -1.5 bits;  conditional E-value: 4.6
+                   HHHHHHHHHHHHHHHHHHHCH CS
+                   xxxxxxxxxxxxxxxxxxxxx RF
+      Lig_chan   3 evWlsvlvalilvsivlflve 23 
+                   +vW++ + +li+ +++l+l+ 
+  KAI8041633.1 248 SVWFAFAGLLIFAGVLLWLIF 268
+                   69***************9975 PP
+
+  == domain 2  score: 7.4 bits;  conditional E-value: 0.0082
+                   HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHSSSSXXSSSSCCHHHTGS...................................S CS
+                   xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx...................................x RF
+      Lig_chan  69 vsgRivvavWwffvlillssYtAnLaafltvermqtpiksledLakqt...................................k 117
+                   +sgR++ ++ ++   ++   Yt   +++l  + ++++i+++++La+++                                    
+  KAI8041633.1 291 ISGRLAFIAVMLTSFLMYNYYTSIVVSTLLGSPVRSNIRTIQQLADSSldvgfdkvpftktylvssprpdirslykqkvesrrD 374
+                   79*******************************************877666666666666666666666666666555555550 PP
+
+  == domain 3  score: 28.1 bits;  conditional E-value: 3.5e-09
+                   XXXXXXXXXXXXXXXXHHTTTCHHHHHHHHCTTSSSSBXXSSHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHSSSSXXSSSSCCHHHTGS....... CS
+                   xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx....... RF
+      Lig_chan  27 pyewrepeeaaetveneftlsnslwfslgalvqqGcdesprsvsgRivvavWwffvlillssYtAnLaafltvermqtpiksledLakqt....... 116
+                    +e+ +p +  + +e++ +l++s  +s+ga ++qG+  +prs+ gR++ ++ ++   ++   Yt   ++ l  +  +++i++l++La+++       
+  KAI8041633.1 697 ATEFLQPFSGGRRKEWKPSLMTSCLLSFGAGCNQGAWFAPRSMGGRMAFFALMLTSFLMYNYYTSIVVSKLLGQPSKSSIRTLQQLADSSlevlgsk 793
+                   5555555544555789999********************************************************************9999999999 PP
+
+                   ................................................................................................S CS
+                   ................................................................................................x RF
+      Lig_chan 117 ................................................................................................k 117
+                                                                                                                   k
+  KAI8041633.1 794 rspdriwiateagvkavrdqegfvyitgvatgyefvrkhflphqicelneiplrdashthsvvakkspyaelfklnelrmletgihlkherywmetK 890
+                   9999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999988765 PP
+
+                   SXSXSSXXXTTXTT.XTHHHHHHHHHHHHHH CS
+                   xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx RF
+      Lig_chan 118 aeCsseksaekssseLslsnvagiFlillig 148
+                    +C +++++ +    ++l+  a +F++ll++
+  KAI8041633.1 891 LHCYQHNHTVA----VGLEYAAPLFILLLGA 917
+                   57777777766....7888888888888776 PP
+
+  == domain 4  score: 19.5 bits;  conditional E-value: 1.6e-06
+                    HHHHHCTTSSSSBXXSSHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHSSSSXXSSSSCCHHHTGS CS
+                    xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx RF
+      Lig_chan   52 fslgalvqqGcdesprsvsgRivvavWwffvlillssYtAnLaafltvermqtpiksledLakqt 116 
+                    +++ga + q+++  prs  gR++ ++ +++  i+   Yt   ++ l ++ ++++ik++++La++ 
+  KAI8041633.1 1185 VCFGAACIQSSSLIPRSAGGRLIYFALFLISFIMYNYYTSVVVSSLLSSPVKSKIKTMQQLAESP 1249
+                    57889999999**************************************************9765 PP
+
+>> KAI8040269.1  hypothetical protein M5D96_006209 [Drosophila gunungcola]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   47.5   0.1   3.6e-15   1.2e-12       4     148 ..     279     577 ..     276     578 .. 0.89
+
+  Alignments for each domain:
+  == domain 1  score: 47.5 bits;  conditional E-value: 3.6e-15
+                   HHHHHHHHHHHHHHHHHHCHHCXXXXXX...................................XXXXX.XXXXXXHHTTTCHHHHHHHHCTTSSSSB CS
+                   xxxxxxxxxxxxxxxxxxxxxxxxxxxx...................................xxxxx.xxxxxxxxxxxxxxxxxxxxxxxxxxxx RF
+      Lig_chan   4 vWlsvlvalilvsivlflverfspyewr...................................epeea.aetveneftlsnslwfslgalvqqGcde 64 
+                   +W+ vl++l++v+ v++ ++ ++    r                                   +p+++ ++ +     + n++ +++++l+  +   
+  KAI8040269.1 279 MWAGVLLSLFVVGTVFYAISFLNAIINRnvssgffrclrryrgvamdaktyrrisfriaisryRPSKEsRSPRDLFDDYTNCILLTYSMLLYVALPR 375
+                   8**************99988887777777779999999999999999999999999999988755444344455566899***************** PP
+
+                   XXSSHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHSSSSXXSSSSCCHHHTGS............................................. CS
+                   xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx............................................. RF
+      Lig_chan  65 sprsvsgRivvavWwffvlillssYtAnLaafltvermqtpiksledLakqt............................................. 116
+                    pr++  R++++ +w+ +++l+++Y A+++a+l     + +i++ledL  ++                                             
+  KAI8040269.1 376 MPRNWPLRVLTGWYWIYCILLVATYRASFTAILANPAARITIDTLEDLLASHippsagvtenrqffldatdeiarkvgekmevtghtddlttriskg 472
+                   ***********************************************987777******************************************** PP
+
+                   ..........................................................................SSXSXSSXXXTTXTT..XTHHHH CS
+                   ..........................................................................xxxxxxxxxxxxxxxx.xxxxxx RF
+      Lig_chan 117 ..........................................................................kaeCsseksaekssse.Lslsnv 138
+                                                                                              ++     +a+++++  ++++++
+  KAI8040269.1 473 qcayydnefylrylrvadntgsgigsslhimkecvvympvvlameknsalkqrvdnsiqhmteggliskwlkdaIQH--LPAEAPAQQEAlMNIQKF 567
+                   **********************************************************************8655222..3333333333369***** PP
+
+                   HHHHHHHHHH CS
+                   xxxxxxxxxx RF
+      Lig_chan 139 agiFlillig 148
+                   +  F+ l+ig
+  KAI8040269.1 568 WSSFVALGIG 577
+                   ******9998 PP
+
+>> KAI8040725.1  hypothetical protein M5D96_006668 [Drosophila gunungcola]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   44.1   0.0   4.1e-14   1.4e-11       2     146 ..     455     845 ..     454     848 .. 0.82
+
+  Alignments for each domain:
+  == domain 1  score: 44.1 bits;  conditional E-value: 4.1e-14
+                   CHHHHHHHHHHHHHHHHHHHCHHCXXXXXX................................................................... CS
+                   xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx................................................................... RF
+      Lig_chan   2 levWlsvlvalilvsivlflverfspyewr................................................................... 31 
+                   ++vW++++ + +l+ ++l++++++   ew+                                                                   
+  KAI8040725.1 455 NDVWVLIMGCGVLTVLILWFLTNI---EWKlvphdgsalikpkggvpprqnyqqqsqqeqkeatvrpitavsvvvvekkkdeniegnedtnridaet 548
+                   689999999999999999998765...5555558888999999999999999999988888888888888888888888888888888877777777 PP
+
+                   ...............XXXXXXXX......XXXHHTTTCHHHHHHHHCTTSSSSBXXSSHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHSSSSXXSSS CS
+                   ...............xxxxxxxx......xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx RF
+      Lig_chan  32 ...............epeeaaet......veneftlsnslwfslgalvqqGcdesprsvsgRivvavWwffvlillssYtAnLaafltvermqtpik 107
+                                  +      +       e+   +++s+ f++g+++qqG   s+  vsgR +v++ ++f   + + Y A+++ +l +e+ + +ik
+  KAI8040725.1 549 lwqrcyqklneyikdR------KakqiksPERVGLFLESVLFFVGIICQQGLGFSTSFVSGRCIVITSLLFSFCIYQFYSASIVGTLLMEKPK-TIK 638
+                   7777777777666432......033344366777789*******************************************************9.6** PP
+
+                   SCCHHHTGS........................................................................................ CS
+                   xxxxxxxxx........................................................................................ RF
+      Lig_chan 108 sledLakqt........................................................................................ 116
+                   +l+dL++++                                                                                        
+  KAI8040725.1 639 TLSDLVHSSlkvgmedilynrdyflhtkdpvsmelyakkitsvpntkeneadedepvdpnpastdpaksyrdivhshetgahakdnaasnwldpetg 735
+                   ******9888999999999999999999999999999999999999999999999999999999999999999998888888888888888888888 PP
+
+                   ..................................................................................SSXSXSSXXXTTXTT CS
+                   ..................................................................................xxxxxxxxxxxxxxx RF
+      Lig_chan 117 ..................................................................................kaeCsseksaeksss 131
+                                                                                                     k+ C ++ ++++ + 
+  KAI8040725.1 736 llrvkherfafhvdvaaaykiiadtfseqdicdltevsmfppqktvsimqknspmrkvisyglrrvtetgilsyhfnvwhsrKPPCVKKIETSDLH- 831
+                   888888888888888888888888888888888888888888888888888888888888888888888888888888887666777666666654. PP
+
+                   .XTHHHHHHHHHHHH CS
+                   xxxxxxxxxxxxxxx RF
+      Lig_chan 132 eLslsnvagiFlill 146
+                    +++++v+ + lill
+  KAI8040725.1 832 -VDMDTVSSALLILL 845
+                   .77777777777776 PP
+
+>> KAI8043341.1  hypothetical protein M5D96_004670 [Drosophila gunungcola]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   34.7   0.1   3.2e-11   1.1e-08       2     105 ..      63     177 ..      62     348 .. 0.80
+
+  Alignments for each domain:
+  == domain 1  score: 34.7 bits;  conditional E-value: 3.2e-11
+                   CHHHHHHHHHHHHHHHHHHHCHHCXXXXXXXXXXX.XXX...........XXXHHTTTCHHHHHHHHCTTSSSSBXXSSHHHHHHHHHHHHHHHHHH CS
+                   xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx.xxx...........xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx RF
+      Lig_chan   2 levWlsvlvalilvsivlflverfspyewrepeea.aet...........veneftlsnslwfslgalvqqGcdesprsvsgRivvavWwffvlill 86 
+                    +vW++ l++l   si+ +l+e +  +  ++  ++ + +            + +   ++ +  ++ga +qqG+d +p+  s R++v++ ++f l++ 
+  KAI8043341.1  63 ARVWFFSLLTLAAFSIIWVLFEVIDGKFLDKRDNSqK-QetstecalnakDKLKAACIERVLQTFGACCQQGMDPNPKDRSVRFLVMTLFLFSLVMY 158
+                   679****999999999999988888776665544433.236789999987777888999999*********************************** PP
+
+                   HHHHHHHHHHHHSSSSXXS CS
+                   xxxxxxxxxxxxxxxxxxx RF
+      Lig_chan  87 ssYtAnLaafltvermqtp 105
+                     Yt + +  l +++ q p
+  KAI8043341.1 159 NYYTSSVVGGLLSSSDQGP 177
+                   ******9988877776655 PP
+
+>> KAI8040990.1  hypothetical protein M5D96_005239 [Drosophila gunungcola]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   32.0   1.4   2.2e-10   7.5e-08       2      78 ..     363     427 ..     362     431 .. 0.92
+
+  Alignments for each domain:
+  == domain 1  score: 32.0 bits;  conditional E-value: 2.2e-10
+                   CHHHHHHHHHHHHHHHHHHHCHHCXXXXXXXXXXXXXXXXXHHTTTCHHHHHHHHCTTSSSSBXXSSHHHHHHHHHH CS
+                   xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx RF
+      Lig_chan   2 levWlsvlvalilvsivlflverfspyewrepeeaaetveneftlsnslwfslgalvqqGcdesprsvsgRivvavW 78 
+                   ++vW+s+l++li++++vl++   fsp+  +            + ++++l+f++ga++qqG   ++r+ s+Ri+v++ 
+  KAI8040990.1 363 NDVWVSILMLLIITTVVLVIELLFSPHTHD------------MAYMDTLNFVWGAMCQQGFYVEVRNRSARIIVFTT 427
+                   689***********************9954............569****************************9875 PP
+
+>> KAI8045835.1  hypothetical protein M5D96_002024, partial [Drosophila gunungcola]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   29.5   0.0   1.3e-09   4.3e-07      55     149 .]     364     588 ..     357     588 .. 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 29.5 bits;  conditional E-value: 1.3e-09
+                   HHCTTSSSSBXXSSHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHSSSSXXSSSSCCHHHTGS................................... CS
+                   xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx................................... RF
+      Lig_chan  55 galvqqGcdesprsvsgRivvavWwffvlillssYtAnLaafltvermqtpiksledLakqt................................... 116
+                   gal+   +   pr+ s R+  ++W+ f l+++s++ +nL+++++++ + + i++l  La+++                                   
+  KAI8045835.1 364 GALTMP-MANIPRNHSIRLFLIFWLYFGLLICSAFRGNLTSMMVLQPYLPDINQLGALASSHyrilirprhikhirhfltlghqyearirelmlevp 459
+                   555554.56779***********************************************8888********************************** PP
+
+                   ................................................................................................S CS
+                   ................................................................................................x RF
+      Lig_chan 117 ................................................................................................k 117
+                                                                                                                   k
+  KAI8045835.1 460 dvqmyemmknndiryaylekyhigrfqvnnrmhmhlgrplfhlmnsclvpfhavyivpygspylgfldslirsshefgferywdrimnsafiksgmK 556
+                   ********************************************************************************************99752 PP
+
+                   SXSXSSXXXTTXTT..XTHHHHHHHHHHHHHHH CS
+                   xxxxxxxxxxxxxxx.xxxxxxxxxxxxxxxxx RF
+      Lig_chan 118 aeCsseksaekssse.LslsnvagiFlilligl 149
+                      ++++ ++ +++  L+l+++  +F + l+g+
+  KAI8045835.1 557 -VVNRRRGSSGDDKVvLKLEHFYAVFALWLVGI 588
+                   .344444444444337**********9999986 PP
+
+>> KAI8039508.1  hypothetical protein M5D96_006920 [Drosophila gunungcola]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   15.7   0.3   2.3e-05    0.0077      39     115 ..      74     151 ..      51     239 .. 0.84
+   2 !    9.8   3.2    0.0015       0.5       5     115 ..     516     611 ..     512     701 .. 0.80
+
+  Alignments for each domain:
+  == domain 1  score: 15.7 bits;  conditional E-value: 2.3e-05
+                   XXXXHHTTTCHHHHHHHHCTTSSSSBXXSSHHHHHHHHHHHHHH..HHHHHHHHHHHHHHHHSSSSXXSSSSCCHHHTG CS
+                   xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx..xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx RF
+      Lig_chan  39 tveneftlsnslwfslgalvqqGcdesprsvsgRivvavWwffv..lillssYtAnLaafltvermqtpiksledLakq 115
+                   ++e+++ + ++l +sl+ ++   c+e++r++  R +++  ++     il+  Y   L+++lt+  ++++ ++ledLak+
+  KAI8039508.1  74 SREKQIDVGKCLLYSLSHILYT-CHEKVRNTGWRAISIHIVLTScgFILTNLYLSTLSSILTSGLYEQEYDTLEDLAKS 151
+                   3678999**************9.***********9987766654338*****************************975 PP
+
+  == domain 2  score: 9.8 bits;  conditional E-value: 0.0015
+                   HHHHHHHHHHHHHHHHHCHHCXXXXXXXXXXXXXXXXXHHTTTCHHHHHHHHCTTSS.SSBXXSSHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHSS CS
+                   xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx.xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx RF
+      Lig_chan   5 WlsvlvalilvsivlflverfspyewrepeeaaetveneftlsnslwfslgalvqqG.cdesprsvsgRivvavWwffvlillssYtAnLaafltve 100
+                   Wl+v+++++  s++l+l + +                 ++++ ++l +sl+ ++ +  + ++++ +   ++ +v  +   +l+  Y A L+++lt+ 
+  KAI8039508.1 516 WLVVALTVFYGSLMLYLTSGR----------------ARIEIGKCLLYSLSHILYNChQTIRVTGWRDVLIHVVLTISGFVLTNVYLATLSSILTSG 596
+                   555555555555555554433................45668899*******9999433445555555577778888889***************** PP
+
+                   SSXXSSSSCCHHHTG CS
+                   xxxxxxxxxxxxxxx RF
+      Lig_chan 101 rmqtpiksledLakq 115
+                    ++++ ++l dLa+ 
+  KAI8039508.1 597 LYEEEYHTLADLANA 611
+                   ***********9975 PP
+
+>> KAI8036686.1  hypothetical protein M5D96_010487 [Drosophila gunungcola]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   25.8   2.5   1.8e-08   6.1e-06       4     117 ..     128     293 ..     125     397 .. 0.71
+
+  Alignments for each domain:
+  == domain 1  score: 25.8 bits;  conditional E-value: 1.8e-08
+                   HHHHHHHHHHHHHHHHHHCHHCXXXXXXXXXXXXXXXXXHHTTTCHHHHHHHHCTTSSSSBXXSSHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHSS CS
+                   xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx RF
+      Lig_chan   4 vWlsvlvalilvsivlflverfspyewrepeeaaetveneftlsnslwfslgalvqqGcdesprsvsgRivvavWwffvlillssYtAnLaafltve 100
+                   +W++v+++l+l s++l++  r   ++           +++ +l      +l  +v+q+++  + s + R v ++ +++ +il++ Y + Laa+lt+ 
+  KAI8036686.1 128 LWMCVMLCLLLESVALCVTRRWEHSSNYIF------NSWTGSLRFGCISTLKLFVNQSTSYVTSSYALRTVLIASYMIDIILTTVYSGGLAAILTLP 218
+                   8****************9988776665544......34556666666677889******************************************** PP
+
+                   SSXXSSSSCCHHHTGS..........................................................S CS
+                   xxxxxxxxxxxxxxxx..........................................................x RF
+      Lig_chan 101 rmqtpiksledLakqt..........................................................k 117
+                    +++  +s + L +++                                                           
+  KAI8036686.1 219 TLEEAADSRQRLFDHKliwtgtsqawittidersadpvllglmeqyrvydaalisafshteqmgfvvermqfghL 293
+                   ***999999998877766666666666666666666666666666666666666666555555555555555551 PP
+
+>> KAI8035276.1  hypothetical protein M5D96_011933 [Drosophila gunungcola]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   22.1   0.0   2.5e-07   8.6e-05       4     146 ..     343     592 ..     340     595 .. 0.82
+
+  Alignments for each domain:
+  == domain 1  score: 22.1 bits;  conditional E-value: 2.5e-07
+                   HHHHHHHH.HHHHHHHHHHCHHCXXXXXXXXXXXXXXXXXHHTTTCHHHHHHHHCTTSSSSBXXSSHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHS CS
+                   xxxxxxxx.xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx RF
+      Lig_chan   4 vWlsvlva.lilvsivlflverfspyewrepeeaaetveneftlsnslwfslgalvqqGcdesprsvsgRivvavWwffvlillssYtAnLaafltv 99 
+                   +W +v+v+ +++ +++ +l  r +p + r+    +   +n++  +++ ++ +g l       spr + +R + ++W++ +l+l ++Y + L  +l+ 
+  KAI8035276.1 343 IWSCVVVSlFLGLALIALLRMRAVPGRLRNLVLGR---HNRWPCLDMWNILVGGLALF----SPRRNFARYLLLLWLLQTLVLRAAYSGQLFLLLQD 432
+                   78888555156677777777778888888773334...45555555555555555444....899******************************** PP
+
+                   SSSXXSSSSCCHHHTGS................................................................................ CS
+                   xxxxxxxxxxxxxxxxx................................................................................ RF
+      Lig_chan 100 ermqtpiksledLakqt................................................................................ 116
+                    ++++p++s+++   q                                                                                 
+  KAI8035276.1 433 LEVRSPLRSVSEVLAQGyefhmlpalqtvfrdsmpsshvrviptledalyrmrdeddpgiavpvlqptvfqfdyrsgpnarhlttlpvplmtvpmti 529
+                   ************7767669999999999999999999999999999999999999999999999999999999999999999999999999999999 PP
+
+                   ....................................SSXSXSSXXXTTXTT.XTHHHHHHHHHHHH CS
+                   ....................................xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx RF
+      Lig_chan 117 ....................................kaeCsseksaekssseLslsnvagiFlill 146
+                                                       +     +k++ +  + L+l +++giFl ++
+  KAI8035276.1 530 ymrphsylkkrfdrllmammssgivyryrrmyldriE--RLAKKRNVE-PRALTLWRLGGIFLCCG 592
+                   9999999999999999999999999999999987542..233333333.34599999999999775 PP
+
+>> KAI8038572.1  hypothetical protein M5D96_008479 [Drosophila gunungcola]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   21.3   0.0   4.4e-07   0.00015      69     117 ..     128     201 ..      73     331 .. 0.72
+
+  Alignments for each domain:
+  == domain 1  score: 21.3 bits;  conditional E-value: 4.4e-07
+                   HHHHHHHHHHHHHH.HHHHHHHHHHHHHHHHSSSSXXSSSSCCHHHTGS........................S CS
+                   xxxxxxxxxxxxxx.xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx........................x RF
+      Lig_chan  69 vsgRivvavWwffv.lillssYtAnLaafltvermqtpiksledLakqt........................k 117
+                      R++ ++ +ff   +l + Yt nL ++ltv+ ++ +i++++d+++ +                         
+  KAI8038572.1 128 CLLRFLLLATVFFHgFFLSAYYTSNLGSILTVNLFHAQINTMDDIVSAQlpimiidyelqfllnlnkelpeefL 201
+                   5568888888777626667779**********************986554555555555555555555555550 PP
+
+>> KAI8046661.1  hypothetical protein M5D96_002874 [Drosophila gunungcola]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   20.7   0.0   6.4e-07   0.00022       2     122 ..     251     488 ..     250     513 .. 0.69
+
+  Alignments for each domain:
+  == domain 1  score: 20.7 bits;  conditional E-value: 6.4e-07
+                   CHHHHHHHHHHHHHHHHHHHCHHCXXXXXXXXXXXXXXXXXHHTTTCHHHHH.HHHCTTSS.SSBXXSSHHHHHHHHHHHHHHHHHHHHHHHHHHHH CS
+                   xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx.xxxxxxxx.xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx RF
+      Lig_chan   2 levWlsvlvalilvsivlflverfspyewrepeeaaetveneftlsnslwfs.lgalvqqG.cdesprsvsgRivvavWwffvlillssYtAnLaaf 96 
+                   ++vW +vlv++++ +++l++  r  ++  +             + ++ +wf+ l a +qqG + e+ r +s+R+++++  +f  il++ Y A ++  
+  KAI8046661.1 251 NQVWWCVLVLVTGSTLLLLMHVRQERVLSHV-----------ESRLSFVWFTiLEAYLQQGpAPEAFRLFSTRLLISLSGIFSFILMQFYGAFIVGS 336
+                   6899999987777666555544444333333...........3556778886368999***9999******************************** PP
+
+                   HHSSSSXXSSSSCCHHHTGS............................................................................. CS
+                   xxxxxxxxxxxxxxxxxxxx............................................................................. RF
+      Lig_chan  97 ltvermqtpiksledLakqt............................................................................. 116
+                   l +++++ +i sl+ L +++                                                                             
+  KAI8046661.1 337 LLTQSLR-SIVSLQALYDSNlaigmenipynfhifnssiplvrqvyakkicragehniltlqqgaeriiqgrfafhadlermyrllldlrmdegqfc 432
+                   *999999.59999999877778888888888888888888888888877777777777777777777777777777777777777777777766666 PP
+
+                   ..................................................SSXSXS CS
+                   ..................................................xxxxxx RF
+      Lig_chan 117 ..................................................kaeCss 122
+                                                                     +++Cs 
+  KAI8046661.1 433 elqeiqfdsrydaasimprgspwrehlahallhlrasglkqyndrkwmvtRPDCSL 488
+                   66666666666666666666666666666666666666666666655555445555 PP
+
+>> KAI8035302.1  hypothetical protein M5D96_011960 [Drosophila gunungcola]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   19.0   0.0   2.2e-06   0.00074       4     146 ..     341     618 ..     339     621 .. 0.89
+
+  Alignments for each domain:
+  == domain 1  score: 19.0 bits;  conditional E-value: 2.2e-06
+                   HHHHHHHHHHHHHHHHHHCHHCXXXXXXXXXXXXXXXXXHHTTTCHHHHHHHHCTTSSSSBXXSSHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHSS CS
+                   xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx RF
+      Lig_chan   4 vWlsvlvalilvsivlflverfspyewrepeeaaetveneftlsnslwfslgalvqqGcdesprsvsgRivvavWwffvlillssYtAnLaafltve 100
+                   +W ++ ++lil +++l++v+r     wr++      + ++ ++++ + +++g  ++   +  pr + gR+v ++W+f++l+l   Y   +  +l  +
+  KAI8035302.1 341 LWRAICLVLILACLLLLMVDRW----WRGH------ELPRNSYYELFVLTMGGNLED--RLLPRGTCGRLVLLTWLFATLVLRGGYQSGMYQLLRQD 425
+                   5777777777777777777775....6665......346678999999999988888..99************************************ PP
+
+                   SSXXSSSSCCHHHTGS................................................................................. CS
+                   xxxxxxxxxxxxxxxx................................................................................. RF
+      Lig_chan 101 rmqtpiksledLakqt................................................................................. 116
+                     ++p +++ +   q+                                                                                 
+  KAI8035302.1 426 TQRNPPQTIAEVLAQRftihlaavnearilaslpelrpeqlvhlegselqsfpalaqqsgsaarvailtpyeyfgyfrrvhamsrklhlvreriytq 522
+                   ********999777777899******************************99999999999999999999999999999999999999999999999 PP
+
+                   ..................................................................SSXSXSSXXXTTXTT.XTHHHHHHHHHHHH CS
+                   ..................................................................xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx RF
+      Lig_chan 117 ..................................................................kaeCsseksaekssseLslsnvagiFlill 146
+                                                                                      +e +++  a+   + Ls++++a +F+++l
+  KAI8035302.1 523 qlafyvrryshlvgvldkqiqhahshgflehwtrryvsavdatdegaarmattaystldgidgdprLTEAEEQPVAPGRRNVLSMRELAALFWLIL 618
+                   999999999999999999999999999999999999999999999999999999999999999988557788888888877799999999999876 PP
+
+>> KAI8039870.1  hypothetical protein M5D96_007295 [Drosophila gunungcola]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   14.5   0.0   5.4e-05     0.018      63     117 ..     167     223 ..     158     291 .. 0.86
+   2 ?    4.9   0.0     0.048        16      69     115 ..     341     389 ..     336     453 .. 0.78
+
+  Alignments for each domain:
+  == domain 1  score: 14.5 bits;  conditional E-value: 5.4e-05
+                   SBXXSSHHHHHHHHHHHHHH..HHHHHHHHHHHHHHHHSSSSXXSSSSCCHHHTGSS CS
+                   xxxxxxxxxxxxxxxxxxxx..xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx RF
+      Lig_chan  63 desprsvsgRivvavWwffv..lillssYtAnLaafltvermqtpiksledLakqtk 117
+                    + pr +s++++ + W+++    ++   YtAnL  +l+   + +pi+s++++++ +k
+  KAI8039870.1 167 FILPRGLSAKMMFLYWLLLLngFFVSNFYTANLETWLVDPPTGHPIRSWNQMRSLNK 223
+                   5789*********999988644677888***********************875444 PP
+
+  == domain 2  score: 4.9 bits;  conditional E-value: 0.048
+                   HHHHHHHHHHHHHH..HHHHHHHHHHHHHHHHSSSSXXSSSSCCHHHTG CS
+                   xxxxxxxxxxxxxx..xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx RF
+      Lig_chan  69 vsgRivvavWwffv..lillssYtAnLaafltvermqtpiksledLakq 115
+                   +s +++++ W+++    ++   YtA+L  +l+   ++++i  +++++++
+  KAI8039870.1 341 LSVKLMIIYWMILLhgFFVSNYYTASLETWLVHPPTTDQILDWDEMRRR 389
+                   66777777777665334667779*********99999999888887654 PP
+
+>> KAI8038569.1  hypothetical protein M5D96_008476 [Drosophila gunungcola]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   18.2   0.3   3.9e-06    0.0013       3     116 ..     342     441 ..     340     576 .. 0.83
+
+  Alignments for each domain:
+  == domain 1  score: 18.2 bits;  conditional E-value: 3.9e-06
+                   HHHHHHHHHHHHHHHHHHHCHHCXXXXXXXXXXXXXXXXXHHTTTCHHHHHHHHCTTSSSSBXXSSHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHS CS
+                   xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx RF
+      Lig_chan   3 evWlsvlvalilvsivlflverfspyewrepeeaaetveneftlsnslwfslgalvqqGcdesprsvsgRivvavWwffvlillssYtAnLaafltv 99 
+                   +vWl+++++ + ++++++l + + p +++             + + +l +s  +++ +     + ++ +R + +v +++ ++    Y+  +++++t+
+  KAI8038569.1 342 NVWLLIILFTLYIAVAIWLCSPLRPRDFSAA---------FLQSICTLTYSAPTFILR-----TPTLRMRYLYIVLAIMGIVTSNMYVSRMTSYFTS 424
+                   79*************************9997.........577778888888888888.....678899**************************** PP
+
+                   SSSXXSSSSCCHHHTGS CS
+                   xxxxxxxxxxxxxxxxx RF
+      Lig_chan 100 ermqtpiksledLakqt 116
+                        ++++++d ++ +
+  KAI8038569.1 425 APPPRQVNTVQDVVEAN 441
+                   ************88665 PP
+
+>> KAI8040090.1  hypothetical protein M5D96_007518 [Drosophila gunungcola]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   18.1   0.0   4.3e-06    0.0015      68     117 ..     215     281 ..     200     508 .. 0.81
+   2 ?   -2.5   0.1       9.6   3.3e+03      71      98 ..     964     991 ..     948    1007 .. 0.75
+
+  Alignments for each domain:
+  == domain 1  score: 18.1 bits;  conditional E-value: 4.3e-06
+                   SHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHSSSSXXSSSSCCHHH.TGS................S CS
+                   xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx.xxx................x RF
+      Lig_chan  68 svsgRivvavWwffvlillssYtAnLaafltvermqtpiksledLa.kqt................k 117
+                   s + Ri+ ++ +f+ +++++ Y A L +f+t    q++i+s+ d+  +q+                +
+  KAI8040090.1 215 SKHLRIIFCILCFASILITTMYEAYLQSFFTNPPPQPKIHSFRDIEiRQDdlvifdnvpecyvlrdS 281
+                   6678****************************************98788766666665555554440 PP
+
+  == domain 2  score: -2.5 bits;  conditional E-value: 9.6
+                   HHHHHHHHHHHHHHHHHHHHHHHHHHHH CS
+                   xxxxxxxxxxxxxxxxxxxxxxxxxxxx RF
+      Lig_chan  71 gRivvavWwffvlillssYtAnLaaflt 98 
+                    +++ ++ +f  +++ + Y+  L +f+ 
+  KAI8040090.1 964 LKLLFLIVCFTSVMCNTMYVSYLQSFMW 991
+                   5667777788888888888888888875 PP
+
+>> KAI8039758.1  hypothetical protein M5D96_007180 [Drosophila gunungcola]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   17.6   0.0   6.2e-06    0.0021      67     114 ..      32      79 ..      17     209 .. 0.84
+   2 ?   -2.1   0.2       6.8   2.3e+03       8      30 ..     238     260 ..     231     264 .. 0.73
+
+  Alignments for each domain:
+  == domain 1  score: 17.6 bits;  conditional E-value: 6.2e-06
+                   SSHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHSSSSXXSSSSCCHHHT CS
+                   xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx RF
+      Lig_chan  67 rsvsgRivvavWwffvlillssYtAnLaafltvermqtpiksledLak 114
+                    s + R++ ++ +f+ +++++ Y A L +f+t    ++p++s++++ k
+  KAI8039758.1  32 ASKHLRMIFCILCFASMMMTTMYDAYLQSFFTNPPSENPVRSFKNIGK 79 
+                   56678*************************************999653 PP
+
+  == domain 2  score: -2.1 bits;  conditional E-value: 6.8
+                   HHHHHHHHHHHHHHCHHCXXXXX CS
+                   xxxxxxxxxxxxxxxxxxxxxxx RF
+      Lig_chan   8 vlvalilvsivlflverfspyew 30 
+                   + va +l si+ fl+e +s++++
+  KAI8039758.1 238 MYVAAMLLSIFCFLFEILSRSKF 260
+                   55677788888888888777665 PP
+
+>> KAI8046552.1  hypothetical protein M5D96_002763 [Drosophila gunungcola]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   15.3   0.0   3.1e-05      0.01      69     117 ..     393     471 ..     391     597 .. 0.74
+
+  Alignments for each domain:
+  == domain 1  score: 15.3 bits;  conditional E-value: 3.1e-05
+                   HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHSSSSXXSSSSCCHHHTGS..............................S CS
+                   xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx..............................x RF
+      Lig_chan  69 vsgRivvavWwffvlillssYtAnLaafltvermqtpiksledLakqt..............................k 117
+                   + gR+v ++  +f+l+ll +  A L ++l++  ++++i+s++dL +++                               
+  KAI8046552.1 393 IRGRLVRVSLRIFALVLLCASSAQLLSLLISPVLHKRIESFDDLLESDlkifglrnefyyldgafrakyaaafrlsddP 471
+                   679****************************************998775566666555555555555555555555550 PP
+
+>> KAI8046001.1  hypothetical protein M5D96_002201 [Drosophila gunungcola]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   15.3   0.1   3.1e-05     0.011      53     114 ..     508     570 ..     472     742 .. 0.83
+
+  Alignments for each domain:
+  == domain 1  score: 15.3 bits;  conditional E-value: 3.1e-05
+                   HHHHCTTSSSSBXXSSHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHSSSSXXSSSSCCHHH.T CS
+                   xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx.x RF
+      Lig_chan  53 slgalvqqGcdesprsvsgRivvavWwffvlillssYtAnLaafltvermqtpiksledLa.k 114
+                   +lg+l++q+   +  s++ R + a+ +++  ++  +Y   L ++lt+ r  ++i++led+  +
+  KAI8046001.1 508 VLGILLNQSIAVQNFSLTLRQLFALSFLMGFFFSNTYQSFLISTLTTPRSSNQIQTLEDIYiN 570
+                   799********************************************************6533 PP
+
+>> KAI8044164.1  hypothetical protein M5D96_000315 [Drosophila gunungcola]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   14.9   0.0     4e-05     0.013      66     117 ..     271     444 ..     215     478 .. 0.70
+
+  Alignments for each domain:
+  == domain 1  score: 14.9 bits;  conditional E-value: 4e-05
+                   XSSHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHSSSSXXSSSSCCHHHTGS.............................................. CS
+                   xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx.............................................. RF
+      Lig_chan  66 prsvsgRivvavWwffvlillssYtAnLaafltvermqtpiksledLakqt.............................................. 116
+                     s+s R + +v  +f  ++ s +   L+a+lt ++   +i+++e+L+ +                                               
+  KAI8044164.1 271 GSSFSLRQLYLVLSIFGFVFSSFFACKLSALLTKHSRYAQIQNFEELRASGlkiivdknlqsyikynfgakfsrqnlvtlkqsevsklivsfndsfa 367
+                   568999*****************************************86666777777777777777777777777777777777777777777777 PP
+
+                   ............................................................................S CS
+                   ............................................................................x RF
+      Lig_chan 117 ............................................................................k 117
+                                                                                               k
+  KAI8044164.1 368 yitfkqhfdfldqyqkpsfpkvlcssknltiasnlpkvyylpkdsmykwplrkfvhqisesgidiywrkdfinmnrK 444
+                   77777777777777777777666666666666666666666666666666666666666666666666666665551 PP
+
+>> KAI8039656.1  hypothetical protein M5D96_007076 [Drosophila gunungcola]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   14.2   0.7   6.6e-05     0.023      42     116 ..      46     121 ..      19     209 .. 0.80
+
+  Alignments for each domain:
+  == domain 1  score: 14.2 bits;  conditional E-value: 6.6e-05
+                   XHHTTTCHHHHHHHHCTTSSSSBXXSSHHHHHHHHHHHHHHH..HHHHHHHHHHHHHHHSSSSXXSSSSCCHHHTGS CS
+                   xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx..xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx RF
+      Lig_chan  42 neftlsnslwfslgalvqqGcdesprsvsgRivvavWwffvl..illssYtAnLaafltvermqtpiksledLakqt 116
+                   +++ + + l ++l +l+ +     p++ sg  ++++ ++f++  il   Y+A L+ +lt++ +q p+++l dL   +
+  KAI8039656.1  46 KNWDVGQYLLLALQTLLTR-ELSLPQCSSGSKLMLLLLLFAIgfILSNLYVALLSMMLTTKLYQRPLENLADLKAAN 121
+                   5677788888999999999.77788888888888888888765488889************************8655 PP
+
+>> KAI8040429.1  hypothetical protein M5D96_006372 [Drosophila gunungcola]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   13.4   0.1   0.00012      0.04      59     115 ..     338     395 ..     331     423 .. 0.87
+   2 ?    4.5   1.6     0.066        23       5      31 ..     548     575 ..     545     578 .] 0.82
+
+  Alignments for each domain:
+  == domain 1  score: 13.4 bits;  conditional E-value: 0.00012
+                   TSS.SSBXXSSHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHSSSSXXSSSSCCHHHTG CS
+                   xxx.xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx RF
+      Lig_chan  59 qqG.cdesprsvsgRivvavWwffvlillssYtAnLaafltvermqtpiksledLakq 115
+                    q+    + +++s+R+  a+ +++ l+l + + A L  +lt + +  +i+++e+L+++
+  KAI8040429.1 338 GQSfNMSARNTISSRVTNATLFLLGLVLGTLFAAHLKTLLTKRPTSRQISNFEQLRDS 395
+                   455244556789******************************************9854 PP
+
+  == domain 2  score: 4.5 bits;  conditional E-value: 0.066
+                   HHHH.HHHHHHHHHHHHHCHHCXXXXXX CS
+                   xxxx.xxxxxxxxxxxxxxxxxxxxxxx RF
+      Lig_chan   5 Wlsv.lvalilvsivlflverfspyewr 31 
+                   W+ + l+++++v++++f++e ++++  r
+  KAI8040429.1 548 WVWIwLACFLIVAFFIFFIELLVNCPNR 575
+                   87776788999*********99998765 PP
+
+>> KAI8046561.1  hypothetical protein M5D96_002772, partial [Drosophila gunungcola]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   14.2   0.0   6.6e-05     0.022      61     149 .]     303     434 ..     289     434 .. 0.87
+
+  Alignments for each domain:
+  == domain 1  score: 14.2 bits;  conditional E-value: 6.6e-05
+                   SSSBXXSSHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHSSSSXXSSSSCCHHHTGS......................................... CS
+                   xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx......................................... RF
+      Lig_chan  61 GcdesprsvsgRivvavWwffvlillssYtAnLaafltvermqtpiksledLakqt......................................... 116
+                   G       ++ R+  a+ + +++ l   Y + L ++lt+  +  p++++e  a+++                                         
+  KAI8046561.1 303 GPGPDFDRFAPRFFLATLLCATITLENIYSGQLKSILTFPFYCAPVDTIEKWAQSQwkwaapsiiwvqtvqssdleteqilarnfefidkymdkkkq 399
+                   5556666788899***************************************97778**************************************99 PP
+
+                   ...SSXSXSSXXXTTXTT.XTHHHHHHHHHHHHHHH CS
+                   ...xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx RF
+      Lig_chan 117 ...kaeCsseksaekssseLslsnvagiFlilligl 149
+                          + +k + +  + L+++n+ag+  +l++gl
+  KAI8046561.1 400 evlMDLANGHKVKGAP-QALDVDNIAGALFVLAFGL 434
+                   9973345555555555.45*************9996 PP
+
+>> KAI8036733.1  hypothetical protein M5D96_010534 [Drosophila gunungcola]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   13.8   0.1   8.6e-05     0.029       2      42 ..     119     159 ..     118     189 .. 0.82
+
+  Alignments for each domain:
+  == domain 1  score: 13.8 bits;  conditional E-value: 8.6e-05
+                   CHHHHHHHHHHHHHHHHHHHCHHCXXXXXXXXXXXXXXXXX CS
+                   xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx RF
+      Lig_chan   2 levWlsvlvalilvsivlflverfspyewrepeeaaetven 42 
+                   +evW+ ++++lil+s+v+++ + f  +++r  ++++++  n
+  KAI8036733.1 119 NEVWIGIVFTLILISMVFCICSCFLYHQFRTWKRNYRNNAN 159
+                   59***************************988766443333 PP
+
+>> KAI8040038.1  hypothetical protein M5D96_007463 [Drosophila gunungcola]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   12.9   1.1   0.00017     0.057       5     117 ..     322     433 ..     318     521 .. 0.65
+
+  Alignments for each domain:
+  == domain 1  score: 12.9 bits;  conditional E-value: 0.00017
+                   HHHHHHHHHHHHHHHHHCH.HCXXXXXXXXXXXXXXXXXHHTTTCHHHHHHHHCTTSSSSBXXSSHHHHHHHHHHHHHHH..HHHHHHHHHHHHHHH CS
+                   xxxxxxxxxxxxxxxxxxx.xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx..xxxxxxxxxxxxxxx RF
+      Lig_chan   5 Wlsvlvalilvsivlflve.rfspyewrepeeaaetveneftlsnslwfslgalvqqGcdesprsvsgRivvavWwffvl..illssYtAnLaaflt 98 
+                   W+++l+++i +s vl+ ++  ++  +w++           f++++s+  +    +   +  ++   s R  ++++ + +l  +++s Y   La+f+t
+  KAI8040038.1 322 WVILLASVIYISGVLYWIQpGLQHRSWDQR--------IGFSILESISWI----IYICGPLRVYRPSLRYFMVSFQLTILgfVVTSLYSIQLASFFT 406
+                   666666666655555444413444455554........455555554333....3333445566666676666665554433999************ PP
+
+                   SSSSXXSSSSCCHHHTGS........S CS
+                   xxxxxxxxxxxxxxxxxx........x RF
+      Lig_chan  99 vermqtpiksledLakqt........k 117
+                   +  + ++++s+e+L++q+        +
+  KAI8040038.1 407 TLVVGEEVDSMEQLIQQQqkvlvkhyE 433
+                   ***************777455555550 PP
+
+>> KAI8038831.1  hypothetical protein M5D96_008741 [Drosophila gunungcola]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   13.5   1.9   0.00011     0.036       4     114 ..     134     237 ..     131     260 .. 0.80
+
+  Alignments for each domain:
+  == domain 1  score: 13.5 bits;  conditional E-value: 0.00011
+                   HHHHHHHHHHHHHHHHHHCHHCXXXXXXXXXXXXXXXXXHHTTTCHHHHHHHHCTTSSSSBXXSSHHHHHHHHHHHHHHH..HHHHHHHHHHHHHHH CS
+                   xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx..xxxxxxxxxxxxxxx RF
+      Lig_chan   4 vWlsvlvalilvsivlflverfspyewrepeeaaetveneftlsnslwfslgalvqqGcdesprsvsgRivvavWwffvl..illssYtAnLaaflt 98 
+                   +W++++v  + v+++l  v+++ p + +++      + n  + + +l fs    ++     + ++ s R++v+  ++fvl  il+      ++af +
+  KAI8038831.1 134 IWTCLFVGTFYVALLLRYVHWREPGNATRS-----ITRNVLHAMAILMFS--PNMNM--TVKLKHASLRVIVFYTLLFVLgfILTNYHLSHMTAFDM 221
+                   899999999999999999999998887776.....233444444444444..44444..67999***************975667777899****** PP
+
+                   SSSSXXSSSSCCHHHT CS
+                   xxxxxxxxxxxxxxxx RF
+      Lig_chan  99 vermqtpiksledLak 114
+                      +  pi++++dL++
+  KAI8038831.1 222 KPVFLRPIDTWSDLIH 237
+                   *************985 PP
+
+>> KAI8037691.1  hypothetical protein M5D96_009191 [Drosophila gunungcola]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   14.1   0.1   7.3e-05     0.025       7      84 ..     402     486 ..     399     489 .. 0.73
+   2 ?   -0.5   1.7       2.2   7.6e+02       1      31 [.     503     534 ..     503     578 .. 0.77
+
+  Alignments for each domain:
+  == domain 1  score: 14.1 bits;  conditional E-value: 7.3e-05
+                   HHHHHHHHHHHHHHHCHHCXXXXXXXXXXXXXX...XXXHHTTTCHHHHHHHHCTTSS....SSBXXSSHHHHHHHHHHHHHHHH CS
+                   xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx...xxxxxxxxxxxxxxxxxxxxxx....xxxxxxxxxxxxxxxxxxxxxxx RF
+      Lig_chan   7 svlvalilvsivlflverfspyewrepeeaaet...veneftlsnslwfslgalvqqG....cdesprsvsgRivvavWwffvli 84 
+                    +l+a+ +v+i ++l+  +  ++++e + +++     e++   s+s  f++g+++ q       ++p+++s+Riv ++  +f+l+
+  KAI8037691.1 402 GTLLAYSVVAISIMLLRYMDYCDVEETQGQRDRvraSETTSLTSSSERFTFGSVCTQLfnvhRIQEPNAISSRIVGVLATLFCLL 486
+                   57899************9999999988665333443333333455667888887776422214578****************996 PP
+
+  == domain 2  score: -0.5 bits;  conditional E-value: 2.2
+                   TCHHHHHHHHHHHH.HHHHHHHCHHCXXXXXX CS
+                   xxxxxxxxxxxxxx.xxxxxxxxxxxxxxxxx RF
+      Lig_chan   1 slevWlsvlvalil.vsivlflverfspyewr 31 
+                   s+e+W+++l+++++   ++++l+  ++p e r
+  KAI8037691.1 503 SKEIWALTLLCILIlLVFLVILLICLQPREAR 534
+                   579**999666555055555566666777666 PP
+
+>> KAI8033551.1  hypothetical protein M5D96_013699 [Drosophila gunungcola]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   11.7   0.0    0.0004      0.14      70     115 ..     326     371 ..     319     529 .. 0.82
+
+  Alignments for each domain:
+  == domain 1  score: 11.7 bits;  conditional E-value: 0.0004
+                   HHHHHHHHHHHHHHHHHHHHHHHHHHHHHSSSSXXSSSSCCHHHTG CS
+                   xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx RF
+      Lig_chan  70 sgRivvavWwffvlillssYtAnLaafltvermqtpiksledLakq 115
+                   s R++ +v  +++l+l+++  A L ++l++  +q++i+s++d+ + 
+  KAI8033551.1 326 SLRLARIVLRLLALLLMTTCSAQLLSLLISPPYQERITSFDDMLDG 371
+                   6799999999********************************8755 PP
+
+>> KAI8040034.1  hypothetical protein M5D96_007459, partial [Drosophila gunungcola]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    8.8   1.4    0.0032       1.1       2     116 ..     304     405 ..     303     472 .. 0.78
+
+  Alignments for each domain:
+  == domain 1  score: 8.8 bits;  conditional E-value: 0.0032
+                   CHHHHHHHHHHHHHHHHHHHCHHCXXXXXXXXXXXXXXXXXHHTTTCHHHHHHHHCTTSSSSBXXSSHHHH.HHHHHHHHHHHHHHHHHHHHHHHHH CS
+                   xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx.xxxxxxxxxxxxxxxxxxxxxxxxx RF
+      Lig_chan   2 levWlsvlvalilvsivlflverfspyewrepeeaaetveneftlsnslwfslgalvqqGcdesprsvsgR.ivvavWwffvlillssYtAnLaafl 97 
+                   ++vWl++++ +ilv  +l ++ ++   +w               +s+ l  ++++l+++G   +  +   R i+ +v +++  +  + Y + L ++l
+  KAI8040034.1 304 WSVWLCLAAYVILVVGFLSFIYWLRIGKW--------------DVSRYLLEVFSSLLFSGFYLKNIQGKERyILFGVLFIAGFVYSTEYLGLLKSIL 386
+                   56666666666666556666655555555..............455677788999999996665555555526778888888999999********* PP
+
+                   HSSSSXXSSSSCCHHHTGS CS
+                   xxxxxxxxxxxxxxxxxxx RF
+      Lig_chan  98 tvermqtpiksledLakqt 116
+                   ++e ++++i+++e L++++
+  KAI8040034.1 387 ISEVFEKQIDTFEALVESN 405
+                   *************998665 PP
+
+>> KAI8035300.1  hypothetical protein M5D96_011958 [Drosophila gunungcola]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   10.1   1.6    0.0012      0.42       3     102 ..     333     420 ..     332     576 .. 0.75
+
+  Alignments for each domain:
+  == domain 1  score: 10.1 bits;  conditional E-value: 0.0012
+                   HHHHHHHHHHHHHHHHHHHCHHCXXXXXXXXXXXXXXXXXHHTTTCHHHHHHHHCTTSSSSBXXSSHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHS CS
+                   xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx RF
+      Lig_chan   3 evWlsvlvalilvsivlflverfspyewrepeeaaetveneftlsnslwfslgalvqqGcdesprsvsgRivvavWwffvlillssYtAnLaafltv 99 
+                   +vWl+++++ +lv +v++l +++   e + p          ++ +++l   +g  +++  +   rs   Ri+ a W+++vl+l   Y + L   + +
+  KAI8035300.1 333 TVWLALVLSGVLVVLVVWLRKKIAGEESDLP----------YHALQVLTTLMGNPLEA--RSLSRSARIRILYAGWLLLVLVLRVVYQGKLFDSFRM 417
+                   5899999999999999999999999999988..........55555666666776766..888999999******************9998665555 PP
+
+                   SSS CS
+                   xxx RF
+      Lig_chan 100 erm 102
+                     +
+  KAI8035300.1 418 PYT 420
+                   555 PP
+
+>> KAI8034878.1  hypothetical protein M5D96_012394 [Drosophila gunungcola]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   11.2   0.8   0.00057       0.2       3     114 ..     318     426 ..     316     510 .. 0.81
+
+  Alignments for each domain:
+  == domain 1  score: 11.2 bits;  conditional E-value: 0.00057
+                   HHHHHHHHHHHHHHHHHHHCHHCXXXXXXXXXXX.XXXXXXHHTTTCHHHHHHHHCTTSSSSBXXSSHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH CS
+                   xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx.xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx RF
+      Lig_chan   3 evWlsvlvalilvsivlflverfspyewrepeea.aetveneftlsnslwfslgalvqqGcdesprsvsgRivvavWwffvlillssYtAnLaaflt 98 
+                   ++Wl  +++ +   ++++l  r+ + + r  +   ++   +   ++   w+++  +  +     p s + R+ +++ +++ +i+ + +  +La + +
+  KAI8034878.1 318 DIWLGFILTAFAC-ALIWLTFRVINLKLRIVRVGnQHLWGQALGIVVDTWVVWVRVNLS---HLPASYAERMFIGSLCLVSVIFGAIFESSLATVYI 410
+                   6888887766654.568999999999999986664444667777777788888776666...99********************************* PP
+
+                   SSSSXXSSSSCCHHHT CS
+                   xxxxxxxxxxxxxxxx RF
+      Lig_chan  99 vermqtpiksledLak 114
+                      + + i+++++L +
+  KAI8034878.1 411 HPLYYKDINTMQELDD 426
+                   ***********99975 PP
+
+>> KAI8039456.1  hypothetical protein M5D96_008180 [Drosophila gunungcola]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -1.0   0.9       3.2   1.1e+03       2      19 ..    1069    1086 ..    1068    1093 .. 0.81
+   2 ?    9.8   0.0    0.0015       0.5      82     112 ..    1128    1158 ..    1106    1284 .. 0.92
+
+  Alignments for each domain:
+  == domain 1  score: -1.0 bits;  conditional E-value: 3.2
+                    CHHHHHHHHHHHHHHHHH CS
+                    xxxxxxxxxxxxxxxxxx RF
+      Lig_chan    2 levWlsvlvalilvsivl 19  
+                    l+vW++ l+++++v +v+
+  KAI8039456.1 1069 LHVWICWLFTMLIVQFVF 1086
+                    689999999999998876 PP
+
+  == domain 2  score: 9.8 bits;  conditional E-value: 0.0015
+                    HHHHHHHHHHHHHHHHHSSSSXXSSSSCCHH CS
+                    xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx RF
+      Lig_chan   82 vlillssYtAnLaafltvermqtpiksledL 112 
+                    + i+++ Y   L++fltv+ ++ pi sl+ L
+  KAI8039456.1 1128 IFIMVQLYSTKLTSFLTVTLTRRPIGSLDGL 1158
+                    4699***********************9987 PP
+
+>> KAI8046105.1  hypothetical protein M5D96_002305 [Drosophila gunungcola]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    0.2   1.0       1.3   4.6e+02       6      52 ..     135     180 ..     130     198 .. 0.66
+   2 ?    9.0   0.9    0.0027      0.92      17      93 ..     263     341 ..     252     350 .. 0.78
+
+  Alignments for each domain:
+  == domain 1  score: 0.2 bits;  conditional E-value: 1.3
+                   HHHHHHHHHHHHHHHHCHHCXXXXXXXXXXXXXXXXXHHTTTCHHHH CS
+                   xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx RF
+      Lig_chan   6 lsvlvalilvsivlflverfspyewrepeeaaetveneftlsnslwf 52 
+                   ++++++l + s+++++v+  s+   r ++  +++ ++++ l   ++f
+  KAI8046105.1 135 VVLVFILSIASLIIYFVDASSEEVERCQK-WSNNITQQIDLAFNIFF 180
+                   56788888999999999998877666542.24444444444433333 PP
+
+  == domain 2  score: 9.0 bits;  conditional E-value: 0.0027
+                   HHHHHCHHCXXXXXXXXXXX.XXXXXXHHTTTCHHHHHHHHCTTSS.SSBXXSSHHHHHHHHHHHHHHHHHHHHHHHHH CS
+                   xxxxxxxxxxxxxxxxxxxx.xxxxxxxxxxxxxxxxxxxxxxxxx.xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx RF
+      Lig_chan  17 ivlflverfspyewrepeea.aetveneftlsnslwfslgalvqqG.cdesprsvsgRivvavWwffvlillssYtAnL 93 
+                   i ++l +    +  +++ ++ + +  ++ +++++++f + ++   G +d   ++v gR   ++++++ l +++s++  +
+  KAI8046105.1 263 ISVWLTAAGIIHLLENSGDPlDFNNAHRLSYWTCVYFLIVTMSTVGyGDVYCETVLGRTFLVFFLLVGLAVFASWIPEI 341
+                   3444444444444455555556667799******************99**************************98655 PP
+
+Domain annotation for each sequence (and alignments):
+>> KAI8034102.1  hypothetical protein M5D96_013136 [Drosophila gunungcola]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  148.1   0.1   1.3e-46   8.1e-44       2     114 ..     435     547 ..     434     548 .. 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 148.1 bits;  conditional E-value: 1.3e-46
+                      EEEEE--.BTTTBEES..S---GGGGEESHHHHHHHHHHHHHT-EEEEEE-TT-----BETTTTEB-HHHHHHHTTS-SEE-SS-B--HHHHTT CS
+  Lig_chan-Glu_bd   2 tlkvvtileePyvmlkeeeelegneryeGfcidLlkelakklgfkYelklvkdgkyGskkektkewnGligelidkkadlavadltitaeReev 95 
+                      tl+v+t +e+Pyvm+k++ +l+gn r+eGfcidLlk++a+++gf+Y+++lv+d+ yG + ++t++wnG+++el++++adlava++ti+++Re+v
+     KAI8034102.1 435 TLVVMTREERPYVMVKDDANLTGNIRFEGFCIDLLKAIAQQVGFQYKIELVPDNMYGVYIPETNSWNGIVQELMERRADLAVASMTINYARESV 528
+                      6789****************************************************************************************** PP
+
+                      SEEESESEEE-EEEEEESX CS
+  Lig_chan-Glu_bd  96 vdFtkpfmelgisilikkp 114
+                      +dFtkpfm+lgi il+k p
+     KAI8034102.1 529 IDFTKPFMNLGIGILFKVP 547
+                      ****************987 PP
+
+>> KAI8036457.1  hypothetical protein M5D96_010763 [Drosophila gunungcola]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  145.9   0.0   6.2e-46   3.9e-43       2     114 ..     413     525 ..     412     526 .. 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 145.9 bits;  conditional E-value: 6.2e-46
+                      EEEEE--.BTTTBEES..S---GGGGEESHHHHHHHHHHHHHT-EEEEEE-TT-----BETTTTEB-HHHHHHHTTS-SEE-SS-B--HHHHTT CS
+  Lig_chan-Glu_bd   2 tlkvvtileePyvmlkeeeelegneryeGfcidLlkelakklgfkYelklvkdgkyGskkektkewnGligelidkkadlavadltitaeReev 95 
+                      tl+v+tile+Pyvm++  ++ +gner+ Gfc+d+l+++++++gf+Y l lv+d+kyG+k+++++ewnG++ +l++ kadlav+++tit++Re+v
+     KAI8036457.1 413 TLVVITILETPYVMMHYGKNFTGNERFYGFCVDILEAISHEVGFDYILDLVPDRKYGAKDPESGEWNGMVAQLMKYKADLAVGSMTITYARESV 506
+                      6889***********99***************************************************************************** PP
+
+                      SEEESESEEE-EEEEEESX CS
+  Lig_chan-Glu_bd  96 vdFtkpfmelgisilikkp 114
+                      +dFtkpfm+lgisil+k p
+     KAI8036457.1 507 IDFTKPFMNLGISILFKVP 525
+                      ****************987 PP
+
+>> KAI8040220.1  hypothetical protein M5D96_006159 [Drosophila gunungcola]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  136.6   0.0   4.8e-43   3.1e-40       2     114 ..     480     596 ..     479     597 .. 0.96
+
+  Alignments for each domain:
+  == domain 1  score: 136.6 bits;  conditional E-value: 4.8e-43
+                      EEEEE--.BTTTBEE...S..S---GGGGEESHHHHHHHHHHHHHT-EEEEEE-TT-----BETT.TTEB-HHHHHHHTTS-SEE-SS-B--HH CS
+  Lig_chan-Glu_bd   2 tlkvvtileePyvml...keeeelegneryeGfcidLlkelakklgfkYelklvkdgkyGskkek.tkewnGligelidkkadlavadltitae 91 
+                      t++v t+leePy+ l   +  e+l gn+r+eG+c dL + la +lg+kYe++lv+dg+yG++++   + w+G++gel++k+ad+a+a++titae
+     KAI8040220.1 480 TYIVSTVLEEPYLRLkpyAYGEHLVGNDRFEGYCKDLADMLAAQLGIKYEFRLVQDGNYGAENQYaPGGWDGMVGELVRKEADIAIAAMTITAE 573
+                      799**********998988899***************************************99874579************************* PP
+
+                      HHTTSEEESESEEE-EEEEEESX CS
+  Lig_chan-Glu_bd  92 ReevvdFtkpfmelgisilikkp 114
+                      Re+v+dF+kpfm+lgisi+ikkp
+     KAI8040220.1 574 RERVIDFSKPFMTLGISIMIKKP 596
+                      *********************98 PP
+
+>> KAI8038123.1  hypothetical protein M5D96_009164 [Drosophila gunungcola]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  132.5   0.0     9e-42   5.7e-39       1     114 [.     392     508 ..     392     509 .. 0.97
+
+  Alignments for each domain:
+  == domain 1  score: 132.5 bits;  conditional E-value: 9e-42
+                      -EEEEE--.BTTTBEE...S..S---GGGGEESHHHHHHHHHHHHHT-EEEEEE-TT-----BETTTTEB-HHHHHHHTTS-SEE-SS-B--HH CS
+  Lig_chan-Glu_bd   1 ktlkvvtileePyvml...keeeelegneryeGfcidLlkelakklgfkYelklvkdgkyGskkektkewnGligelidkkadlavadltitae 91 
+                      kt++v + l +P+++l   +e e l+gn+ryeG+ idL++e+ak+l+fkYe+++++dgkyG+ ++ t++w+G++++lid++adl+++dlt+t++
+     KAI8038123.1 392 KTFIVSSRLGAPFLTLrepEEGEVLRGNSRYEGYSIDLIDEIAKMLNFKYEFRMSPDGKYGALNKMTQTWDGIVRQLIDGNADLGICDLTMTSS 485
+                      68999999*****99989888999********************************************************************** PP
+
+                      HHTTSEEESESEEE-EEEEEESX CS
+  Lig_chan-Glu_bd  92 ReevvdFtkpfmelgisilikkp 114
+                      R+++vdFt pfm+lgisil++kp
+     KAI8038123.1 486 RRQAVDFTPPFMTLGISILFSKP 508
+                      ********************998 PP
+
+>> KAI8046451.1  hypothetical protein M5D96_002661 [Drosophila gunungcola]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  122.9   0.0   8.6e-39   5.4e-36       2     108 ..     391     498 ..     390     503 .. 0.96
+
+  Alignments for each domain:
+  == domain 1  score: 122.9 bits;  conditional E-value: 8.6e-39
+                      EEEEE--.BTTTBEE.S..S---GGGGEESHHHHHHHHHHHHHT-EEEEEE-TT-----BETTTTEB-HHHHHHHTTS-SEE-SS-B--HHHHT CS
+  Lig_chan-Glu_bd   2 tlkvvtileePyvml.keeeelegneryeGfcidLlkelakklgfkYelklvkdgkyGskkektkewnGligelidkkadlavadltitaeRee 94 
+                      +++v+t  +ePy ml +++e+legn+++eGf i+L++el+kklgf+Y+ +l+ d+kyG  ++kt+ewnG+++e++d++ad++++dlt+t+eRe+
+     KAI8046451.1 391 SFVVITAISEPYGMLkETSEKLEGNDQFEGFGIELIDELSKKLGFTYTWRLQVDNKYGGIDPKTGEWNGMLREIMDSRADMGITDLTMTSERES 484
+                      67899999******988899************************************************************************** PP
+
+                      TSEEESESEEE-EE CS
+  Lig_chan-Glu_bd  95 vvdFtkpfmelgis 108
+                       vdFt pfm+lg +
+     KAI8046451.1 485 GVDFTIPFMSLGAT 498
+                      ***********976 PP
+
+>> KAI8038121.1  hypothetical protein M5D96_009162 [Drosophila gunungcola]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  118.5   0.1   1.9e-37   1.2e-34       2     113 ..     562     672 ..     561     674 .. 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 118.5 bits;  conditional E-value: 1.9e-37
+                      EEEEE--.BTTTBEE.S..S---GGGGEESHHHHHHHHHHHHHT-EEEEEE-TT-----BETTTTEB-HHHHHHHTTS-SEE-SS-B--HHHHT CS
+  Lig_chan-Glu_bd   2 tlkvvtileePyvml.keeeelegneryeGfcidLlkelakklgfkYelklvkdgkyGskkektkewnGligelidkkadlavadltitaeRee 94 
+                      +++vvt  eePy+m+ +++e+ +g+e+yeG+++dL++++++ ++f+Ye+ +v+++  G+++++tk+w+G+i++lid++a+++v+dltit+ R++
+     KAI8038121.1 562 VYTVVTHYEEPYFMMkEDHENFRGREKYEGYAVDLIRKISELMEFDYEFVIVSGN--GKYNPETKQWDGIIRKLIDHHAQIGVCDLTITQLRRS 653
+                      5789999*****999788999*******************************987..************************************* PP
+
+                      TSEEESESEEE-EEEEEES CS
+  Lig_chan-Glu_bd  95 vvdFtkpfmelgisilikk 113
+                      vvdFt pfm+lgisil  k
+     KAI8038121.1 654 VVDFTVPFMQLGISILHYK 672
+                      ***************9765 PP
+
+>> KAI8038126.1  hypothetical protein M5D96_009167 [Drosophila gunungcola]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  118.7   0.0   1.6e-37     1e-34       3     113 ..     426     539 ..     424     541 .. 0.94
+
+  Alignments for each domain:
+  == domain 1  score: 118.7 bits;  conditional E-value: 1.6e-37
+                      EEEE--.BTTTBEE...S..S---GGGGEESHHHHHHHHHHHHHT-EEEEEE-TT-----BETTTTEB-HHHHHHHTTS-SEE-SS-B--HHHH CS
+  Lig_chan-Glu_bd   3 lkvvtileePyvml...keeeelegneryeGfcidLlkelakklgfkYelklvkdgkyGskkektkewnGligelidkkadlavadltitaeRe 93 
+                      ++v+t   +Py+ +    e  + egner+eG+++dL+ +la++++f+++++ v+d+kyGs++  t+ew+G+i++lid++a+++++dltit++R+
+     KAI8038126.1 426 YTVATRVGKPYFSWreePEGVHFEGNERFEGYAVDLIYKLAQECKFDFNFEPVRDNKYGSYDAVTDEWDGIIRQLIDNNAQIGICDLTITQARR 519
+                      7899999*****997665667899********************************************************************** PP
+
+                      TTSEEESESEEE-EEEEEES CS
+  Lig_chan-Glu_bd  94 evvdFtkpfmelgisilikk 113
+                      +vvdFt pfm+lgisil  k
+     KAI8038126.1 520 SVVDFTVPFMQLGISILSYK 539
+                      ****************9766 PP
+
+>> KAI8035401.1  hypothetical protein M5D96_011844 [Drosophila gunungcola]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  117.4   0.0   4.2e-37   2.7e-34       3     113 ..     433     546 ..     431     548 .. 0.94
+
+  Alignments for each domain:
+  == domain 1  score: 117.4 bits;  conditional E-value: 4.2e-37
+                      EEEE--.BTTTBEE...S..S---GGGGEESHHHHHHHHHHHHHT-EEEEEE-TT-----BETTTTEB-HHHHHHHTTS-SEE-SS-B--HHHH CS
+  Lig_chan-Glu_bd   3 lkvvtileePyvml...keeeelegneryeGfcidLlkelakklgfkYelklvkdgkyGskkektkewnGligelidkkadlavadltitaeRe 93 
+                      ++v+t    Py+ +   + e +l+gn+ y G+++dL++++++++gf+Y +  v+d++yG+++++tk+wnG+ige+++++a+++++dltit++R+
+     KAI8035401.1 433 YRVATRIGPPYFLKnetAVELNLTGNALYIGYAVDLIDAISQEVGFEYVFVPVADQQYGKQDKDTKQWNGIIGEIVNNDAHMGICDLTITQARR 526
+                      7899999****99876555678899999****************************************************************** PP
+
+                      TTSEEESESEEE-EEEEEES CS
+  Lig_chan-Glu_bd  94 evvdFtkpfmelgisilikk 113
+                      ++vdFt pfm+lg+sil  k
+     KAI8035401.1 527 TAVDFTVPFMQLGVSILAYK 546
+                      ****************9765 PP
+
+>> KAI8035276.1  hypothetical protein M5D96_011933 [Drosophila gunungcola]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   34.2   0.0   2.7e-11   1.7e-08       3     102 ..     216     314 ..     215     324 .. 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 34.2 bits;  conditional E-value: 2.7e-11
+                      EEEE--.BTTTBEES..S---GGGGEESHHHHHHHHHHHHHT-EEEEEE-TT-----BETTTTEB-HHHHHHHTTS-SEE-SS-B--HHHHTTS CS
+  Lig_chan-Glu_bd   3 lkvvtileePyvmlkeeeelegneryeGfcidLlkelakklgfkYelklvkdgkyGskkektkewnGligelidkkadlavadltitaeReevv 96 
+                      l+vvt++++P+v ++++ +++g + + G    ++++la++++f++el + +d++ G+  +++ + +G++++++d++a+++   +  +++R+e +
+     KAI8035276.1 216 LVVVTFEQRPFVFIEDDVRVKGGRIMGGIEGMIFRSLAERMNFTFELVERQDKDRGQILPDG-NFTGILKMMVDGEANVTFVCFMYNKARSELM 308
+                      5799**********99999999998999999999************************9999.******************9999999999877 PP
+
+                      EEESES CS
+  Lig_chan-Glu_bd  97 dFtkpf 102
+                        +  +
+     KAI8035276.1 309 LPSISY 314
+                      655555 PP
+
+>> KAI8038210.1  hypothetical protein M5D96_008899 [Drosophila gunungcola]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   25.0   0.0   1.9e-08   1.2e-05      33      99 ..     261     332 ..     218     341 .. 0.86
+
+  Alignments for each domain:
+  == domain 1  score: 25.0 bits;  conditional E-value: 1.9e-08
+                      HHHHHHHHHHHT-EEEEEE-TT-----BETTTT.....EB-HHHHHHHTTS-SEE-SS-B--HHHHTTSEEE CS
+  Lig_chan-Glu_bd  33 idLlkelakklgfkYelklvkdgkyGskkektk.....ewnGligelidkkadlavadltitaeReevvdFt 99 
+                        Ll  la++++f++++ ++++++ Gs++++++     + +G ig l +++ad+ ++d+ ++ eR+++++F+
+     KAI8038210.1 261 HRLLMLLAQHMNFRFKYIEAPGRTQGSMRSDDDrdsndSFTGGIGLLQSGQADFFLGDVGLSWERRKAIEFS 332
+                      569999*********************9887655666689*******************************8 PP
+
+>> KAI8046661.1  hypothetical protein M5D96_002874 [Drosophila gunungcola]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   24.2   0.0   3.4e-08   2.2e-05      42     100 ..     178     233 ..     151     245 .. 0.85
+
+  Alignments for each domain:
+  == domain 1  score: 24.2 bits;  conditional E-value: 3.4e-08
+                      HHT-EEEEEE-TT-----BETTTTEB-HHHHHHHTTS-SEE-SS-B--HHHHTTSEEES CS
+  Lig_chan-Glu_bd  42 klgfkYelklvkdgkyGskkektkewnGligelidkkadlavadltitaeReevvdFtk 100
+                      +  f+ +l +v  +k+G+  e++ +w+G++g++ ++ adlav+++    +R+ +v+++ 
+     KAI8046661.1 178 M--FNLRLVIVFTDKWGELLENG-SWSGVMGQVTSRAADLAVCPIRFLLDRHPYVQYSP 233
+                      3..566677777889****8877.*******************************9985 PP
+
+>> KAI8034878.1  hypothetical protein M5D96_012394 [Drosophila gunungcola]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   23.9   0.0   4.4e-08   2.8e-05      27     111 ..     215     299 ..     196     303 .. 0.83
+
+  Alignments for each domain:
+  == domain 1  score: 23.9 bits;  conditional E-value: 4.4e-08
+                      GEESHHHHHHHHHHHHHT-EEEEEE-TT-----BETTTTEB-HHHHHHHTTS-SEE-SS-B--.HHHHTTSEEESESEEE-EEEEE CS
+  Lig_chan-Glu_bd  27 ryeGfcidLlkelakklgfkYelklvkdgkyGskkektkewnGligelidkkadlavadltit.aeReevvdFtkpfmelgisili 111
+                      r+ G  + + + l+++l+f+  l++ + + +G+++ ++ ++nG ig++i++  d+ ++ + ++ +  ++++dFt   ++  + i +
+     KAI8034878.1 215 RVTGVDFLVAQMLQERLNFTMLLQQPDKNYFGERNANG-SYNGAIGSIINDGLDICLTGFFVKdYLVQQYMDFTVAVYDDELCIYV 299
+                      5566666667899***********99999999998877.*******************999972567999****999888777765 PP
+
+>> KAI8040725.1  hypothetical protein M5D96_006668 [Drosophila gunungcola]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   23.0   0.0     8e-08   5.1e-05      20      98 ..     348     423 ..     330     439 .. 0.81
+   2 ?   -2.8   0.0       8.2   5.2e+03      98     113 ..     848     863 ..     846     865 .. 0.84
+
+  Alignments for each domain:
+  == domain 1  score: 23.0 bits;  conditional E-value: 8e-08
+                      S---GG.GGEESHHHHHHHHHHHHHT-EEEEEE-TT-----BETTTTEB-HHHHHHHTTS-SEE-SS-B--HHHHTTSEE CS
+  Lig_chan-Glu_bd  20 eelegn.eryeGfcidLlkelakklgfkYelklvkdgkyGskkektkewnGligelidkkadlavadltitaeReevvdF 98 
+                      ++++g+ ++++ f ++Ll +++++++ +  + l++ +++G  k+  ++ +G+ig li+++ d++ a++    eR++ +d 
+     KAI8040725.1 348 HTVSGHiDTMNRFNFNLLMAVRDMFNWT--FVLSRTTSWGYVKN--GRFDGMIGALIRNETDIGGAPIFYWLERHKWIDV 423
+                      5566666778889999999998886655..55566778999954..47******************************96 PP
+
+  == domain 2  score: -2.8 bits;  conditional E-value: 8.2
+                      EESESEEE-EEEEEES CS
+  Lig_chan-Glu_bd  98 Ftkpfmelgisilikk 113
+                      ++ +fm lg++il++k
+     KAI8040725.1 848 YAITFMILGTEILYSK 863
+                      6678*********998 PP
+
+>> KAI8036619.1  hypothetical protein M5D96_010420 [Drosophila gunungcola]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   21.5   0.0   2.3e-07   0.00015      26     112 ..      81     165 ..      68     168 .. 0.87
+
+  Alignments for each domain:
+  == domain 1  score: 21.5 bits;  conditional E-value: 2.3e-07
+                      GG.EESHHHHHHHHHHHHHT-EEEEEE-TT-----BETTTTEB-HHHHHHHTTS-SEE-SS-B--HHHHTTSEEESESEEE-EEEEEE CS
+  Lig_chan-Glu_bd  26 er.yeGfcidLlkelakklgfkYelklvkdgkyGskkektkewnGligelidkkadlavadltitaeReevvdFtkpfmelgisilik 112
+                      +r  +G  +++++ l+kk++f+Ye+ + +d+ +Gs+k+ +     li+++ ++ +dla a +   ++++++v ++++ +++g  i++ 
+     KAI8036619.1  81 TRiGHGVSFQIIDFLKKKFNFTYEVFVPQDNIIGSPKDFD---RSLIEMVNSSVVDLAAAFIPSLSDQRSFVYYSTTTLDEGEWIMVM 165
+                      33368999****************************8877...789*******************************99999888865 PP
+
+>> KAI8033676.1  hypothetical protein M5D96_013554 [Drosophila gunungcola]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   21.3   0.0   2.8e-07   0.00018       3     102 ..      59     156 ..      57     168 .. 0.83
+
+  Alignments for each domain:
+  == domain 1  score: 21.3 bits;  conditional E-value: 2.8e-07
+                      EEEE--.BTTTBEE..S..S---GGGGEESHHHHHHHHHHHHHT-EEEEEE-TT-----BETTTTEB-HHHHHHHTTS-SEE-SS-B--HHHHT CS
+  Lig_chan-Glu_bd   3 lkvvtileePyvml..keeeelegneryeGfcidLlkelakklgfkYelklvkdgkyGskkektkewnGligelidkkadlavadltitaeRee 94 
+                      +++ + ++ P++ +  + +++  g+ r++G  + Ll+ ++k+l+f+ +++  + ++      + +  + + ++++++++d++++ + it+eR +
+     KAI8033676.1  59 FQISAANQPPFIFRirTLDSSGMGQLRWDGIEFRLLEMISKRLNFSVDITDITSTQA----LTRGVVDTIQKQIVERTVDIGMSGIYITEERLR 148
+                      78889999***9986555666677788**********************98876643....3344788999*********************99 PP
+
+                      TSEEESES CS
+  Lig_chan-Glu_bd  95 vvdFtkpf 102
+                        d++   
+     KAI8033676.1 149 KSDMSVGH 156
+                      98888765 PP
+
+>> KAI8040990.1  hypothetical protein M5D96_005239 [Drosophila gunungcola]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   20.3   0.0   5.7e-07   0.00036      35     100 ..     281     343 ..     270     354 .. 0.91
+
+  Alignments for each domain:
+  == domain 1  score: 20.3 bits;  conditional E-value: 5.7e-07
+                      HHHHHHHHHT-EEEEEE-TT-----BETTTTEB-HHHHHHHTTS-SEE-SS-B--HHHHTTSEEES CS
+  Lig_chan-Glu_bd  35 LlkelakklgfkYelklvkdgkyGskkektkewnGligelidkkadlavadltitaeReevvdFtk 100
+                      L+ ela++l+++Y+ +++   +yG +++++ + +Gl+g+  + + dla  ++ ++ +R   vdF  
+     KAI8040990.1 281 LMLELANRLNISYNTYQTV--NYGWRQPNG-SFDGLMGRFQRYELDLAQLAIFMRLDRIALVDFVA 343
+                      7889**********99875..7****9998.*********************************75 PP
+
+>> KAI8036686.1  hypothetical protein M5D96_010487 [Drosophila gunungcola]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   15.5   0.0   1.8e-05     0.011      20     114 ..      18     111 ..       4     112 .. 0.85
+
+  Alignments for each domain:
+  == domain 1  score: 15.5 bits;  conditional E-value: 1.8e-05
+                      S---GGGGEESHHHHHHHHHHHHHT-EEEEEE-TT-----BETTTTEB-HHHHHHHTTS-SEE-SS-B--HHHHTTSEEESESEEE-EEEEEES CS
+  Lig_chan-Glu_bd  20 eelegneryeGfcidLlkelakklgfkYelklvkdgkyGskkektkewnGligelidkkadlavadltitaeReevvdFtkpfmelgisilikk 113
+                      +e + + +++G  + L+  + + ++ + ++  ++  ++G   ++  +  Gl+g+++d++ d +++ + + +e  e++d+t+   ++g+++l+  
+     KAI8036686.1  18 SENTTEVTIDGTEVRLMIIFCELYNCTIQVDTSETADWGDIFPNA-SGYGLVGMVLDRQNDYGIGGMYLWYEAYEFMDMTHFLGRSGVTCLVPA 110
+                      333444668999999999999999999**************9988.999********************************99999**999876 PP
+
+                      X CS
+  Lig_chan-Glu_bd 114 p 114
+                      p
+     KAI8036686.1 111 P 111
+                      6 PP
+
+>> KAI8045736.1  hypothetical protein M5D96_001920 [Drosophila gunungcola]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   13.6   0.0   6.6e-05     0.042      27     106 ..     204     282 ..     184     291 .. 0.85
+
+  Alignments for each domain:
+  == domain 1  score: 13.6 bits;  conditional E-value: 6.6e-05
+                      GEESHHHHHHHHHHHHHT-EEEEEE-TT-----BETTTTEB-HHHHHHHTTS-SEE-SS-B--HHHHTTSEEESESEEE- CS
+  Lig_chan-Glu_bd  27 ryeGfcidLlkelakklgfkYelklvkdgkyGskkektkewnGligelidkkadlavadltitaeReevvdFtkpfmelg 106
+                      +++G    L k++a++l+f+ ++   +d+ +G +  ++ +++G +g+  ++++d++ a + ++    + ++F+   +   
+     KAI8045736.1 204 SVDGADAKLAKTVARQLNFTPHYLWPDDEFFGGRLADG-SYSGGVGRAHRGEVDIIFAGFFVKDYLTTHIQFSAAVYMDE 282
+                      478888899*************999*********8888.*********************************98765554 PP
+
+>> KAI8039961.1  hypothetical protein M5D96_007386 [Drosophila gunungcola]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   13.2   0.0   8.9e-05     0.056      28      84 ..     285     339 ..     268     346 .. 0.81
+
+  Alignments for each domain:
+  == domain 1  score: 13.2 bits;  conditional E-value: 8.9e-05
+                      EESHHHHHHHHHHHHHT-EEEEEE-TT-----BETTTTEB-HHHHHHHTTS-SEE-S CS
+  Lig_chan-Glu_bd  28 yeGfcidLlkelakklgfkYelklvkdgkyGskkektkewnGligelidkkadlava 84 
+                      + G  + +l  ++++l+f+ + + + + + G++++ + +wnGl+g++ d++ d++++
+     KAI8039961.1 285 IVGLEMRILGFMKNRLSFDVNQTCSWE-SRGEMDSAG-NWNGLLGKVTDNECDFIIG 339
+                      567777788889999999998877765.689999888.***************9986 PP
+
+>> KAI8041633.1  hypothetical protein M5D96_005898 [Drosophila gunungcola]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -0.9   0.0       2.2   1.4e+03      66      97 ..     196     227 ..     189     238 .. 0.86
+   2 ?    9.5   0.0    0.0013      0.83      65      97 ..     639     671 ..     630     689 .. 0.76
+   3 ?   -0.5   0.0       1.6     1e+03      68      94 ..    1121    1147 ..    1105    1150 .. 0.82
+
+  Alignments for each domain:
+  == domain 1  score: -0.9 bits;  conditional E-value: 2.2
+                      EB-HHHHHHHTTS-SEE-SS-B--HHHHTTSE CS
+  Lig_chan-Glu_bd  66 ewnGligelidkkadlavadltitaeReevvd 97 
+                       + G ig+l +++++l  +++  + +R ++v 
+     KAI8041633.1 196 AYGGAIGMLTNESVELCTSPFVPSWNRLHYVH 227
+                      46799****************99999998886 PP
+
+  == domain 2  score: 9.5 bits;  conditional E-value: 0.0013
+                      TEB-HHHHHHHTTS-SEE-SS-B--HHHHTTSE CS
+  Lig_chan-Glu_bd  65 kewnGligelidkkadlavadltitaeReevvd 97 
+                      +   G+ig+li + adla+a++  + +R  +++
+     KAI8041633.1 639 NATGGMIGDLILDVADLAIAPFVYSFDRGLFLQ 671
+                      4567******************99988876655 PP
+
+  == domain 3  score: -0.5 bits;  conditional E-value: 1.6
+                       -HHHHHHHTTS-SEE-SS-B--HHHHT CS
+  Lig_chan-Glu_bd   68 nGligelidkkadlavadltitaeRee 94  
+                        G +g ++d++ad++ ++   t+ R +
+     KAI8041633.1 1121 GGSVGAIVDQTADITATPSLATEGRLK 1147
+                       5889**********9998777777665 PP
+
+>> KAI8035303.1  hypothetical protein M5D96_011961 [Drosophila gunungcola]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   11.2   0.0   0.00038      0.24       5      92 ..     216     291 ..     213     300 .. 0.70
+   2 ?   -2.7   0.0       7.6   4.8e+03      81      96 ..     453     468 ..     443     468 .. 0.81
+
+  Alignments for each domain:
+  == domain 1  score: 11.2 bits;  conditional E-value: 0.00038
+                      EE--.BTTTBEES..S---GGGGEESHHHHHHHHHHHHHT-EEEEEE-TT-----BETTTTEB-H..HHHHHHTTS-SEE-SS-B--HHH CS
+  Lig_chan-Glu_bd   5 vvtileePyvmlkeeeelegneryeGfcidLlkelakklgfkYelklvkdgkyGskkektkewnG..ligelidkkadlavadltitaeR 92 
+                      v + + +P++        eg+++++G    Ll+el+++++f+ +++  +d++  +     ++w+   ++++l++     ++adl i + R
+     KAI8035303.1 216 VLARQVSPFFD-----LDEGQRELRGLEGRLLQELSRRMNFSIRFEGLRDQQENH-----TTWSEmqMLQKLVK----GGLADLAIGYVR 291
+                      55666778877.....3468889**************************984333.....35665115555555....455555555555 PP
+
+  == domain 2  score: -2.7 bits;  conditional E-value: 7.6
+                      EE-SS-B--HHHHTTS CS
+  Lig_chan-Glu_bd  81 lavadltitaeReevv 96 
+                      l++ +l +t+eRee v
+     KAI8035303.1 453 LGLRSLVVTSEREEEV 468
+                      677899******9865 PP
+
+>> KAI8035300.1  hypothetical protein M5D96_011958 [Drosophila gunungcola]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   11.8   0.0   0.00024      0.15      11     112 ..     212     315 ..     203     318 .. 0.81
+
+  Alignments for each domain:
+  == domain 1  score: 11.8 bits;  conditional E-value: 0.00024
+                      TTTBEE...S..S---GG.GGEESHHHHHHHHHHHHHT-EEEEEE-TT-----BETTTTEB-HHHHHHHTTS-SEE-SS-B--HHHHTTSEEES CS
+  Lig_chan-Glu_bd  11 ePyvml...keeeelegn.eryeGfcidLlkelakklgfkYelklvkdgkyGskkektkewnGligelidkkadlavadltitaeReevvdFtk 100
+                       P+v     +++ + + +  r+ G   +L+k la++++f+  l +  d+ +    +++   +G   ++i+++  + +++++ +++ ++   Ft 
+     KAI8035300.1 212 PPFVSFygnSSDPAERAEiWRLTGIDGELIKLLAEIFRFRILLGEPCDKCLSPDIKDG--CSGCFDQVIHSNSSILIGAMSGSHQHRSQFSFTC 303
+                      68877765422222222236699**********************9999887776666..9********************************* PP
+
+                      ESEEE-EEEEEE CS
+  Lig_chan-Glu_bd 101 pfmelgisilik 112
+                       + ++++ ++++
+     KAI8035300.1 304 SYHQSSLVFIMH 315
+                      ***999888876 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (115 nodes)
+Target sequences:                      13962  (5900962 residues searched)
+Passed MSV filter:                       279  (0.0199828); expected 279.2 (0.02)
+Passed bias filter:                      252  (0.018049); expected 279.2 (0.02)
+Passed Vit filter:                        35  (0.0025068); expected 14.0 (0.001)
+Passed Fwd filter:                        22  (0.00157571); expected 0.1 (1e-05)
+Initial search space (Z):              13962  [actual number of targets]
+Domain search space  (domZ):              22  [number of targets reported over threshold]
+# CPU time: 0.07u 0.01s 00:00:00.08 Elapsed: 00:00:00.03
+# Mc/sec: 18383.44
+//
+[ok]

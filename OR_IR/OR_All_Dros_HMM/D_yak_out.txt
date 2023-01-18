@@ -1,0 +1,2287 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.3.2 (Nov 2020); http://hmmer.org/
+# Copyright (C) 2020 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  /home/u4897529/HMM/7tm_6.hmm
+# target sequence database:        /home/u4897529/HMM/Pt_faa/Dyak_Tai18E2_2.1_protein.faa
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       7tm_6  [M=313]
+Accession:   PF02949.23
+Description: 7tm Odorant receptor
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence       Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------       -----------
+   5.4e-138  459.8   9.1   5.4e-138  459.8   9.1    1.7  2  XP_002096053.1  odorant receptor coreceptor isoform X1 [Droso
+    6.4e-95  318.3  15.6    6.4e-95  318.3  15.6    1.4  1  XP_039228114.1  LOW QUALITY PROTEIN: odorant receptor 59a [Dr
+    1.9e-88  297.1  10.0    1.9e-88  297.1  10.0    1.6  2  XP_002090113.1  odorant receptor 42b isoform X1 [Drosophila y
+    5.2e-86  289.0   9.4    7.9e-86  288.5   9.4    1.3  1  XP_002088410.1  odorant receptor 33b [Drosophila yakuba]
+    1.5e-85  287.6   7.1    1.8e-85  287.3   7.1    1.1  1  XP_002092618.3  odorant receptor 59b [Drosophila yakuba]
+    1.2e-83  281.3  19.0    1.4e-83  281.1  19.0    1.1  1  XP_039228041.1  putative odorant receptor 59c [Drosophila yak
+    3.4e-82  276.5   7.9    4.6e-82  276.1   7.9    1.1  1  XP_002088409.2  odorant receptor 33a [Drosophila yakuba]
+    6.7e-79  265.7  11.2    9.9e-79  265.1  11.2    1.2  1  XP_002100282.1  odorant receptor 2a [Drosophila yakuba]
+    1.7e-78  264.4  17.5    1.7e-78  264.4  17.5    1.3  1  XP_002101173.1  odorant receptor 7a [Drosophila yakuba]
+    7.1e-76  255.8  14.2    8.5e-76  255.5  14.2    1.1  1  XP_002087705.1  odorant receptor 23a [Drosophila yakuba]
+    1.3e-75  254.9  10.9    1.3e-75  254.9  10.9    1.4  1  XP_002098746.2  odorant receptor 98a [Drosophila yakuba]
+    1.9e-75  254.4   1.5    1.9e-75  254.4   1.5    1.8  2  XP_015047136.1  odorant receptor coreceptor isoform X2 [Droso
+    2.3e-75  254.1  11.1    2.8e-75  253.8  11.1    1.1  1  XP_002098364.1  odorant receptor 94a [Drosophila yakuba]
+    3.1e-75  253.7  14.7    3.7e-75  253.4  14.7    1.1  1  XP_002090313.1  odorant receptor 47a [Drosophila yakuba]
+    1.1e-74  251.9  17.1    1.6e-74  251.3  17.1    1.3  1  XP_002094166.1  odorant receptor 63a isoform X2 [Drosophila y
+    1.4e-74  251.5  12.2    1.6e-74  251.3  12.2    1.1  1  XP_002088411.1  odorant receptor 33c [Drosophila yakuba]
+    4.2e-74  249.9   4.0      5e-74  249.7   4.0    1.1  1  XP_002089804.1  odorant receptor 45b [Drosophila yakuba]
+    4.2e-73  246.6  15.1    4.2e-73  246.6  15.1    1.5  1  XP_002096795.1  odorant receptor 85a [Drosophila yakuba]
+    3.3e-72  243.7  12.7    4.2e-72  243.4  12.7    1.1  1  XP_002087551.1  odorant receptor 22a [Drosophila yakuba]
+    9.5e-72  242.2  10.2    1.2e-71  241.9  10.2    1.1  1  XP_039231320.1  odorant receptor 94b [Drosophila yakuba]
+    2.1e-71  241.1  10.0    2.9e-71  240.6  10.0    1.2  1  XP_002086029.1  odorant receptor 42a [Drosophila yakuba]
+    9.2e-71  239.0   5.7    1.2e-70  238.6   5.7    1.2  1  XP_002087899.1  odorant receptor 24a [Drosophila yakuba]
+    1.4e-69  235.1  12.2    2.2e-69  234.4  12.2    1.3  1  XP_039231078.1  odorant receptor 98a [Drosophila yakuba]
+      2e-68  231.3  13.3      2e-68  231.3  13.3    1.4  1  XP_039227570.1  odorant receptor 46a [Drosophila yakuba]
+      2e-68  231.3  14.6    2.4e-68  231.0  14.6    1.1  1  XP_002096811.1  odorant receptor 85b [Drosophila yakuba]
+    8.4e-68  229.2  19.8      1e-67  229.0  19.8    1.1  1  XP_002096812.1  odorant receptor 85c [Drosophila yakuba]
+    9.6e-68  229.1  19.8    1.3e-67  228.6  19.8    1.2  1  XP_002096817.1  putative odorant receptor 85d [Drosophila yak
+    1.4e-67  228.5   0.8    1.7e-67  228.2   0.8    1.1  1  XP_002089780.1  odorant receptor 45a [Drosophila yakuba]
+    3.3e-67  227.3   7.9    4.2e-67  226.9   7.9    1.1  1  XP_002089445.1  odorant receptor 43a isoform X2 [Drosophila y
+    5.9e-67  226.5   4.8    8.2e-67  226.0   4.8    1.1  1  XP_015054099.2  odorant receptor 46a [Drosophila yakuba]
+    4.5e-66  223.6  14.0    6.1e-66  223.1  14.0    1.1  1  XP_002089541.2  odorant receptor 43b [Drosophila yakuba]
+    9.9e-65  219.2   4.8    1.2e-64  218.8   4.8    1.1  1  XP_002101833.1  odorant receptor 9a [Drosophila yakuba]
+    2.7e-64  217.7  11.9    3.8e-64  217.2  11.9    1.2  1  XP_002090992.1  odorant receptor 49b [Drosophila yakuba]
+      8e-64  216.2  12.2      1e-63  215.8  12.2    1.1  1  XP_002096930.1  odorant receptor 85f [Drosophila yakuba]
+      8e-64  216.2  12.2      1e-63  215.8  12.2    1.1  1  XP_039232494.1  odorant receptor 85f [Drosophila yakuba]
+    8.7e-64  216.0   9.0    1.2e-63  215.6   9.0    1.1  1  XP_039226456.1  LOW QUALITY PROTEIN: odorant receptor 22c [Dr
+      6e-63  213.3   3.6      6e-63  213.3   3.6    1.3  1  XP_002097914.1  odorant receptor 88a [Drosophila yakuba]
+    3.1e-62  211.0  15.2    3.8e-62  210.7  15.2    1.1  1  XP_002100867.1  odorant receptor 10a isoform X2 [Drosophila y
+    3.1e-62  211.0  15.2    3.8e-62  210.7  15.2    1.1  1  XP_039226845.1  odorant receptor 10a isoform X2 [Drosophila y
+    3.5e-61  207.5  21.9    5.4e-61  206.9  21.9    1.3  1  XP_002088904.1  odorant receptor 30a [Drosophila yakuba]
+    9.6e-61  206.1   4.8    1.3e-60  205.6   4.8    1.1  1  XP_039226551.1  odorant receptor 43a isoform X1 [Drosophila y
+    1.3e-60  205.6  15.5    1.8e-60  205.2  15.5    1.1  1  XP_039226839.1  odorant receptor 10a isoform X1 [Drosophila y
+    1.3e-60  205.6  15.5    1.8e-60  205.2  15.5    1.1  1  XP_039226841.1  odorant receptor 10a isoform X1 [Drosophila y
+    6.1e-59  200.1  14.1    6.1e-59  200.1  14.1    1.4  1  XP_002090286.2  odorant receptor 47b [Drosophila yakuba]
+    1.6e-55  188.9  18.3    1.9e-55  188.7  18.3    1.1  1  XP_002094289.1  odorant receptor 67c [Drosophila yakuba]
+    3.9e-55  187.6  12.3    3.9e-55  187.6  12.3    1.4  1  XP_002086824.3  putative odorant receptor 92a [Drosophila yak
+    8.8e-53  179.9  13.5    1.4e-52  179.2  13.5    1.3  1  XP_039230310.1  odorant receptor 63a isoform X1 [Drosophila y
+    1.7e-52  179.0  16.2      2e-52  178.7  16.2    1.1  1  XP_015050488.1  putative odorant receptor 71a isoform X2 [Dro
+    8.4e-52  176.7  40.7    2.4e-32  112.7  16.8    2.2  2  XP_039229927.1  putative odorant receptor 69a [Drosophila yak
+    4.1e-51  174.4  12.6    6.7e-51  173.7  12.6    1.3  1  XP_002093286.3  odorant receptor 67a [Drosophila yakuba]
+    1.9e-50  172.2  14.5    1.9e-50  172.2  14.5    1.5  2  XP_039226135.1  odorant receptor 13a isoform X3 [Drosophila y
+      3e-50  171.6   8.0    4.5e-50  171.0   8.0    1.2  1  XP_039232194.1  odorant receptor 82a [Drosophila yakuba]
+    3.6e-50  171.3   5.8    4.8e-50  170.9   5.8    1.0  1  XP_039226847.1  odorant receptor 10a isoform X3 [Drosophila y
+    3.6e-50  171.3   5.8    4.8e-50  170.9   5.8    1.0  1  XP_039226850.1  odorant receptor 10a isoform X3 [Drosophila y
+    7.6e-50  170.3  15.6    7.6e-50  170.3  15.6    1.4  1  XP_002100758.2  odorant receptor 13a isoform X2 [Drosophila y
+    8.5e-50  170.1  15.6    8.5e-50  170.1  15.6    1.5  1  XP_039226134.1  odorant receptor 13a isoform X1 [Drosophila y
+      3e-47  161.7  11.6    3.9e-47  161.4  11.6    1.1  1  XP_002100948.2  putative odorant receptor 19b [Drosophila yak
+    1.4e-46  159.6  15.0    1.4e-46  159.6  15.0    1.4  1  XP_015049427.1  odorant receptor 67a [Drosophila yakuba]
+    9.3e-45  153.5  15.5    2.2e-44  152.3  15.5    1.7  1  XP_039228434.1  odorant receptor 56a [Drosophila yakuba]
+    5.5e-40  137.9  12.3    6.5e-40  137.6  12.3    1.0  1  XP_002098706.1  putative odorant receptor 98b [Drosophila yak
+    4.2e-39  135.0   0.4    4.2e-39  135.0   0.4    1.6  2  XP_039227242.1  odorant receptor 42b isoform X2 [Drosophila y
+    1.3e-28  100.5   6.3    1.9e-28  100.0   6.3    1.3  1  XP_002093923.1  putative odorant receptor 65b [Drosophila yak
+    2.3e-27   96.4  12.3    3.2e-27   96.0  12.3    1.1  1  XP_039230328.1  putative odorant receptor 71a isoform X1 [Dro
+    2.4e-27   96.4  14.6    3.4e-27   95.9  14.6    1.2  1  XP_002093922.1  odorant receptor 65a [Drosophila yakuba]
+    5.6e-26   91.9   6.0    9.1e-26   91.2   6.0    1.3  1  XP_015049841.1  putative odorant receptor 65c [Drosophila yak
+      6e-26   91.7  13.5      6e-26   91.7  13.5    1.7  2  XP_002096051.1  odorant receptor 83a [Drosophila yakuba]
+    1.1e-25   90.8   9.9    1.4e-25   90.5   9.9    1.1  1  XP_002096824.1  putative odorant receptor 85e [Drosophila yak
+    8.5e-23   81.4   7.1    1.2e-22   80.9   7.1    1.2  1  XP_002098107.2  putative odorant receptor 83c [Drosophila yak
+      2e-22   80.2  21.4      2e-22   80.2  21.4    2.0  2  XP_002093275.2  odorant receptor 67b [Drosophila yakuba]
+    2.1e-21   76.9  12.3    2.9e-21   76.3  12.3    1.2  1  XP_002099663.1  odorant receptor 1a isoform X2 [Drosophila ya
+    2.4e-21   76.6  11.8    3.7e-21   76.0  11.8    1.2  1  XP_039230016.1  odorant receptor 1a isoform X5 [Drosophila ya
+    2.7e-21   76.4  12.0    4.2e-21   75.8  12.0    1.2  1  XP_039230012.1  odorant receptor 1a isoform X4 [Drosophila ya
+    4.6e-21   75.7   3.9    4.6e-21   75.7   3.9    1.6  2  XP_039226136.1  odorant receptor 13a isoform X4 [Drosophila y
+    5.8e-21   75.4  12.8    8.8e-21   74.8  12.8    1.2  1  XP_039230005.1  odorant receptor 1a isoform X1 [Drosophila ya
+    1.5e-18   67.5  12.5    1.5e-18   67.5  12.5    1.4  1  XP_002094291.1  odorant receptor 67d [Drosophila yakuba]
+    2.1e-17   63.7   5.5    2.9e-17   63.2   5.5    1.2  1  XP_039228708.1  odorant receptor 49a [Drosophila yakuba]
+    5.2e-15   55.8   7.5    6.9e-15   55.4   7.5    1.1  1  XP_039230017.1  odorant receptor 1a isoform X6 [Drosophila ya
+    5.7e-13   49.1  15.6    7.5e-13   48.7  15.6    1.2  1  XP_002095029.1  odorant receptor 74a [Drosophila yakuba]
+      6e-07   29.3   0.0    6.7e-07   29.2   0.0    1.0  1  XP_043062971.1  putative odorant receptor 65c [Drosophila yak
+  ------ inclusion threshold ------
+      0.064   12.8   5.5       0.11   12.0   5.4    1.5  1  XP_002087334.3  putative gustatory receptor 2a isoform X4 [Dr
+      0.072   12.7   5.2       0.14   11.7   5.2    1.5  1  XP_002099984.1  gustatory receptor 5a for trehalose [Drosophi
+
+
+Domain annotation for each sequence (and alignments):
+>> XP_002096053.1  odorant receptor coreceptor isoform X1 [Drosophila yakuba]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -1.5   1.2       4.8   1.5e+03     195     225 ..      34      63 ..      30      67 .. 0.79
+   2 !  459.8   9.1  1.7e-140  5.4e-138       1     313 []      70     476 ..      70     476 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: -1.5 bits;  conditional E-value: 4.8
+           7tm_6 195 ifsaallvqfllsalvlclllfqllfisgen 225
+                     + + + +++ + s++ l +ll+q++fi   n
+  XP_002096053.1  34 FTGGSAFMKKVYSSAHLVFLLMQFTFILV-N 63 
+                     56677788889999999999999999876.5 PP
+
+  == domain 2  score: 459.8 bits;  conditional E-value: 1.7e-140
+           7tm_6   1 evnelltnlqttltfivcitKflllavnrkefyelinllrqldtrpl.aeeeeriheialaekrrk.fllvilfilasalalilil.....vkmv 88 
+                     evnel++n++ttl+f++citKf++lavn+k+fy+++n+++q++t+pl ae+++r+h+iala k+rk f+lv+l+++asa+a+++i+     vkmv
+  XP_002096053.1  70 EVNELSGNTITTLFFTHCITKFIYLAVNQKNFYRTLNIWNQVNTHPLfAESDARYHSIALA-KMRKlFFLVMLTTVASATAWTTITffgdsVKMV 163
+                     69***********************************************************.********************************* PP
+
+           7tm_6  89 ldhetnsplpleip......fpydwnasegmyyi.syafqilgvlfsvlqnillDvlfcslllflclhlqlLkgrleelged............. 163
+                     +dhetns++p+eip      f y+wnas+gm+y+ s++fqi++vlfs+++++l+Dv+fcs+l+f+c++lq+Lkg++++l+e+             
+  XP_002096053.1 164 VDHETNSSIPVEIPrlpiksF-YPWNASHGMFYMiSFVFQIYYVLFSMIHSNLCDVMFCSWLIFACEQLQHLKGIMKPLMELsasldtyrpnsaa 257
+                     *******************99.************************************************************************* PP
+
+           7tm_6 164 ..................................................................nelteeee...rqeLkecverHkhivrlv 189
+                                                                                       n+lt+++e   r+++k++verHkh+vrlv
+  XP_002096053.1 258 lfrslsanskselihneekdpatdmdmsgiysskadwgaqfrapstlqsfggnggggngmvnganpNGLTKKQEmmvRSAIKYWVERHKHVVRLV 352
+                     *********************************************************************************************** PP
+
+           7tm_6 190 aaindifsaallvqfllsalvlclllfqllfisgenvqaitvvlYllaallqvflyCyfGnelieeseslaeAaYssnWydasreyrrllliviq 284
+                     aai+d+++aall+++l+s+++l+ll++q+++i+g+nv+a+tvv+Yl++al+qvf++C+fGn+liees+s++eAaYs++Wyd+s+e++++++iv+q
+  XP_002096053.1 353 AAIGDTYGAALLLHMLTSTIKLTLLAYQATKINGVNVYAFTVVGYLGYALAQVFHFCIFGNRLIEESSSVMEAAYSCHWYDGSEEAKTFVQIVCQ 447
+                     *********************************************************************************************** PP
+
+           7tm_6 285 raqrpmsisaggfftisLdtFasvlkaay 313
+                     ++q++msis+++fft+sLd+Fasvl+a++
+  XP_002096053.1 448 QCQKAMSISGAKFFTVSLDLFASVLGAVV 476
+                     **************************986 PP
+
+>> XP_039228114.1  LOW QUALITY PROTEIN: odorant receptor 59a [Drosophila yakuba]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  318.3  15.6     2e-97   6.4e-95       2     313 .]      65     387 ..      64     387 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 318.3 bits;  conditional E-value: 2e-97
+           7tm_6   2 vnelltnlqttltfivcitKflllavnrkefyelinllrqldtrplaeeeeriheialaekrrkfllvilfilasalalililvkmvldhetnsp 96 
+                     ++e + nl+t++t+++c++K+ll+a+n +e+ e+++llr+ld+r++ + ++ i+ +++   +++ +++++fi +++ +++++ +++++++e+   
+  XP_039228114.1  65 LTEDILNLTTFATCTACSVKCLLYAYNIQEVLEMERLLRLLDERVAGPVQRGIYGQVRV--QLR-NVLYIFIGIYMPCALFAELSFLFKEER--G 154
+                     6899*******************************************************..777.7**************************..* PP
+
+           7tm_6  97 lpleipfpydwnasegmyyisyafqilgvlfsvlqnillDvlfcslllflclhlqlLkgrleelgednelteeeerqeLkecverHkhiv..... 186
+                     l+++++fp+dw +s ++yyi++a+qi+g++f++lqn+++D++++++l+++++h+++L++r+ee+g d+ + +e   q+L++c+++Hkhi+     
+  XP_039228114.1 155 LMYPAWFPFDWLHSARNYYIANAYQIVGISFQLLQNYVSDCFPAVVLCLISSHIKMLYKRFEEVGLDPARCAE---QDLEACITDHKHILewvas 246
+                     *******************************************************************999999...79***************** PP
+
+           7tm_6 187 ..............rlvaaindifsaallvqfllsalvlclllfqllfisgenvqaitvvlYllaallqvflyCyfGnelieeseslaeAaYssn 267
+                                   rl++++++++s ++l+qf+++al++c+ + +l+f+++e+++++++++Y la+ lq+f++CyfG+++++++ +l++Aa+s+n
+  XP_039228114.1 247 lxrilfiftalffaRLFRRVEAFISLPMLIQFTVTALNVCIGIAALVFFVSEPMSRMYFIFYSLAMPLQIFPSCYFGTDNEYWFGRLHYAAFSCN 341
+                     *********************************************************************************************** PP
+
+           7tm_6 268 WydasreyrrllliviqraqrpmsisaggfftisLdtFasvlkaay 313
+                     W+++sr+++r+++++++++ ++++  agg+++i+LdtF+s+lk+ay
+  XP_039228114.1 342 WHTQSRSFKRKMMLFVEQSLKKSTAVAGGMMRIHLDTFFSTLKGAY 387
+                     ********************************************98 PP
+
+>> XP_002090113.1  odorant receptor 42b isoform X1 [Drosophila yakuba]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -2.3   0.6       7.9   2.5e+03     213     246 ..      22      56 ..      21      65 .. 0.50
+   2 !  297.1  10.0     6e-91   1.9e-88       2     313 .]      77     381 ..      76     381 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: -2.3 bits;  conditional E-value: 7.9
+           7tm_6 213 lllfqllfisg..envqaitvvlYllaallqvflyC 246
+                     ++l++++++ g   + q++   +Yl    l +f++C
+  XP_002090113.1  22 IYLYRAMKFIGwlPPKQGVLRYVYLTWT-LMTFVWC 56 
+                     5555555555555555555555554332.2344444 PP
+
+  == domain 2  score: 297.1 bits;  conditional E-value: 6e-91
+           7tm_6   2 vnelltnlqttltfivcitKflllavnrkefyelinllrqldtrplaeeeeriheialaekrrkfllvilfilasalalililvkmvldhetnsp 96 
+                     + e+lt+lq++++ + +++K+ +++  ++++ ++ n+l+qld r++a ee++++++++a  r +  ++ +f+++++ ++ +++++ vl++ +  p
+  XP_002090113.1  77 PGEFLTSLQVCINAYGSSVKVAITYSMLWRLIKAKNILDQLDLRCTAMEEREKIHRVVA--RSN-HAFLIFTFVYCGYAGSTYLSSVLSGRP--P 166
+                     579********************************************************..999.9**************************..* PP
+
+           7tm_6  97 lpleipfpydwnasegmyyisyafqilgvlfsvlqnillDvlfcslllflclhlqlLkgrleelgednelteeeerqeLkecverHkhivrlvaa 191
+                     ++l++pf +dw+  +  ++++  +++++++ +vlq+ l+D+++++++l+l++hl++L++r+++l++d +l+e+e+++eL++cv +Hk i+r++a 
+  XP_002090113.1 167 WQLYNPF-IDWHDGTLKLWVASTLEYMVMSGAVLQDQLSDTYPLIYTLILRAHLDMLRERIRRLRSDGNLSEAESYEELVKCVMDHKLILRYCAI 260
+                     *******.*************************************************************************************** PP
+
+           7tm_6 192 indifsaallvqfllsalvlclllfqllfisgenvqaitvvlYllaallqvflyCyfGnelieeseslaeAaYssnWydasreyrrllliviqra 286
+                     i++++s ++++qfll++lvl+l+l++++f+s+ ++++i+++++++++llq+f++Cy +n+++e++esl++A+++snW+dasr+y+++ll+++q++
+  XP_002090113.1 261 IKPVISGTIFTQFLLIGLVLGLTLINVFFFSD-IWTGIASFMFVITILLQTFPFCYTCNLIMEDCESLTHAIFQSNWVDASRRYKTTLLYFLQNV 354
+                     ********************************.************************************************************** PP
+
+           7tm_6 287 qrpmsisaggfftisLdtFasvlkaay 313
+                     q+p+ + agg+f+is++ ++sv+k+a+
+  XP_002090113.1 355 QQPIVFIAGGIFQISMSSNISVAKFAF 381
+                     *************************96 PP
+
+>> XP_002088410.1  odorant receptor 33b [Drosophila yakuba]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  288.5   9.4   2.5e-88   7.9e-86       2     313 .]      62     369 ..      61     369 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 288.5 bits;  conditional E-value: 2.5e-88
+           7tm_6   2 vnelltnlqttltfivcitKflllavnrkefyelinllrqldtrplaeeeeriheialaekrrkfllvilfilasalalililvkmvldhetnsp 96 
+                     v e+++ l +t+ ++++++Kf+++ ++++e+++++ l+++ld+r++++ee + ++++ + +  + +++ +fi+a+ l  i++++++++++ +  +
+  XP_002088410.1  62 VREVCKGLPITAACFFASFKFICFRIKLSEIKDIEILFKELDQRAVSQEECEFFNQNTR-REAN-FIWKSFIVAYGLSNISAIASVLFGGGH--K 152
+                     789********************************************************.6666.***************************..* PP
+
+           7tm_6  97 lpleipfpydwnasegmyyisyafqilgvlfsvlqnillDvlfcslllflclhlqlLkgrleelgednelteeeerqeLkecverHkhivrlvaa 191
+                     l ++++fpyd +ase  +++s+ +qi+gv++++lqn+++D++++++++++++h++lL++rl+++g+ +e+t+    ++L+ec+e+H++++++v+ 
+  XP_002088410.1 153 LLYPAWFPYDVQASELIFWLSVTYQIAGVSLAILQNLANDSYPPMTFCVVAGHVRLLAMRLSRIGQGPEETKYSTGKQLIECIEDHRKLMKIVEL 247
+                     *************************************************************************99******************** PP
+
+           7tm_6 192 indifsaallvqfllsalvlclllfqllfisgenvqaitvvlYllaallqvflyCyfGnelieeseslaeAaYssnWydasreyrrllliviqra 286
+                     +++++++++l qf++s+++++++l+++lf++++n+++ ++ +Y+l ++l++f++Cy+G++++ e+++l++A+YssnW+ ++r y r+lli++q +
+  XP_002088410.1 248 LRSTMNISQLGQFISSGINISITLINILFFAENNFAVTYYGVYFLSMVLELFPCCYYGTLISMEMNQLTYAIYSSNWMRMDRGYSRILLIFMQLT 342
+                     *********************************************************************************************** PP
+
+           7tm_6 287 qrpmsisaggfftisLdtFasvlkaay 313
+                        ++i+agg++ i +++F++++++ay
+  XP_002088410.1 343 LAEVQIKAGGMIGIGMNAFFATVRLAY 369
+                     *************************98 PP
+
+>> XP_002092618.3  odorant receptor 59b [Drosophila yakuba]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  287.3   7.1   5.7e-88   1.8e-85       2     313 .]      96     400 ..      95     400 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 287.3 bits;  conditional E-value: 5.7e-88
+           7tm_6   2 vnelltnlqttltfivcitKflllavnrkefyelinllrqldtrplaeeeeriheialaekrrkfllvilfilasalalililvkmvldhetnsp 96 
+                     + e+lt+lq++++++ +++K  ++++ ++++++++ ll++ld+r +++++++++++++a  r++ +++ ++ ++++ ++ ++++++ l++ +  p
+  XP_002092618.3  96 PGEFLTSLQVCINVYGASVKSTITYLFLWRLRKTEILLDSLDKRLANDSDRERIHNMVA--RCN-YAFLIYSFIYCGYAGSTFLSYALSGRP--P 185
+                     579********************************************************..***.***************************..* PP
+
+           7tm_6  97 lpleipfpydwnasegmyyisyafqilgvlfsvlqnillDvlfcslllflclhlqlLkgrleelgednelteeeerqeLkecverHkhivrlvaa 191
+                     + +++pf +dw+  +g ++i+ +f++++++f+vlq+ l+D++++++++++++h+++Lk+++++l+ +++++e++++q+L++cv +Hk+i+++++ 
+  XP_002092618.3 186 WSVYNPF-IDWRDGMGSLWIQAIFEYITMSFAVLQDQLSDTYPLMFTIMFRAHMEVLKDHVRNLRMNPDRSEADNYQDLVNCVLDHKTILKCCDM 279
+                     *******.*************************************************************************************** PP
+
+           7tm_6 192 indifsaallvqfllsalvlclllfqllfisgenvqaitvvlYllaallqvflyCyfGnelieeseslaeAaYssnWydasreyrrllliviqra 286
+                     i++++s++++vqf l++ vl+l+l++++f+s+  +++++++l+++++llq+f++Cy +n+li++ ++l++ +++snW+da+++y+ +l+ +++++
+  XP_002092618.3 280 IRPMISRTIFVQFALIGSVLGLTLVNVFFFSN-FWKGVASLLFVITILLQTFPFCYTCNMLIDDAQDLSNEIFQSNWVDAEPRYKATLVHFMHHV 373
+                     ********************************.************************************************************** PP
+
+           7tm_6 287 qrpmsisaggfftisLdtFasvlkaay 313
+                     q+p+ + agg+f+is++ ++sv+k+a+
+  XP_002092618.3 374 QQPIIFIAGGIFPISMNSNISVAKFAF 400
+                     *************************96 PP
+
+>> XP_039228041.1  putative odorant receptor 59c [Drosophila yakuba]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  281.1  19.0   4.5e-86   1.4e-83       2     313 .]      80     385 ..      79     385 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 281.1 bits;  conditional E-value: 4.5e-86
+           7tm_6   2 vnelltnlqttltfivcitKflllavnrkefyelinllrqldtrplaeeeeriheialaekrrkfllvilfilasalalililvkmvldhetnsp 96 
+                     ++e+lt+lq+++++i +++K ++++ + ++f+++ +l+ +ld+r+++++++ri++++++  r + l+v+lf  +++ +++l+l++ v+ ++   p
+  XP_039228041.1  80 PTEFLTSLQVVINCIGNVIKTCVTYSQMWRFRRMNELISSLDQRCVTPSQRRIFHKMVT--RSN-LIVMLFLSTYLGFCFLNLFTSVFAGKA--P 169
+                     79*********************************************************..999.***************************..* PP
+
+           7tm_6  97 lpleipfpydwnasegmyyisyafqilgvlfsvlqnillDvlfcslllflclhlqlLkgrleelgednelteeeerqeLkecverHkhivrlvaa 191
+                     ++l++pf +dw+  +++++i+ ++++++v++  +q +l+D+++++++ ++++hl +L +r+ +l++d el+e+e++++L++c+++H++i+++ + 
+  XP_039228041.1 170 WQLYNPF-VDWQDGRWQLWIASILEYCVVSIGTMQELLSDTYAIVFISLFRCHLAILTDRIANLRQDAELSERENCEQLVACIQDHRTIIQCSQI 263
+                     *******.*************************************************************************************** PP
+
+           7tm_6 192 indifsaallvqfllsalvlclllfqllfisgenvqaitvvlYllaallqvflyCyfGnelieeseslaeAaYssnWydasreyrrllliviqra 286
+                     i++i+s+++++qf+l+++ l+l+++++lf+ ++++++++ v +++a++++ f++C+ +++lie+s ++++A+++snW+ a+r+y++++l++++ra
+  XP_039228041.1 264 IRPILSITIFAQFMLVGIDLGLAAISILFFPNTIWTIMANVSFIVAICTESFPFCMLCEHLIEDSVHVSNALFHSNWISAERRYKSAVLYFLHRA 358
+                     *********************************************************************************************** PP
+
+           7tm_6 287 qrpmsisaggfftisLdtFasvlkaay 313
+                     q+p++++ag +f+is + +++v+k+a+
+  XP_039228041.1 359 QQPIQFTAGSIFPISVQSNIAVAKFAF 385
+                     *************************96 PP
+
+>> XP_002088409.2  odorant receptor 33a [Drosophila yakuba]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  276.1   7.9   1.5e-84   4.6e-82       4     313 .]      62     367 ..      60     367 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 276.1 bits;  conditional E-value: 1.5e-84
+           7tm_6   4 elltnlqttltfivcitKflllavnrkefyelinllrqldtrplaeeeeriheialaekrrkfllvilfilasalalililvkmvldhetnsplp 98 
+                     +++++l +t+ +++c+ Kf+++ ++++e++ l++ll+ ld r+ +eee+++++++ +  r+ + +  ++ +a + a+i++++  ++++ +  +l+
+  XP_002088409.2  62 QVFRSLHFTSECLFCSYKFFCFRWKLHEIKALERLLQDLDNRAESEEERNYFNKNPS--RVARIISKSYLVAAISAIITATIAGLFSSGR--NLM 152
+                     67899****************************************************..66669**************************..*** PP
+
+           7tm_6  99 leipfpydwnasegmyyisyafqilgvlfsvlqnillDvlfcslllflclhlqlLkgrleelgednelteeeerqeLkecverHkhivrlvaain 193
+                     +  +fpy+++a+   y++s+a+q++g+++ +l n+++D++++++++++++h++lL +rl ++g+d +++ +e+ +eL+e +++H++++++v+ ++
+  XP_002088409.2 153 YLGWFPYNFQATASIYWLSFAYQAIGSSLLILENLANDSYPPITFCVVTGHVRLLVMRLGRIGHDAKKSGSEHTKELIEGIQDHRKLMQIVRLLR 247
+                     ***********************************************************************99********************** PP
+
+           7tm_6 194 difsaallvqfllsalvlclllfqllfisgenvqaitvvlYllaallqvflyCyfGnelieeseslaeAaYssnWydasreyrrllliviqraqr 288
+                     +i++ ++l qfl+s+++++++l+++lf++++n+++i+++++++a+++++f++Cy+G++++ e+++l +A++ssnW++++r++ r+l+i++q +  
+  XP_002088409.2 248 SILRLTQLGQFLSSGINISITLINILFFAENNFAMIYYAVFFAAMFIELFPSCYYGTLMTMEFDKLPYAIFSSNWLKMDRRHNRSLIILMQLTLV 342
+                     *********************************************************************************************** PP
+
+           7tm_6 289 pmsisaggfftisLdtFasvlkaay 313
+                     p++i+agg++ i++ +F++++++ay
+  XP_002088409.2 343 PVNIKAGGIVGIDMGAFFATVRMAY 367
+                     ************************9 PP
+
+>> XP_002100282.1  odorant receptor 2a [Drosophila yakuba]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  265.1  11.2   3.2e-81   9.9e-79       1     313 []      68     390 ..      68     390 .. 0.96
+
+  Alignments for each domain:
+  == domain 1  score: 265.1 bits;  conditional E-value: 3.2e-81
+           7tm_6   1 evnelltnlqttltfivcitKflllavnrkefyelinllrqldtrplaeeeeriheiala.ekrrkfllvilfilasalalililvkmvldhetn 94 
+                     +++ l++nl++t+t iv+ +Kf ++++ rk+++e+ +llr++d+r+    ++++++ +++ ++  +   ++ f  ++++ ++l+++++v++  + 
+  XP_002100282.1  68 NMAGLCENLTITITDIVANLKFANVYIVRKQLHEIRSLLRLMDARAMLVGDPEEVSALRReVNIAQ-STFRTFASIFVFGTTLSCIRVVVRPDR- 160
+                     67889*******************************************************777777.89999999999999999**********. PP
+
+           7tm_6  95 splpleipfpydwnasegmyyisyafqilgvlfsvlqnillDvlfcslllflclhlqlLkgrleelged.......nelteeee...rqeLkecv 179
+                      +l ++++f +dw++s+++y++++++q++g+ ++++qn+++D++++++l++l++h+++L+ r++++g++        ++ e ++   +qeL+ec+
+  XP_002100282.1 161 -ELLYPAWFGVDWMHSTRNYVLINIYQLFGLVVQAIQNCASDSYPPAFLCLLTGHMRALELRVRRIGSRpeksstiAQSYEVWRehvYQELVECI 254
+                     .********************************************************************887777745555555789******** PP
+
+           7tm_6 180 erHkhivrlvaaindifsaallvqfllsalvlclllfqllfisg..envqaitvvlYllaallqvflyCyfGnelieeseslaeAaYssnWydas 272
+                     ++  ++ rl + i++++s a+++qf +sa+v c++++++l +++  +++++i++++++la++l+vf++CyfG+++ ++se+l++A+Y++nW+++ 
+  XP_002100282.1 255 RDLMRVHRLREIIQRVLSGACMAQFACSAAVQCTVAMHFLYMADehDHTAMIISIVFFLAVTLEVFVICYFGDRMRTQSEALCDAFYDCNWVEQL 349
+                     ********************************************9999*********************************************** PP
+
+           7tm_6 273 reyrrllliviqraqrpmsisaggfftisLdtFasvlkaay 313
+                     ++++r ll+ ++r+qrp+ i ag+++++sL+tF +v++++y
+  XP_002100282.1 350 PKFKRELLFTLARTQRPSLIYAGNYIALSLETFEQVMRFTY 390
+                     ***************************************98 PP
+
+>> XP_002101173.1  odorant receptor 7a [Drosophila yakuba]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  264.4  17.5   5.4e-81   1.7e-78       1     313 []      80     394 ..      80     394 .. 0.97
+
+  Alignments for each domain:
+  == domain 1  score: 264.4 bits;  conditional E-value: 5.4e-81
+           7tm_6   1 evnelltnlqttltfivcitKflllavnrkefyelinllrqldtrplaeeeeriheialaekrrkfllvilfilasalalililvkmvldhetns 95 
+                     e++++lt+ q+ +  +++ +K+++la+n+  +++++++l +ld+r++++ee + + +a++  +++ +lv++++++++++++++++ ++l +++  
+  XP_002101173.1  80 EITQVLTSAQVAIDAVFLPAKIVALAWNLPLLRRAEHHLAALDARCREQEEFQSILDAVR--FCN-YLVWFYQICYVIYSSSTFLCAFLLGQP-- 169
+                     58999*******************************************************..***.***************************.. PP
+
+           7tm_6  96 plpleipfpydwnasegmyyisyafqilgvlfsvlqnillDvlfcslllflclhlqlLkgrleelged.........nelteeeerqeLkecver 181
+                     p +l++p   dw++s+++++i+ ++++l++ +++l++ + Dv+++++l++++l++qlL++r+e+lg+d         +e+++ee+++eL++c+ +
+  XP_002101173.1 170 PYALYLPG-LDWQRSQMQFCIQAWIEFLIMNWTCLHQASDDVYAVIYLYVVRLQVQLLARRVEKLGRDengqleinpDERRQEEHCAELQRCIVD 263
+                     ********.******************************************************************7545555555********** PP
+
+           7tm_6 182 HkhivrlvaaindifsaallvqfllsalvlclllfqllfisgenvqaitvvlYllaallqvflyCyfGnelieeseslaeAaYssnWydasreyr 276
+                     H+++++l + i++++s++++vqfl++a+++++++++++++++ + + i++++Yl+a+ lq+ ++Cy ++ l+ ++e+la A+++++W+++s ++r
+  XP_002101173.1 264 HQTMLQLLDCISPVISRTIFVQFLITAAIMGTTMINIFIFAN-TNTKIASIIYLMAVPLQTAPCCYQATSLMLDNEKLALAIFQCQWLGQSARFR 357
+                     ******************************************.9999************************************************ PP
+
+           7tm_6 277 rllliviqraqrpmsisaggfftisLdtFasvlkaay 313
+                     ++ll++++raq+p++++a+++f+i+L+t++s++k+++
+  XP_002101173.1 358 KMLLYYLHRAQQPITLTAMKLFPINLATYFSIAKFSF 394
+                     **********************************985 PP
+
+>> XP_002087705.1  odorant receptor 23a [Drosophila yakuba]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  255.5  14.2   2.7e-78   8.5e-76       4     313 .]      62     365 ..      59     365 .. 0.96
+
+  Alignments for each domain:
+  == domain 1  score: 255.5 bits;  conditional E-value: 2.7e-78
+           7tm_6   4 elltnlqttltfivcitKflllavnrkefyelinllrqldtrplaeeeeriheialaekrrkfllvilfilasalalililvkmvldhetnsplp 98 
+                     e   +l++t+t++ +i+K+ +++++++++ e+ +l+ qld+r++ e+++++h+++ a   ++  +  lf++++al++i++ v++v+++e   +lp
+  XP_002087705.1  62 ENNFSLSLTITSLSNIMKLSMYVAQLTKLFEVQRLIGQLDARVAGENQSERHRNMTA-HLQR--MSKLFQITYALVFIFAAVPFVFKNEL--SLP 151
+                     56678999*************************************************.4444..78************************..*** PP
+
+           7tm_6  99 leipfpydwnasegmyyisyafqilgvlfsvlqnillDvlfcslllflclhlqlLkgrleelgednelteeeerqeLkecverHkhivrlvaain 193
+                     +++++p+dw++s++ y+ + +fq +g+ f+++q+ ++D+++++ l+++++++qlL  r++e+g   ++ ee+  q+L++c+++++ + rl +  +
+  XP_002087705.1 152 MPMWIPFDWKSSMVAYIGVLVFQEIGYIFQIMQSFAADSFPPLALYLISEQCQLLILRISEIGYGSKTLEEN-EQDLVNCIRDQNALYRLLDVTK 245
+                     **********77666666***********************************************6666665.6********************* PP
+
+           7tm_6 194 difsaallvqfllsalvlclllfqllfisgenvqaitvvlYllaallqvflyCyfGnelieeseslaeAaYssnWydasreyrrllliviqraqr 288
+                     +++s +++vqf++ ++++ ++lf  +f++++ +++i+++++ll ++lq+f++Cy+G+++ +++++l++A++ snW+++s +yrr++li+ +r++r
+  XP_002087705.1 246 SVISYPMMVQFMVNGINIAITLFVQIFYVETLYDRIYYLCFLLGITLQTFPLCYYGTRVQDSFAELHYAVFCSNWVEQSASYRRHMLILAERTKR 340
+                     *********************************************************************************************** PP
+
+           7tm_6 289 pmsisaggfftisLdtFasvlkaay 313
+                     +  + ag++++i+++t++++ k+ay
+  XP_002087705.1 341 TQLLLAGNLVPIHMSTYVACCKGAY 365
+                     **********************998 PP
+
+>> XP_002098746.2  odorant receptor 98a [Drosophila yakuba]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  254.9  10.9   4.2e-78   1.3e-75       2     313 .]      75     379 ..      74     379 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 254.9 bits;  conditional E-value: 4.2e-78
+           7tm_6   2 vnelltnlqttltfivcitKflllavnrkefyelinllrqldtrplaeeeeriheialaekrrkfllvilfilasalalililvkmvldhetnsp 96 
+                     +nellt+lq++++++ + +K++++ v+ + fy++ +ll ++d+r+++ +e++++++ +    ++  ++ ++++++++++i++++++ l+++   p
+  XP_002098746.2  75 PNELLTVLQLFFNSVGMPFKVIFFNVYISGFYKAKKLLSEMDKRCTTMKERVEVHRSVV--SCN-KAYLIYQFIYTAYTISTFLSAALSGKL--P 164
+                     79*********************************************************..888.89*************************..* PP
+
+           7tm_6  97 lpleipfpydwnasegmyyisyafqilgvlfsvlqnillDvlfcslllflclhlqlLkgrleelgednelteeeerqeLkecverHkhivrlvaa 191
+                     + +++pf +dw+as+  ++ + + +++ +lf+v+q +++D++++++ l+l++h++lL+ r+e+l ++++++++e+ q+L++c+++Hk i +++aa
+  XP_002098746.2 165 WRIYNPF-VDWRASRSSFWNAALNETALMLFAVTQTLMSDIYPLLYGLILRVHIKLLRLRVEKLCTEPGKSDAENEQDLIKCIKDHKLIFEYAAA 258
+                     *******.*************************************************************************************** PP
+
+           7tm_6 192 indifsaallvqfllsalvlclllfqllfisgenvqaitvvlYllaallqvflyCyfGnelieeseslaeAaYssnWydasreyrrllliviqra 286
+                     i++ +s ++l+qfll++++l+l++++llf+s+ ++++++ v+Y+  +++q+f++C+++++l +++e l  A+++snW+  sr+y+++l+++++++
+  XP_002098746.2 259 IRPAISCTILIQFLLIGICLGLSMINLLFFSD-IWTGLATVAYINGLMVQTFPFCFVCDLLRTDCELLVSAIFHSNWIHSSRSYKSTLIYFLKNS 352
+                     ********************************.************************************************************** PP
+
+           7tm_6 287 qrpmsisaggfftisLdtFasvlkaay 313
+                     q+ + ++ag +f+is + +++v+k+a+
+  XP_002098746.2 353 QKSIAFTAGSVFPISTRSNIKVAKLAF 379
+                     ************************986 PP
+
+>> XP_015047136.1  odorant receptor coreceptor isoform X2 [Drosophila yakuba]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -1.0   1.2       3.4   1.1e+03     195     225 ..      34      63 ..      30      67 .. 0.79
+   2 !  254.4   1.5     6e-78   1.9e-75       1     195 [.      70     358 ..      70     365 .. 0.98
+
+  Alignments for each domain:
+  == domain 1  score: -1.0 bits;  conditional E-value: 3.4
+           7tm_6 195 ifsaallvqfllsalvlclllfqllfisgen 225
+                     + + + +++ + s++ l +ll+q++fi   n
+  XP_015047136.1  34 FTGGSAFMKKVYSSAHLVFLLMQFTFILV-N 63 
+                     56777788889999999999999999876.5 PP
+
+  == domain 2  score: 254.4 bits;  conditional E-value: 6e-78
+           7tm_6   1 evnelltnlqttltfivcitKflllavnrkefyelinllrqldtrpl.aeeeeriheialaekrrk.fllvilfilasalalilil.....vkmv 88 
+                     evnel++n++ttl+f++citKf++lavn+k+fy+++n+++q++t+pl ae+++r+h+iala k+rk f+lv+l+++asa+a+++i+     vkmv
+  XP_015047136.1  70 EVNELSGNTITTLFFTHCITKFIYLAVNQKNFYRTLNIWNQVNTHPLfAESDARYHSIALA-KMRKlFFLVMLTTVASATAWTTITffgdsVKMV 163
+                     69***********************************************************.********************************* PP
+
+           7tm_6  89 ldhetnsplpleip......fpydwnasegmyyi.syafqilgvlfsvlqnillDvlfcslllflclhlqlLkgrleelged............. 163
+                     +dhetns++p+eip      f y+wnas+gm+y+ s++fqi++vlfs+++++l+Dv+fcs+l+f+c++lq+Lkg++++l+e+             
+  XP_015047136.1 164 VDHETNSSIPVEIPrlpiksF-YPWNASHGMFYMiSFVFQIYYVLFSMIHSNLCDVMFCSWLIFACEQLQHLKGIMKPLMELsasldtyrpnsaa 257
+                     *******************99.************************************************************************* PP
+
+           7tm_6 164 ..................................................................nelteeee...rqeLkecverHkhivrlv 189
+                                                                                       n+lt+++e   r+++k++verHkh+vrl+
+  XP_015047136.1 258 lfrslsanskselihneekdpatdmdmsgiysskadwgaqfrapstlqsfggnggggngmvnganpNGLTKKQEmmvRSAIKYWVERHKHVVRLF 352
+                     *********************************************************************************************** PP
+
+           7tm_6 190 aaindi 195
+                     + +  +
+  XP_015047136.1 353 DLLDYF 358
+                     998766 PP
+
+>> XP_002098364.1  odorant receptor 94a [Drosophila yakuba]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  253.8  11.1   8.8e-78   2.8e-75       1     313 []      69     376 ..      69     376 .. 0.96
+
+  Alignments for each domain:
+  == domain 1  score: 253.8 bits;  conditional E-value: 8.8e-78
+           7tm_6   1 evnelltnlqttltfivcitKflllavnrkefyelinllrqldtrplaeeeeriheialaekrrkfllvilfilasalalililvkmvldhetns 95 
+                     ++++++++l++ +t +++++K+l ++ +r++  +l+++++  + ++l+++ee+ ++++ +  r  +++++++il+s+ ++ + ++ +++ +    
+  XP_002098364.1  69 NLEQAGQVLYMSITEMALVVKILSIWHHRTKAWRLMQEFQYAPDYQLHSQEEMDFWRREQ--RYFKWFFYIYILISLGVVYSGCTGVLFLEDY-- 159
+                     57899*******************************************************..66679*********77777777777776666.. PP
+
+           7tm_6  96 plpleipfpydwnasegmyyisyafqilgvlfsvlqnillDvlfcslllflclhlqlLkgrleelgednelteeeerqeLkecverHkhivrlva 190
+                     +lp+ +++p++w+ +e++y+++y ++++g+++++++ni+lD+l c++l++++l+ +lL  rl+el++ +++ +    qeL++++  H++i rl+ 
+  XP_002098364.1 160 ELPFAYYVPFEWR-NERRYWFAYGYDMAGMTLTCISNITLDTLGCYFLFHIALLYRLLGLRLRELKNVQDDATFG--QELRAIFILHQRIRRLTL 251
+                     8888888888***.******************************************************9999996..9***************** PP
+
+           7tm_6 191 aindifsaallvqfllsalvlclllfqllfisg..envqaitvvlYllaallqvflyCyfGnelieeseslaeAaYssnWydasreyrrlllivi 283
+                     ++++i+s+++l q++lsal++c+++++l  ++   ++ q+i+++ ++ +++lq+fl Cy+Gne++   ++l++ +Y++nW+++ +++r+ll  ++
+  XP_002098364.1 252 TCESIVSPYILSQIVLSALIICFSGYRLQYVGIrdNPGQFIAMLQFVSVMILQIFLPCYYGNEITVYANQLTNEVYHTNWLECRPPIRKLLNAYM 346
+                     *****************************999888************************************************************ PP
+
+           7tm_6 284 qraqrpmsisaggfftisLdtFasvlkaay 313
+                     +++++p++i+ag+ff++ L++F++++++ay
+  XP_002098364.1 347 EHLKKPVTIRAGNFFAVGLPIFVKTINNAY 376
+                     ****************************98 PP
+
+>> XP_002090313.1  odorant receptor 47a [Drosophila yakuba]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  253.4  14.7   1.2e-77   3.7e-75       2     313 .]      57     375 ..      56     375 .. 0.97
+
+  Alignments for each domain:
+  == domain 1  score: 253.4 bits;  conditional E-value: 1.2e-77
+           7tm_6   2 vnelltnlqttltfivcitKflllavnrkefyelinllrqldtrplaeeeeriheiala.ekrrk..fllvilfilasalalililvkmvldhet 93 
+                     v +l ++++++l++i+ ++Kf ++++ r++f++li+++r+l+++++ + ee+ ++ ++a +++++  +l++++f la+al+++l++v+m +++++
+  XP_002090313.1  57 VMQLADAMVALLITILGLFKFSMILYLRRDFKRLIDKFRLLMSNEADQGEEYAEILNAAnKQDQRmcTLFRTCFLLAWALNSVLPFVRMGFSYWQ 151
+                     67899*****************************************99999999999998888888999************************** PP
+
+           7tm_6  94 ..nsplpleipfpydwnasegmyyi.syafqilgvlfsvlqnillDvlfcslllflclhlqlLkgrleelgednelteeeerqeLkecverHkhi 185
+                       + + +l++p++++wn + ++ y+ s+++++++++  vl +++lD++fcs++ +lc+ +++ ++++ +++   +l+e++  ++L+++++ +++ 
+  XP_002090313.1 152 sgHAEPELPFPCLFPWNIHIIRNYVlSFVWSAFASTGVVLPAVSLDTIFCSFTSNLCAFFKIAQYKVVRFRGG-SLKESQ--ATLNKVFALYQTS 243
+                     *****************999999999**********************************************9.888887..8************ PP
+
+           7tm_6 186 vrlvaaindifsaallvqfllsalvlclllfqllfisgenvqaitvvlYllaallqvflyCyfGnelieeseslaeAaYssnWyd......asre 274
+                     ++++ ++n+++++++++qf++s+l+lc+l++ +++++  + ++++++ +++++++q ++yCy+G++l++es+ +++A+Y+s+W+d      as++
+  XP_002090313.1 244 LDMCSDLNQCYQPIICAQFFISSLQLCMLGYLFSITFA-QSEGVYYASFIATIIIQAYIYCYCGENLKTESATFEWAIYDSPWHDslgaggASTS 337
+                     **************************************.******************************************************** PP
+
+           7tm_6 275 yrrllliviqraqrpmsisaggfftisLdtFasvlkaay 313
+                     ++r+lli ++ra+r+++i++++ f+ ++++F+s++++a+
+  XP_002090313.1 338 ICRSLLISMMRAHRGFRITGYF-FEANMEAFSSIVRTAM 375
+                     **********************.*************997 PP
+
+>> XP_002094166.1  odorant receptor 63a isoform X2 [Drosophila yakuba]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  251.3  17.1   5.1e-77   1.6e-74       9     312 ..      78     407 ..      70     408 .. 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 251.3 bits;  conditional E-value: 5.1e-77
+           7tm_6   9 lqttltfivcitKflllavnrkefyeli......nllrqldtrplaeeeeriheiala.ekrrk..fllvilfilasalalililvkmvldhet. 93 
+                       t l f+++i+K++++++ +k++y l+      +ll+ ++ ++++++ ++ ++i+++ e++++  +  ++ + l++++ +i+i+++++++++  
+  XP_002094166.1  78 AGTALQFLTSIAKMWYFLFAHKQIYHLLrkarchELLQRCELFERMSDLPVTKIIRQQvESTMNryWASTRRQLLIYLYSCICITTNYFINSFAi 172
+                     45667777********************9999999************************999999****************************99 PP
+
+           7tm_6  94 ...........nsplpleipfpydwn...asegmyyi.syafqilgvlfsvlqnillDvlfcslllflclhlqlLkgrleelged..nelteeee 171
+                                +++++l++p +y+ +     e++yy+ ++++++++++++ ++++++D++f++l+l+ +++++ L++++e+++++  + +++   
+  XP_002094166.1 173 nlyryftrpkgSYDIMLPLPSLYPAWehkGLEFPYYHiQMYLETCSLYICGMCAVSFDGIFIVLCLHSVGLMKSLNQMVEHATSElvPPDRRV-- 265
+                     ************************998888899**************************************************9965444555.. PP
+
+           7tm_6 172 rqeLkecverHkhivrlvaaindifsaallvqfllsalvlclllfqllfisg..envqaitvvlYllaallqvflyCyfGnelieeseslaeAaY 264
+                      + L++c+++++++++++a++n +f+++++ qflls ++++l+lfq++++ g  +++++i++++Yl+aa +q+++yCy+G++++++se++ +A+Y
+  XP_002094166.1 266 -EYLRCCIYQYQRVANFAAEVNGCFRHITFSQFLLSLFNWGLALFQMSVGLGdnSSITMIRMTMYLVAAGYQIVVYCYNGQRFATASEEIGNAFY 359
+                     .56************************************************988999************************************** PP
+
+           7tm_6 265 ssnWydasreyrrllliviqraqrpmsisaggfftisLdtFasvlkaa 312
+                     + +Wy+ sre+r+l+ ++++r++r++++++ +f+++sL+t++++++++
+  XP_002094166.1 360 QLRWYGESREFRHLIRMMLMRTNRGFRLDVSWFMQMSLPTLMAMVRTS 407
+                     ********************************************9986 PP
+
+>> XP_002088411.1  odorant receptor 33c [Drosophila yakuba]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  251.3  12.2   5.3e-77   1.6e-74       2     313 .]      62     373 ..      61     373 .. 0.97
+
+  Alignments for each domain:
+  == domain 1  score: 251.3 bits;  conditional E-value: 5.3e-77
+           7tm_6   2 vnelltnlqttltfivcitKflllavnrkefyelinllrqldtrplaeeeeriheiala.ekrrk.fllvilfilasalalililvkmvldhetn 94 
+                     ++e+++nl++ lt+++c++K ++ ++++ ++ e+++l+rqld++  +e e+r++++++  ++r+  ++l+ +f +++a++l+  lv+++ ++++ 
+  XP_002088411.1  62 PAEFMKNLTMSLTCVACSLKHVAHLYHLPQIVEIESLIRQLDAFIDSELEHRYYQDHVYcHARLFtRCLYGSFSMVYAVFLFGVLVQIISGRWE- 155
+                     689******************************************************9999999999***************************. PP
+
+           7tm_6  95 splpleipfpydwnasegmyyisyafqilgvlfsvlqnillDvlfcslllflclhlqlLkgrleelgednelteeeerqeLkecverHkhivrlv 189
+                       l ++++fp+d +++++   ++  +q++++ +  +q +++D++ +++l++l++h++l++ r+ +lg+++++t+ + +q+L+e++e+Hk +vr++
+  XP_002088411.1 156 --LIYPAYFPFDLESNSYLGAVALGYQVFSMVVEGFQGLGNDTYTPLTLCLLAGHVHLWSIRMAQLGHLEDETATN-HQRLREYIEQHKLLVRFH 247
+                     ..************99999999***********************************************8888885.7***************** PP
+
+           7tm_6 190 aaindifsaallvqfllsalvlclllfqllfisgenvqaitvvlYllaallqvflyCyfGnelieeseslaeAaYssnWydasreyrrllliviq 284
+                       +++++s+++lvq+  +++ lc+++ ++lf++++++++++++++++++++q+f++Cyf+ e++ee e+l +A++ss+Wyd+sr++r  +l ++q
+  XP_002088411.1 248 HLVRRTISEVQLVQLGGCGATLCIIVSYMLFFVSDTISMVYYLVFFGVVCVQLFPSCYFASEVAEEVERLPYAIFSSRWYDQSRDHRFDMLVFTQ 342
+                     *********************************************************************************************** PP
+
+           7tm_6 285 raq..rpmsisaggfftisLdtFasvlkaay 313
+                      +   r + i+agg+++++L++F+++lk+ay
+  XP_002088411.1 343 LTLrnRLWIIKAGGLIELNLNAFFATLKMAY 373
+                     **855679**********************9 PP
+
+>> XP_002089804.1  odorant receptor 45b [Drosophila yakuba]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  249.7   4.0   1.6e-76     5e-74       3     312 ..      70     385 ..      68     386 .. 0.97
+
+  Alignments for each domain:
+  == domain 1  score: 249.7 bits;  conditional E-value: 1.6e-76
+           7tm_6   3 nelltnlqttltfivcitKflllavnrkefyelinllrqldtrplaeeeeriheiala.ekrrk...fllvilfilasalalililvkmvldhet 93 
+                      +++++++++++++++++K+ +++++r+e+++l++++r+l  ++ ++e++r++  +++ + +++   +l+++l  +++ ++++ +l++m++++++
+  XP_002089804.1  70 VDAMDAFCPLACSFTTLFKLGWMWWRRQEVADLMDRIRLLIGEQEKKEDSRRKGAQRSyYLMVTrcgMLVFTLGSITTGAFVLRSLWEMWVRRHQ 164
+                     6899**********************************************************999999999************************ PP
+
+           7tm_6  94 nsplpleipfpydwn..asegmyyi.syafqilgvlfsvlqnillDvlfcslllflclhlqlLkgrleelgednelteeee....rqeLkecver 181
+                       ++++ +pf + ++  a+++++++ +y++++++ +++v  ++++D++f+ ++l+++ +l++L+++++++ +  ++ +  e    +++L+++v+r
+  XP_002089804.1 165 --EFKFDMPFRMLFHnfAHRMPWFPvFYLYSTWSGQVTVYAFVGTDGFFFGFTLYMAFLLRALRYDIQDALQPISDPSVREsnvcCRRLEDIVDR 257
+                     ..***************999999999*******************************************9999555444444799********** PP
+
+           7tm_6 182 HkhivrlvaaindifsaallvqfllsalvlclllfqllfisgenvqaitvvlYllaallqvflyCyfGnelieeseslaeAaYssnWydasreyr 276
+                     H+++ ++v++++ i+ a+++v+f++++lv+ ++++++l +sg  +++i++v+Y++++ + +flyCy+G e+++es sl eAaYss Wy+++re+r
+  XP_002089804.1 258 HNEMEKIVEEFSGIMAAPTFVHFVSASLVIATSVIDILLYSG--YNIIRYVVYTFTVSSAIFLYCYGGSEMSTESLSLGEAAYSSAWYTWDRETR 350
+                     ******************************************..*************************************************** PP
+
+           7tm_6 277 rllliviqraqrpmsisaggfftisLdtFasvlkaa 312
+                     r + ++i raqrpm++++++ f++sL++F+sv+k++
+  XP_002089804.1 351 RRVYLIILRAQRPMTVRVPF-FAPSLPVFTSVIKFT 385
+                     ********************.*************97 PP
+
+>> XP_002096795.1  odorant receptor 85a [Drosophila yakuba]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  246.6  15.1   1.4e-75   4.2e-73       2     313 .]      78     379 ..      77     379 .. 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 246.6 bits;  conditional E-value: 1.4e-75
+           7tm_6   2 vnelltnlqttltfivcitKflllavnrkefyelinllrqldtrplaeeeeriheialaekrrkfllvilfilasalalililvkmvldhetnsp 96 
+                     +++l+t +q+ +++ ++i+K +++++ r++f+ + + ++++d r+++ ee++++++a+a   ++  +v +++++++ +l+++l+ +++ ++t  p
+  XP_002096795.1  78 TTDLFTYVQVPVNTNASIMKGIIVLFMRRRFSTAQKMMDAMDIRCTKMEEKVQVHRAAA--LCN-RVVVIYHCIYFGYLSMALMGALVIGKT--P 167
+                     5789999****************************************************..999.89*************************..* PP
+
+           7tm_6  97 lpleipfpydwnasegmyyisyafqilgvlfsvlqnillDvlfcslllflclhlqlLkgrleelgednelteeeerqeLkecverHkhivrlvaa 191
+                     + l++p+  + +    ++y+++a++ +++   +l n++lDv++++++++l++h++lL++r+++l++d e+ + ++++eL++cv++Hk iv++ ++
+  XP_002096795.1 168 FCLYNPLVNPVE----HFYLATAIESITMVGIILANLILDVYPIIYVVILRIHMELLSERIKKLRTDVEKGDDQHYAELVDCVKDHKLIVEYGNT 258
+                     *******67776....9****************************************************************************** PP
+
+           7tm_6 192 indifsaallvqfllsalvlclllfqllfisgenvqaitvvlYllaallqvflyCyfGnelieeseslaeAaYssnWydasreyrrllliviqra 286
+                     +++++sa++++q+l+++l l+l+++++ f+++  ++++++ +Y++a+l+q+f++Cy++++l+ ++esl++ +++s+W++a+r+yr+++l++i+++
+  XP_002096795.1 259 LRPMISATMFIQLLSVGLLLGLAAVSMQFYNT-VMERFVSGVYTIAILSQTFPFCYVCEQLSSDCESLTNTLFHSKWIGAERRYRTTMLYFIHNV 352
+                     ********************************.************************************************************** PP
+
+           7tm_6 287 qrpmsisaggfftisLdtFasvlkaay 313
+                     q+ + ++agg+f+i L+t+++++k+a+
+  XP_002096795.1 353 QQSILFTAGGIFPICLNTNIKMAKFAF 379
+                     ************************996 PP
+
+>> XP_002087551.1  odorant receptor 22a [Drosophila yakuba]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  243.4  12.7   1.3e-74   4.2e-72       3     313 .]      81     381 ..      79     381 .. 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 243.4 bits;  conditional E-value: 1.3e-74
+           7tm_6   3 nelltnlqttltfivcitKflllavnrkefyelinllrqldtrplaeeeeriheialaekrrkfllvilfilasalalililvkmvldhetnspl 97 
+                      e+l ++ + ++++ +++K+ ++++  ++ +e+  ll++ld+r+ ++ee+  +++ +a  + + ++ il+++ + +++++++  ++l++ +   +
+  XP_002087551.1  81 GEFLSSFEIGVNMYGSSFKCAFTMMGFRKRQEAKVLLDKLDKRCIRDEERATVHRYVA--MSN-FFDILYHIFYSTFVVMNFPYFLLERRH--AW 170
+                     6899999999************************************************..999.9**************************..** PP
+
+           7tm_6  98 pleipfpydwnasegmyyisyafqilgvlfsvlqnillDvlfcslllflclhlqlLkgrleelgednelteeeerqeLkecverHkhivrlvaai 192
+                      +++pf +d +    ++yis + +++ ++ ++ +++++Dv++++ +l++++h+ lLk+rl++l++++++te e+ +eL ec+++H+ i+++v+a+
+  XP_002087551.1 171 RMYFPF-IDSE---KQFYISSIAECFLMTEAIYMDLCTDVCPLISMLMARCHINLLKKRLRNLRSKPGKTEDEYLEELTECIRDHRLILDYVDAL 261
+                     ******.8766...********************************************************************************* PP
+
+           7tm_6 193 ndifsaallvqfllsalvlclllfqllfisgenvqaitvvlYllaallqvflyCyfGnelieeseslaeAaYssnWydasreyrrllliviqraq 287
+                     +++fs +++vqfll++ vl+l++++l+f+s+  +++++ +l+++ + +++f++Cy +n++i++++++a+ +++s+W+ a+r+y+++l+++++++q
+  XP_002087551.1 262 RPVFSGTIFVQFLLIGTVLGLSMINLMFFST-FWTGVATCLFMFDVSMETFPFCYLCNMIIDDCQEMADCLFQSDWTSADRRYKSTLVYFLHNLQ 355
+                     *******************************.*************************************************************** PP
+
+           7tm_6 288 rpmsisaggfftisLdtFasvlkaay 313
+                     +p++++agg+f+i ++t+ +++k+a+
+  XP_002087551.1 356 QPITLTAGGVFPICMQTNLAMVKLAF 381
+                     ***********************986 PP
+
+>> XP_039231320.1  odorant receptor 94b [Drosophila yakuba]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  241.9  10.2   3.8e-74   1.2e-71       2     308 ..      67     367 ..      66     368 .. 0.97
+
+  Alignments for each domain:
+  == domain 1  score: 241.9 bits;  conditional E-value: 3.8e-74
+           7tm_6   2 vnelltnlqttltfivcitKflllavnrkefyelinllrqldtrplaeeeeriheialaekrrkfllvilfilasalalililvkmvldhetnsp 96 
+                     ++e++++l++ +t ++++tK+l+++++r+e + li++l++ ++++l+  ee +++++++ ++ k  +++++i  s++++++ ++++++++    +
+  XP_039231320.1  67 FEEAGQVLYMSITELALVTKLLNIWYRRHEAANLIHELQHDPAFNLRTAEEIQFWQQNQ-RDFK-RIFYWYIGGSLFVAVMGYISVFFQEDY--E 157
+                     799********************************************************.6776.9******************99999999..9 PP
+
+           7tm_6  97 lpleipfpydwnasegmyyisyafqilgvlfsvlqnillDvlfcslllflclhlqlLkgrleelgednelteeeerqeLkecverHkhivrlvaa 191
+                     lp+ +++p++w+ ++ +y++++ ++++++++++l+nillD+l c+++++++++++lL +rle l+   e++++    eL+++++ H ++ rl+++
+  XP_039231320.1 158 LPFGYYVPFEWR-TRERYFYAWGYNVVAMTLCCLSNILLDTLGCYFMFHIASLFRLLGRRLEALKCATEEKAK---PELRRIFQLHSKVRRLTRE 248
+                     999999999***.77888889**********************************************999888...68***************** PP
+
+           7tm_6 192 indifsaallvqfllsalvlclllfqllfisg..envqaitvvlYllaallqvflyCyfGnelieeseslaeAaYssnWydasreyrrllliviq 284
+                     ++ ++s+++l q++ sa+++c+++++l++++   ++  ++t v +++++++q+fl Cy+Gnel+ + ++l+++++ +nW++ s+ +r+ll ++++
+  XP_039231320.1 249 CEVLVSPYVLSQVVFSAFIICFSAYRLVHMGFrqRPGLFVTTVQFVAVMIVQIFLPCYYGNELTFHANALTNSVFATNWLEYSVGTRKLLNCYME 343
+                     *****************************9998899999******************************************************** PP
+
+           7tm_6 285 raqrpmsisaggfftisLdtFasv 308
+                      ++rp++++ag ff+i L++F++v
+  XP_039231320.1 344 FLKRPVKVRAGVFFEIGLPIFVKV 367
+                     *********************987 PP
+
+>> XP_002086029.1  odorant receptor 42a [Drosophila yakuba]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  240.6  10.0   9.1e-74   2.9e-71       2     313 .]      80     384 ..      79     384 .. 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 240.6 bits;  conditional E-value: 9.1e-74
+           7tm_6   2 vnelltnlqttltfivcitKflllavnrkefyelinllrqldtrplaeeeeriheialaekrrkfllvilfilasalalililvkmvldhetnsp 96 
+                     + e+lt+lq+ ++   c+tK+l++++  k+f e+  +l+++d r +++ e+ ++++a++    +  ++ +f  +++++++ +++++++ + +  p
+  XP_002086029.1  80 PGEFLTSLQVAFNAWSCSTKVLIVWALVKRFDEANAILDEMDRRITEPGERLQVHRAVS--LSN-RIFFFFMAVYMIYATNTFLSAIFIGRP--P 169
+                     579********************************************************..666.6899999999999**************..* PP
+
+           7tm_6  97 lpleipfpydwnasegmyyisyafqilgvlfsvlqnillDvlfcslllflclhlqlLkgrleelgednelteeeerqeLkecverHkhivrlvaa 191
+                      + ++pf  dw++s+ ++ ++  +++++++ +++q++++D++++ ++l+l++h+ + ++rl++lg+   +++e+++++L+ec+++Hk i+r+v+ 
+  XP_002086029.1 170 YQNYYPF-LDWRSSTLHLALQAGLEYFAMAGACFQDVCVDCYPVNFVLVLRAHMSIFAKRLRRLGTSAAESQEQRYERLVECIQDHKVILRFVDC 263
+                     *******.*************************************************************************************** PP
+
+           7tm_6 192 indifsaallvqfllsalvlclllfqllfisgenvqaitvvlYllaallqvflyCyfGnelieeseslaeAaYssnWydasreyrrllliviqra 286
+                     +++++s +++vqfl+++lvl+++l++++ +++   +ai+ + +++a+ll++ ++C+ +n l+e++ +l +++++snW++++ +y+ +l++++q +
+  XP_002086029.1 264 LRPLISGTIFVQFLVVGLVLGFTLINIVLFAN-LGSAIAALSFMAAVLLETTPFCILCNYLTEDCYKLGDSLFQSNWIGGEKRYQMTLMYFLQKL 357
+                     ********************************.************************************************************** PP
+
+           7tm_6 287 qrpmsisaggfftisLdtFasvlkaay 313
+                     q+p+++ a+++f+is  t++sv+k+++
+  XP_002086029.1 358 QQPITFMAMNVFPISVGTNISVTKFSF 384
+                     ************************985 PP
+
+>> XP_002087899.1  odorant receptor 24a [Drosophila yakuba]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  238.6   5.7   3.9e-73   1.2e-70       1     312 [.      68     387 ..      68     388 .. 0.97
+
+  Alignments for each domain:
+  == domain 1  score: 238.6 bits;  conditional E-value: 3.9e-73
+           7tm_6   1 evnelltnlqttltfivcitKflllavnrkefyelinllrqldtrplaeeeeriheiala.ekrrkfllvilfilasalalililvkmvldhetn 94 
+                     +++++l++l++++ +i++++K+++++++++e+++li+++r l +++ ++++  ++++ ++ + r++fll+++  ++s+ +++ +l+  +l++ ++
+  XP_002087899.1  68 NIATALDALCPVASSILSLVKMVAIWWYQDELRSLIQRVRFLTEQQKSKRKLGYKKRFYTlATRLTFLLLCCGFCTSTSYSVRHLIDNILRRAHG 162
+                     67899*******************************************************999999***************************** PP
+
+           7tm_6  95 splpleipfpydwn..asegmyyi.syafqilgvlfsvlqnillDvlfcslllflclhlqlLkgrleelged....nelteeee...rqeLkecv 179
+                     +++ +e+pf++ ++    + ++y+ +y++  ++ +++v++++++D++f+ ++l+++++l +L++++ +l e     ++ +++ee   ++e++  v
+  XP_002087899.1 163 KDWIYETPFKMIFPdpLLRLPLYPiTYLLVHWHGYITVVCFVGADGFFLGFCLYFTVLLLCLQDDVVDLLEVknieESPSAAEEariVREMEHLV 257
+                     *********999998899****************************************************99999855555555679******** PP
+
+           7tm_6 180 erHkhivrlvaaindifsaallvqfllsalvlclllfqllfisgenvqaitvvlYllaallqvflyCyfGnelieeseslaeAaYssnWydasre 274
+                     +rH+++++l+++++ ++ +++l++f++s+l+++++++++l +sg  + +i++v+Y++a+ +++ lyC +G +++e++++la++++ss+Wy++s++
+  XP_002087899.1 258 DRHNEVAELTERLSGVMVEITLAHFVTSSLIIGTSVVDILLFSG--LGIIVYVVYTCAVGVEILLYCLGGSHIMEACSNLARSTFSSHWYGHSVR 350
+                     ********************************************..************************************************* PP
+
+           7tm_6 275 yrrllliviqraqrpmsisaggfftisLdtFasvlkaa 312
+                      +++ l++++raqr ++i+ ++ f++sL+t++s+l+++
+  XP_002087899.1 351 VQKMTLLMVARAQRVLTIKIPF-FSPSLETLTSILRFT 387
+                     **********************.*************97 PP
+
+>> XP_039231078.1  odorant receptor 98a [Drosophila yakuba]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  234.4  12.2   7.1e-72   2.2e-69       1     310 [.      74     376 ..      74     378 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 234.4 bits;  conditional E-value: 7.1e-72
+           7tm_6   1 evnelltnlqttltfivcitKflllavnrkefyelinllrqldtrplaeeeeriheialaekrrkfllvilfilasalalililvkmvldhetns 95 
+                     +++ellt+lq++++++ + +K+l+  ++ ++f ++ nll ++d+r++   e+  +++ +   r++  ++ ++++ ++ +++++++++ +++ +  
+  XP_039231078.1  74 NPSELLTVLQLFFNSVGTPIKVLFCKMHFWRFLKARNLLGEMDKRCTDIAERIVVHRWVV--RCN-GAYLIYQCFYISYILFTFLSAAISEVP-- 163
+                     5789********************************************************..**9.9**************************.. PP
+
+           7tm_6  96 plpleipfpydwnasegmyyisyafqilgvlfsvlqnillDvlfcslllflclhlqlLkgrleelgednelteeeerqeLkecverHkhivrlva 190
+                     p+ +++pf +dw++s+ +++ s++ ++l + fsv q++l+D +++++ ++l++h+qlLk+r+e+l +++e+ +ee+ ++L+ec+++H+ i ++++
+  XP_039231078.1 164 PWRIYNPF-VDWRESRQNFWKSILNEMLLMMFSVSQALLTDFYPLIYGFMLRAHIQLLKQRVEKLCSNPEKNDEENQEDLVECIKDHQLIQEFAK 257
+                     ********.*****************************************************************99******************* PP
+
+           7tm_6 191 aindifsaallvqfllsalvlclllfqllfisgenvqaitvvlYllaallqvflyCyfGnelieeseslaeAaYssnWydasreyrrllliviqr 285
+                      i +i+ +++++qfll+++ l+l++++++f+++  +++++ v+Y+  +++q+f++C+++++++ ++++l+ A+++snW++ sr+y+ +l++++q+
+  XP_039231078.1 258 LIHPIIARTIFTQFLLIGVSLGLSIINVVFFAD-FWAGLATVVYINGLMIQTFPFCFVCDLIKSDCAHLEMAIFHSNWLNTSRRYKLSLIFFLQN 351
+                     *********************************.************************************************************* PP
+
+           7tm_6 286 aqrpmsisaggfftisLdtFasvlk 310
+                     +q p+ ++ag +f+is + +++vl+
+  XP_039231078.1 352 CQNPIAFTAGSVFPISTSSNIQVLN 376
+                     ***********************97 PP
+
+>> XP_039227570.1  odorant receptor 46a [Drosophila yakuba]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  231.3  13.3   6.3e-71     2e-68       2     309 ..      68     374 ..      67     377 .. 0.97
+
+  Alignments for each domain:
+  == domain 1  score: 231.3 bits;  conditional E-value: 6.3e-71
+           7tm_6   2 vnelltnlqttltfivcitKflllavnrkefyelinllrqldtrplaeeeeriheialaekrrkfllvilfilasalalililvkmvldhetnsp 96 
+                     v e+l+++++++t i c++K+l+l ++ +e++ l++ + + +++ +++e+er+  + ++++ ++  ++ ++++ s+ a+ lilv +++d++++ p
+  XP_039227570.1  68 VREILKVFFMFATEISCMAKLLHLKWKSRELAGLVDMM-LSPEFGVKSEQERQLLESDRVAVVR--MRNFYGILSLGAAGLILVVPCFDNFGELP 159
+                     789**********************************9.9999999999999999999966776..9*************************999 PP
+
+           7tm_6  97 lpleipfpydwnasegmyyisyafqilgvlfsvlqnillDvlfcslllflclhlqlLkgrleelgednelteeee.rqeLkecverHkhivrlva 190
+                     l++  ++ ++ +   ++y+++y+f+++++l +++ ni++D++++sll+fl+++lq+L  rl++lg+  e + +e+  ++L++  +++++ivr+ +
+  XP_039227570.1 160 LAMLEVCSIEGW---ICYWLQYLFHTMCLLPTCVLNITYDSVAYSLLCFLKVQLQMLVLRLKKLGPVIEPQGNEKiAMKLRQSAAYYNRIVRFKD 251
+                     999999***999...**********************************************************999******************* PP
+
+           7tm_6 191 aindifsaallvqfllsalvlclllfqllfisgenvqaitv...vlYllaallqvflyCyfGnelieeseslaeAaYssnWydasreyrrllliv 282
+                      ++ +++ +  vq+++s+lvl  +l++++++s  n +ai++   ++Y l++l+q+f++Cy  ne++ +s++l++++Yss+W+++s   rr++l++
+  XP_039227570.1 252 LVELFIKGPGSVQLMCSVLVLVSNLYDMSTMSIANGDAIFMvktCIYQLVMLWQIFIICYASNEVTVQSSRLCHSIYSSQWTGWSKANRRIVLLM 346
+                     *********************************999988887779************************************************** PP
+
+           7tm_6 283 iqraqrpmsisagg.fftisLdtFasvl 309
+                     +qr + pm +++++ +ft+sL++F sv 
+  XP_039227570.1 347 MQRFNSPMLLRTFNpTFTFSLEAFGSVG 374
+                     ************************9986 PP
+
+>> XP_002096811.1  odorant receptor 85b [Drosophila yakuba]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  231.0  14.6   7.8e-71   2.4e-68       2     313 .]      64     378 ..      63     378 .. 0.96
+
+  Alignments for each domain:
+  == domain 1  score: 231.0 bits;  conditional E-value: 7.8e-71
+           7tm_6   2 vnelltnlqttltfivcitKflllavnrkefyelinllrqldtrplaeeeeriheiala.ekrrk...fllvilfilasalalililvkmvldhe 92 
+                     + e++t+++++ +++v + K++++ ++++++++li++l+++++r   +ee+++    l  ++r      ll+ + i++++l++++ ++ +  + +
+  XP_002096811.1  64 FLEAVTVMSYIGFVFVGLSKMFFIRWKKTAITKLIDELKEIYPRGSIQEERYNLPMYLGtYSRIIltySLLYSVLIWTFNLFCVMEYWVYDKWLN 158
+                     6799*******************************************************99988888999********************99999 PP
+
+           7tm_6  93 t...nsplpleipfpydwnasegmyyi.syafqilgvlfsvlqnillDvlfcslllflclhlqlLkgrleelgednelteeeerqeLkecverHk 183
+                         +++lp+ +++p++w+ +++ yy+ +++++++g++ ++  +i++D+l+c++ ++l++h++ L++ +e ++     ++    + L+++v++H+
+  XP_002096811.1 159 VrevGKQLPYLMYIPWKWQ-DNWSYYPlLFIQNFAGLTSAAG-QISTDILLCAVATQLVMHFDFLSKSMELHELSGHWKKDS--RFLVDIVRYHE 249
+                     9999***************.*******999999999999999.***************************999996666664..8********** PP
+
+           7tm_6 184 hivrlvaaindifsaallvqfllsalvlclllfqllfisgenvqaitvvlYllaallqvflyCyfGnelieeseslaeAaYssnWydasreyrrl 278
+                     +i+rl + +ndif+++ll++f++s++v+c+++fq++++++ +  +++ +l+l+  ++qv+l+C++G++++++s  +a A+Y++nWy+a+++y+r+
+  XP_002096811.1 250 RILRLSDVMNDIFGIPLLLNFMVSSFVICFVGFQMTVGVP-PDIVVKLFLFLVSSMSQVYLICHYGQLVADASHGFAVATYNQNWYKADVRYKRA 343
+                     ****************************************.****************************************************** PP
+
+           7tm_6 279 lliviqraqrpmsisaggfftisLdtFasvlkaay 313
+                     l+i+i+r+q+ + ++a+ f+ i+ +t +++l+++y
+  XP_002096811.1 344 LVIIIARSQKVIFLKATIFLDITRSTMTDLLQVSY 378
+                     ***********************999999999887 PP
+
+>> XP_002096812.1  odorant receptor 85c [Drosophila yakuba]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  229.0  19.8   3.2e-70     1e-67       3     313 .]      64     377 ..      62     377 .. 0.97
+
+  Alignments for each domain:
+  == domain 1  score: 229.0 bits;  conditional E-value: 3.2e-70
+           7tm_6   3 nelltnlqttltfivcitKflllavnrkefyelinllrqldtrplaeeeeriheiala.ekrrk...fllvilfilasalalililvkmvldhet 93 
+                      +++t+++++ ++iv + K++++++++++++ l+++l+++++  +ae e ++ +  l+ ++r +    ll+ + i++++l++i++++ +  + + 
+  XP_002096812.1  64 IDAVTVMSYIGFVIVGMSKMFFIWWKKTDLSNLVKELEHIYPTGTAEVEVYRLDSYLRsCSRISityALLYSVLIWTFNLFSIMQFLVYEKWLKI 158
+                     578999*********************************************************999999*****************999999999 PP
+
+           7tm_6  94 ...nsplpleipfpydwnasegmyyi.syafqilgvlfsvlqnillDvlfcslllflclhlqlLkgrleelgednelteeeerqeLkecverHkh 184
+                        ++ lp+ +++p++ + ++++yy+ +++++++g + +   +i++D l+c+l +++++h++ L++ +e+ + +++  e+   + L+++v++H++
+  XP_002096812.1 159 rvvGQTLPYLMYLPWNVQ-NNWTYYVlLFCQNFAGHTSASG-QISTDLLLCALATQVVMHFDYLAKVVERQELNEDWNENS--RFLVKTVQYHQR 249
+                     9999*********66666.*******9**********9999.********************************8888886..8*********** PP
+
+           7tm_6 185 ivrlvaaindifsaallvqfllsalvlclllfqllfisgenvqaitvvlYllaallqvflyCyfGnelieeseslaeAaYssnWydasreyrrll 279
+                     i+rl++ +ndif+++ll++f++s++v+c+++fq++++++ +  +i+  l+l+  l+qv+l+C++G++++++s+s++ +aY++nW++a+ +yrr+l
+  XP_002096812.1 250 ILRLMDVLNDIFGIPLLLNFMVSTFVICFVGFQMTVGVP-PDIMIKLSLFLFSSLSQVYLICHYGQLIADASSSISISAYKQNWHNADIRYRRAL 343
+                     ***************************************.******************************************************* PP
+
+           7tm_6 280 liviqraqrpmsisaggfftisLdtFasvlkaay 313
+                     +++i+r qr+  ++a+ f++++ +t +++l+++y
+  XP_002096812.1 344 VFFIARPQRTTYLKATVFMNVTRSTMTDLLQVSY 377
+                     **********************999999999887 PP
+
+>> XP_002096817.1  putative odorant receptor 85d [Drosophila yakuba]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  228.6  19.8   4.1e-70   1.3e-67       1     313 []      84     400 ..      84     400 .. 0.96
+
+  Alignments for each domain:
+  == domain 1  score: 228.6 bits;  conditional E-value: 4.1e-70
+           7tm_6   1 evnelltnlqttltfivcitKflllavnrkefyelinllrqldtrplaeeeeriheiala.ekrrk...fllvilfilasalalililvkmvldh 91 
+                     ++ e+ +nl+++ ++iv  +K++++  ++ +++ ++n+l+q++++ +a++++ ++e +l+ ++r +   f +  + i++++l++++ ++ + ++ 
+  XP_002096817.1  84 NFLEATMNLSFIGFVIVGDLKIWYISRQKNRLTHVVNRLEQMHPESVAQQKPFNMEFHLRgYSRYSkfyFGMHLVLIWTYNLYWAVYYLVCDFWL 178
+                     5789************************************************************999999999***************9999999 PP
+
+           7tm_6  92 et...nsplpleipfpydwnasegmyyisyafqilgvlfsvlqnillDvlfcslllflclhlqlLkgrleelgednelteeeerqeLkecverHk 183
+                          ++ lp+++++p+dw  + + yy++y+ + +g + ++  ++++D+l+c+l++++++h+  L+ ++e +       +++  + L+ +v++H+
+  XP_002096817.1 179 GIrqfERMLPYYCWVPWDWS-TGYSYYFMYISHNIGGQACLSGQLAADMLMCALVTLVVMHFIRLSAHIEGHVAGIAPYQRD-LEFLQSTVAYHQ 271
+                     99999***************.5555556677777777777777************************************998.7*********** PP
+
+           7tm_6 184 hivrlvaaindifsaallvqfllsalvlclllfqllfisgenvqaitvvlYllaallqvflyCyfGnelieeseslaeAaYssnWydasreyrrl 278
+                     ++++l+++indif+++ll +f++s++++c+++fq++++s+ + ++++ vl+l++a++qvf++  ++++l+++se++ +A+Y+++W+ a+ +yr++
+  XP_002096817.1 272 RLIQLCQDINDIFGVSLLSNFVSSSFIICFVGFQMTIGSK-IDNLVMLVLFLFCAMVQVFMIATHAQRLVDASEQIGQAVYNHDWFFADLRYRKM 365
+                     *************************************999.****************************************************** PP
+
+           7tm_6 279 lliviqraqrpmsisaggfftisLdtFasvlkaay 313
+                     l+++++raq+p++++a+ f+++sL t +++l+++y
+  XP_002096817.1 366 LILIVKRAQQPSRLKATRFLNVSLVTVTDLLQLSY 400
+                     ********************************998 PP
+
+>> XP_002089780.1  odorant receptor 45a [Drosophila yakuba]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  228.2   0.8   5.5e-70   1.7e-67       3     312 ..      59     366 ..      57     367 .. 0.94
+
+  Alignments for each domain:
+  == domain 1  score: 228.2 bits;  conditional E-value: 5.5e-70
+           7tm_6   3 nelltnlqttltfivcitKflllavnrkefyelinllrqldtrpl.aeeeeriheialaekrrkfllvilfilasalalililvkmvldhet... 93 
+                     + l +n+ +++    + +Kfl+++++r+++ +li++l++l++ +  ++++ +++e++++  +r+ + + + + a+ +++++++++m+l+ ++   
+  XP_002089780.1  59 TRLTDNFAVFMQGSQSTFKFLVMVAKRRRIGSLIHRLHKLNQAESaTPKHLEKIERENQ-LDRY-VSRSFRNAAYGVICASAIAPMLLGLWGyve 151
+                     66788888999999999****************************77778888888888.8888.9**************************999 PP
+
+           7tm_6  94 ......nsplpleipfpydwnasegmyyisyafqilgvlfsvlqnillDvlfcslllflclhlqlLkgrleelgednelteeeerqeLkecverH 182
+                           ++p+++++++  d + +++ y+++y++ +lgv+ +++ +i++D+lf +l+++++++ qlL+  lee +   + +++     L ec++rH
+  XP_002089780.1 152 tgvftpTTPMEFNFWL--DER-NPHFYWPIYVWGVLGVAAAAWLAIATDTLFSWLIHNVVIQYQLLELVLEEKDLS-GGDSR-----LTECIRRH 237
+                     9988777777777777..555.9999999********************************************999.77777.....9******* PP
+
+           7tm_6 183 khivrlvaaindifsaallvqfllsalvlclllfqllfisgenvqaitvvlYllaallqvflyCyfGnelieeseslaeAaY.ssnWydasreyr 276
+                     +  ++l++++++if ++++v+++ls+l+lc+l+f+++  ++ + q+ + +++l+a+++q+  yCy+G+ l+++s  +a+A+Y +snW ++ ++ r
+  XP_002089780.1 238 RLALDLAKELSSIFAEIVFVKYMLSYLQLCMLAFRFSRSGW-SAQVPFRATFLVAIIIQLSSYCYGGEYLKQQSLGIAQAVYgNSNWPKMTPKNR 331
+                     *****************************************.***************************************************** PP
+
+           7tm_6 277 rllliviqraqrpmsisaggfftisLdtFasvlkaa 312
+                     rl+++vi+raqrp +i +++ f ++L+++  v+++a
+  XP_002089780.1 332 RLWQMVIMRAQRPAKIFGFM-FDVDLPLLLWVIRTA 366
+                     *******************9.********9999987 PP
+
+>> XP_002089445.1  odorant receptor 43a isoform X2 [Drosophila yakuba]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  226.9   7.9   1.3e-69   4.2e-67       4     313 .]      59     364 ..      56     364 .. 0.96
+
+  Alignments for each domain:
+  == domain 1  score: 226.9 bits;  conditional E-value: 1.3e-69
+           7tm_6   4 elltnlqttltfivcitKflllavnrkefyelinllrqldtrplaeeeeriheiala.ekrrkfllvilfilasalalililvkmvldhetnspl 97 
+                      ++ n+++++ +++++++ +l++++r +f+e++++l  l ++ l +++e+   i+++ e+  + +l il+  as+l ++ +lv++++++e+    
+  XP_002089445.1  59 AFILNMFFFSAIFNALMRTWLVIIKRGQFEEFLDQLSTLFHSLLDSTDEWGRGILRRaEREAR-NLAILNLSASFLDIVGALVSPLFREER--AH 150
+                     5899*****************************************************666666.***************************..88 PP
+
+           7tm_6  98 pleipfpydwnasegmyyisyafqilgvlfsvlqnillDvlfcslllflclhlqlLkgrleelgednelteeeerqeLkecverHkhivrlvaai 192
+                     p+   +p+  ++s++ y ++y+ q+ + l+  ++++ + +lf+ l +f +++lq+L +rl ++g  ++ +ee ++++L  c+++H++++ +v+++
+  XP_002089445.1 151 PFGVALPGVSMTSSPVYEVIYLAQLPTPLLLSMMYMPFVSLFAGLAIFGKAMLQILVHRLGQIGGAEQPEEE-RHHRLTSCIAYHTQVMSYVWQL 244
+                     888888889999******************************************************555555.68******************** PP
+
+           7tm_6 193 ndifsaallvqfllsalvlclllfqllfisgenvqaitvvlYllaallqvflyCyfGnelieeseslaeAaYssnWydasreyrrllliviqraq 287
+                     n+++  ++ v+ ++++ ++c llf l +i++ ++q+  +v+Y+l++l+ ++ y+  +ne++ e++++aeA+Y+++Wy+a +++r++lli+++++q
+  XP_002089445.1 245 NKLVANIVAVEAIIFGSIICSLLFCLNIITS-PTQVTSIVMYILTMLYVLYTYYNRANEICLENNRVAEAVYNVPWYEAGTRFRKTLLIFLMQTQ 338
+                     *******************************.*************************************************************** PP
+
+           7tm_6 288 rpmsisaggfftisLdtFasvlkaay 313
+                     +p++i++g++++++L++F+s+l+a+y
+  XP_002089445.1 339 HPLEIRVGNVYPMTLAMFQSLLNASY 364
+                     ************************98 PP
+
+>> XP_015054099.2  odorant receptor 46a [Drosophila yakuba]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  226.0   4.8   2.6e-69   8.2e-67       2     310 ..      63     366 ..      62     368 .. 0.96
+
+  Alignments for each domain:
+  == domain 1  score: 226.0 bits;  conditional E-value: 2.6e-69
+           7tm_6   2 vnelltnlqttltfivcitKflllavnrkefyelinllrqldtrplaeeeeriheialaekrrkfllvilfilasalalililvkmvldhetnsp 96 
+                     ++e+++++++++t++ + tK+l + +n+ +++el + l+  + rp+  +ee+i+  a + k rk  l+ ++++ s++al +il++ +   + + p
+  XP_015054099.2  63 MSEVVKAIFILATSAGHTTKLLSIKANNVQMEELFKTLDDEEFRPRGAKEESIFASACE-KSRK--LRNFYGTLSLAALGMILIPQFAVDWSHLP 154
+                     6899*******************************************************.7777..**************************899 PP
+
+           7tm_6  97 lpleipfpydwnasegmyyisyafqilgvlfsvlqnillDvlfcslllflclhlqlLkgrleelgednelteeeerqeLkecverHkhivrlvaa 191
+                     l++++p+    n  ++ ++++y++q+l+++ s++ ni++D+l+ sl++f++++l++L+ rl ++g+  ++    e q+Lke +++H  iv+l+++
+  XP_015054099.2 155 LKTYNPL--GENPGSPAFWLLYCYQCLALSASCITNICFDSLCSSLFIFIKCQLDILALRLDKIGRPSSSGGTVE-QKLKENIRYHMAIVQLTRT 246
+                     9999998..5666*****************************************************955444443.89***************** PP
+
+           7tm_6 192 indifsaallvqfllsalvlclllfqllfisgenvqaitvvlYllaallqvflyCyfGnelieeseslaeAaYssnWydasreyrrllliviqra 286
+                     +++++++++ vq+++s+lvl+ +++++ ++s+e ++++++++Y  ++l+q+f++Cy++ e+++ s +l + +Y++ W+d++ + rr+ l+++qr+
+  XP_015054099.2 247 VERLLCMPISVQIFCSVLVLTANFYAIAVLSEERLELFKYMTYQTCMLIQIFILCYYAGEVTQGSLDLPHELYKTSWVDWDYRSRRIALLFMQRL 341
+                     *********************************************************************************************** PP
+
+           7tm_6 287 qrpmsisagg.fftisLdtFasvlk 310
+                     + +++i++ +  + ++L +F+sv +
+  XP_015054099.2 342 HSTLRIRTINpSLGFDLMLFSSVSR 366
+                     **********9***********976 PP
+
+>> XP_002089541.2  odorant receptor 43b [Drosophila yakuba]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  223.1  14.0     2e-68   6.1e-66       4     313 .]      79     384 ..      77     384 .. 0.96
+
+  Alignments for each domain:
+  == domain 1  score: 223.1 bits;  conditional E-value: 2e-68
+           7tm_6   4 elltnlqttltfivcitKflllavnrkefyelinllrqldtrplaeeeeriheiala.ekrrkfllvilfilasalalililvkmvldhetnspl 97 
+                      ll++lq++l++   ++Kf++l+++ ++++ + ++l++ld++++++ eer++++++a + r    l   f +++ ++++++lv  +l h    p 
+  XP_002089541.2  79 LLLQSLQLCLNTWCFSLKFFVLIMHMHRLEWANKHLDKLDEYCVKPGEERKIRDMVAaVTR----LNLTFFVVYGFYATSALVDGLLHHRV--PY 167
+                     689******************************************************4444....6699999*******************..** PP
+
+           7tm_6  98 pleipfpydwnasegmyyisyafqilgvlfsvlqnillDvlfcslllflclhlqlLkgrleelgednelteeee...rqeLkecverHkhivrlv 189
+                      +++pf ++w+ ++ ++yi+   ++++v f++  + ++D+++++++  l+ h+ lLk+r+  lg   ++ + +    ++ L++c++ H+++++++
+  XP_002089541.2 168 NTYYPF-INWRVDRTQLYIQSFVEYITVGFAIYVATATDSYPVIYVAALRTHILLLKDRIMYLGDSSNEGSTDPsymFKSLVDCIKAHRTMINFC 261
+                     ******.**********************************************************966666655679****************** PP
+
+           7tm_6 190 aaindifsaallvqfllsalvlclllfqllfisgenvqaitvvlYllaallqvflyCyfGnelieeseslaeAaYssnWydasreyrrllliviq 284
+                     +ai++i+s ++++qf++++ +l+++++++l +++ + +++ +v+Y++a+llq+f++C+++n +++++++la+A+++s W  ++ +y+r+++ ++q
+  XP_002089541.2 262 DAIQPIISGTIFAQFVICGSILGITMINMLLFAD-QSTRFGIVTYVMAVLLQTFPLCFYCNAIVDDCNELADALFHSSWWVQDKRYQRTVIQFLQ 355
+                     **********************************.************************************************************ PP
+
+           7tm_6 285 raqrpmsisaggfftisLdtFasvlkaay 313
+                      +q+p++++a+++f+i+L+t+++v+k+a+
+  XP_002089541.2 356 KLQQPLTFTAMNIFNINLATNINVAKFAF 384
+                     ***************************96 PP
+
+>> XP_002101833.1  odorant receptor 9a [Drosophila yakuba]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  218.8   4.8     4e-67   1.2e-64       2     313 .]      73     385 ..      72     385 .. 0.94
+
+  Alignments for each domain:
+  == domain 1  score: 218.8 bits;  conditional E-value: 4e-67
+           7tm_6   2 vnelltnlqttltfivcitKflllavnrkefyelinllrqldtrplaeeeeriheiala.ekrrk..fllvilfilasalalililvkmvldhet 93 
+                     v+ l+++l  t+ ++++++Kfll++++r+e+   i+++r + +++ + +++ +++i+++ ++++   + ++++f+la ++a++ ++v ++l++ +
+  XP_002101833.1  73 VSLLSDTLGSTFASMLTLVKFLLFCYHRSELVGQIYHIRTILAKEISVWPDAREIIEVEnQSDQLlsLTYTRCFGLAGIFAALKPFVGIILSSIR 167
+                     67799999**************************************88888888888776666667799************************** PP
+
+           7tm_6  94 nsplpleip....fpydwnasegmyyi.syafqilgvlfsvlqnillDvlfcslllflclhlqlLkgrleelgednelteeeerqeLkecverHk 183
+                     +++++le+p    +  ++  + +m+y+ +y++++++++ +v++++++D+l++ +++++c+ +++ k+r+ +l    +++e    + L+++   H+
+  XP_002101833.1 168 GDEIHLELPhngvY--PYDLQVVMWYVpTYLWNVMASYSAVTMALCVDSLLFFFTYNVCAIFKIAKHRMIHLPAVGGKEEL---EGLVQVLLLHQ 257
+                     99******977533..444668898989***********************************************444444...78********* PP
+
+           7tm_6 184 hivrlvaaindifsaallvqfllsalvlclllfqllfisgenvqaitvvlYllaallqvflyCyfGnelieeseslaeAaYssnWydasreyrrl 278
+                       ++++++i + +++ +++qf+lsal++c+++fq+  +++ n q ++++++++ +l+ +f+y  +G++++ +s ++ + +Y+snW+d+s++++r+
+  XP_002101833.1 258 MGLQIADDIANKYRPLIFLQFFLSALQICFIGFQVADLFP-NPQSLYFIAFVGSLLIALFIYSKCGENIKSASLDFGNGLYESNWTDFSPPTKRA 351
+                     ****************************************.****************************************************** PP
+
+           7tm_6 279 lliviqraqrpmsisaggfftisLdtFasvlkaay 313
+                     lli  +raqrp+++++++ f+ s++tF+++++ a+
+  XP_002101833.1 352 LLIAAMRAQRPCQMKGYF-FEASMATFSAIVRSAV 385
+                     ******************.*************986 PP
+
+>> XP_002090992.1  odorant receptor 49b [Drosophila yakuba]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  217.2  11.9   1.2e-66   3.8e-64       3     313 .]      54     364 ..      52     364 .. 0.92
+
+  Alignments for each domain:
+  == domain 1  score: 217.2 bits;  conditional E-value: 1.2e-66
+           7tm_6   3 nelltnlqttltfivcitKflllavnrkefyelinllrqldtrplaeeeeriheiala.ekrrkfllvilfilasalalilil.vkmvldhetns 95 
+                     + +++n ++++ +i+++++ +ll+v ++++  li++l + +++ l+ ++++i ei+ + ++  k  l+   +l + + +++ + + ++ ++e+  
+  XP_002090992.1  54 TGIIRNSYMLVLWINTVLRAYLLLVDHDRYLALIQKLTEAYYDLLSLNDSYISEILGQvNNVGK--LMARGNLFFGMLTSMGFgLYPLASSERVL 146
+                     56899*****************************************************777776..77777777777777777588888899955 PP
+
+           7tm_6  96 plpleipfpydwnasegmyyisyafqilgvlfsvlqnillDvlfcslllflclhlqlLkgrleelgednelteeee...rqeLkecverHkhivr 187
+                     p+   ip + +++  +++y + y+fq+l++ + ++++i + +l++ l++f  + +++L++rl+++  ++ + +++    r+e+++c+++++ i++
+  XP_002090992.1 147 PFGSRIPGLNEYE--SPYYELWYVFQMLITPMGCCMYIPYTSLIVGLIMFGIVRCKALQHRLRQVALKHPHGDRDPqelREEIIACIRYQQSIIE 239
+                     5556666644444..666667*******************************************999955555554559**************** PP
+
+           7tm_6 188 lvaaindifsaallvqfllsalvlclllfqllfisgenvqaitvvlYllaallqvflyCyfGnelieeseslaeAaYssnWydasreyrrllliv 282
+                     ++++in++ ++++l +++ +++ lc llf+l+++sg + q+i+v++Y+ ++l+q+  +++++nel e++ ++a AaY+++W++++++ r+ +l++
+  XP_002090992.1 240 YMDHINELTTMMFLFELMAFSALLCALLFMLIIVSG-TSQLIIVCMYINMILAQILALYWYANELREQNLAVATAAYETEWFTFDVPLRKNILFM 333
+                     ************************************.********************************************************** PP
+
+           7tm_6 283 iqraqrpmsisaggfftisLdtFasvlkaay 313
+                     ++raqrp si  g++ +i+L++F+++l+++y
+  XP_002090992.1 334 MMRAQRPASILLGNIRPITLELFQNLLNTTY 364
+                     ****************************998 PP
+
+>> XP_002096930.1  odorant receptor 85f [Drosophila yakuba]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  215.8  12.2   3.2e-66     1e-63       4     313 .]      71     381 ..      68     381 .. 0.97
+
+  Alignments for each domain:
+  == domain 1  score: 215.8 bits;  conditional E-value: 3.2e-66
+           7tm_6   4 elltnlqttltfivcitKflllavnrkefyelinllrqldtrplaeeeeriheiala.ekrrkfllvilfilasalalililvkmvldhet...n 94 
+                      l++ + t++t+i+++   ++++++  ++++l  +l +l+++ + ++  ++++++++ +++++  lvi++i  s++++i ++++ ++ ++t    
+  XP_002096930.1  71 SLIMRYATLVTYIINSDTKFATVLQGNAIQSLNLKLAELYPKSTLDRIYHRVNDHYWtKSFVY--LVIIYIGSSIMVVIGPIITSIIAYFTqnvF 163
+                     5788899999******999**************************************888887..**************************9999 PP
+
+           7tm_6  95 splpleipfpydwnasegmyyi.syafqilgvlfsvlqnillDvlfcslllflclhlqlLkgrleelgednelteeeerqeLkecverHkhivrl 188
+                     + ++++ +f+yd +++++++y+ +y++++l+++ +v++ni++D+++++++++++lh++ + + le++++   +++e+ rq L+++v+++ ++v l
+  XP_002096930.1 164 TYMHCYPYFLYDPEQDPVWIYVgIYSLEWLHSTQMVISNIGADIWLLYFQVQINLHFRGIIRLLEDHKPSVMHDQED-RQFLARIVDKQVRLVSL 257
+                     9999******************************************************************9999997.7**************** PP
+
+           7tm_6 189 vaaindifsaallvqfllsalvlclllfqllfisgenvqaitvvlYllaallqvflyCyfGnelieeseslaeAaYssnWydasreyrrlllivi 283
+                      +++ndif+ +ll+++l++a+v+c++++++l+ +  +++++t+v+++++ ++qv+l+Cy+G+++ + s ++a+A+Y+++++das  y+r lli+i
+  XP_002096930.1 258 QNELNDIFGGSLLLSLLTTAAVICTVAVYTLIQGA-TLEGFTYVIFIGTSVTQVYLVCYYGQQVLDLSGEVAHAVYNHDFHDASIAYKRYLLIII 351
+                     *******************************9999.*********************************************************** PP
+
+           7tm_6 284 qraqrpmsisaggfftisLdtFasvlkaay 313
+                      raq+p++++a+g+++isLdtF ++++++y
+  XP_002096930.1 352 IRAQQPVELNAMGYLSISLDTFKQLMSVSY 381
+                     *************************99987 PP
+
+>> XP_039232494.1  odorant receptor 85f [Drosophila yakuba]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  215.8  12.2   3.2e-66     1e-63       4     313 .]      71     381 ..      68     381 .. 0.97
+
+  Alignments for each domain:
+  == domain 1  score: 215.8 bits;  conditional E-value: 3.2e-66
+           7tm_6   4 elltnlqttltfivcitKflllavnrkefyelinllrqldtrplaeeeeriheiala.ekrrkfllvilfilasalalililvkmvldhet...n 94 
+                      l++ + t++t+i+++   ++++++  ++++l  +l +l+++ + ++  ++++++++ +++++  lvi++i  s++++i ++++ ++ ++t    
+  XP_039232494.1  71 SLIMRYATLVTYIINSDTKFATVLQGNAIQSLNLKLAELYPKSTLDRIYHRVNDHYWtKSFVY--LVIIYIGSSIMVVIGPIITSIIAYFTqnvF 163
+                     5788899999******999**************************************888887..**************************9999 PP
+
+           7tm_6  95 splpleipfpydwnasegmyyi.syafqilgvlfsvlqnillDvlfcslllflclhlqlLkgrleelgednelteeeerqeLkecverHkhivrl 188
+                     + ++++ +f+yd +++++++y+ +y++++l+++ +v++ni++D+++++++++++lh++ + + le++++   +++e+ rq L+++v+++ ++v l
+  XP_039232494.1 164 TYMHCYPYFLYDPEQDPVWIYVgIYSLEWLHSTQMVISNIGADIWLLYFQVQINLHFRGIIRLLEDHKPSVMHDQED-RQFLARIVDKQVRLVSL 257
+                     9999******************************************************************9999997.7**************** PP
+
+           7tm_6 189 vaaindifsaallvqfllsalvlclllfqllfisgenvqaitvvlYllaallqvflyCyfGnelieeseslaeAaYssnWydasreyrrlllivi 283
+                      +++ndif+ +ll+++l++a+v+c++++++l+ +  +++++t+v+++++ ++qv+l+Cy+G+++ + s ++a+A+Y+++++das  y+r lli+i
+  XP_039232494.1 258 QNELNDIFGGSLLLSLLTTAAVICTVAVYTLIQGA-TLEGFTYVIFIGTSVTQVYLVCYYGQQVLDLSGEVAHAVYNHDFHDASIAYKRYLLIII 351
+                     *******************************9999.*********************************************************** PP
+
+           7tm_6 284 qraqrpmsisaggfftisLdtFasvlkaay 313
+                      raq+p++++a+g+++isLdtF ++++++y
+  XP_039232494.1 352 IRAQQPVELNAMGYLSISLDTFKQLMSVSY 381
+                     *************************99987 PP
+
+>> XP_039226456.1  LOW QUALITY PROTEIN: odorant receptor 22c [Drosophila yakuba]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  215.6   9.0   3.7e-66   1.2e-63       3     308 ..      73     389 ..      71     390 .. 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 215.6 bits;  conditional E-value: 3.7e-66
+           7tm_6   3 nelltnlqttltfivcitKflllavnrkefyelinllrqldtrplaeeeeriheiala.ekrrkfllvilfilasalalililvkmvldhet.ns 95 
+                       +l+++++ +t +vc++K++++   +++++el+++lr + ++ +++e +r    +++ ++r++ ll+ ++++a+++a+ l+ + m l+++  + 
+  XP_039226456.1  73 VVALEAFCPGTTKAVCVLKLWVFFRSNRRWAELVQRLRVILWQSRRPEAQRMLVGLATtASRLS-LLLLSSGTATNAAFNLQPLIMGLYRWImQL 166
+                     67899****************************************9999999999999899999.99*************************999 PP
+
+           7tm_6  96 plpleipfpydwn..asegmyyi.syafqilgvlfsvlqnillDvlfcslllflclhlqlLkgrleelged.........nelteeee...rqeL 175
+                     p ++e+pf++  +  a ++ +++ +y++ +++ +++v+ +  +D++f++ +l++c+ ++l +++++++  d           +    +   r++L
+  XP_039226456.1 167 PGHIELPFNIILPsfAVQPGLFPlTYVLLTASGACTVFAFSFVDGFFVCSCLYICGAFRLVQQDIRRIFADlhgdtvdvfTAQM---NaevRHRL 258
+                     999999999999999889999999***********************************************9999996653333...344599** PP
+
+           7tm_6 176 kecverHkhivrlvaaindifsaallvqfllsalvlclllfqllfisgenvqaitvvlYllaallqvflyCyfGnelieeseslaeAaYssnWyd 270
+                     +++verH+ i+++++++ + f++++l++fl++a+vlc ++ +++  ++ +++++t+++Y++aal+q+flyC++Gn+++e+s+++a+ +Y+++Wy+
+  XP_039226456.1 259 AQVVERHNAIIDFCTDLTRQFTVIVLMHFLSAAFVLCSTILDIMLNTS-SLSGLTYICYIIAALTQLFLYCFGGNHVSESSAAVADVLYDIEWYK 352
+                     ********************************************9888.********************************************** PP
+
+           7tm_6 271 asreyrrllliviqraqrpmsisaggfftisLdtFasv 308
+                     ++ ++r+ +l+++ r+qr+ +i +++ ft+sL+++ sv
+  XP_039226456.1 353 CDARTRKVILMILRRSQRAKTIAVPF-FTPSLPALRSV 389
+                     **************************.*******9887 PP
+
+>> XP_002097914.1  odorant receptor 88a [Drosophila yakuba]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  213.3   3.6   1.9e-65     6e-63       5     313 .]      77     392 ..      74     392 .. 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 213.3 bits;  conditional E-value: 1.9e-65
+           7tm_6   5 lltnlqttltfivcitKflllavnrkefyelinllrqldtrplaeeeeriheiala.ekrrkfllvilfilasalalililvkmvldhet.nspl 97 
+                     + +n  +++++i+ +++ l+l ++rke+ e++n+l+  ++r la++ ++++++ ++  ++r+++++i++++   ++++++l+ ++l he+ ++p+
+  XP_002097914.1  77 ANQNPPVLSITIYFSIRGLMLFLKRKEIVEFVNELDRECPRDLASQLDMQMDETYRnFWQRYRFIRIYSHVGGPMFCVVPLALFLLTHEGkDTPV 171
+                     6789999*************************************************999999****************************96666 PP
+
+           7tm_6  98 pleipfpydwn....asegmyyi.syafqilgvlfsvlqnillDvlfcslllflclhlqlLkgrleelgednelteeee.rqeLkecverHkhiv 186
+                     + +  +++ w     ++++ +y+ ++ ++++++++ v  ++++D+lf +++ +l++hl +L+++++ l+++++l  e++ ++eL+  v+r++ + 
+  XP_002097914.1 172 AQHEQLLGGWLpfgvRKNPKFYFlVWFIDVMCTTCGVSFFLTFDNLFNVMQGHLVMHLSHLARQFSALDPRQSLINEDRfFAELRLLVQRQQLLN 266
+                     666665555555555577777777****************************************************999**************** PP
+
+           7tm_6 187 rlvaaindifsaallvqfllsalvlclllfqllfisgenvqaitvvlYllaallqvflyCyfGnelieeseslaeAaYssnWydasreyrrllli 281
+                      l++++ndif++a+lv+ ++ a  lc++lf+l+ +s+  + +  ++l +l+++  +f +C  G++l+e+se l+ ++ ++ Wy +s +yr+++l+
+  XP_002097914.1 267 GLCRKYNDIFKVAFLVSNFVGAGSLCFYLFMLSETSD-VLIIAQYILPTLVLVGFTFEICLRGTQLEEASEGLESSLRNQVWYLGSQRYRKFYLL 360
+                     *************************************.********************************************************* PP
+
+           7tm_6 282 viqraqrpmsisaggfftisLdtFasvlkaay 313
+                     ++q +qr+ ++ a+g++++++ +F++++++ay
+  XP_002097914.1 361 WTQYSQRTQKLGAFGLIRVNMVHFTEIMQLAY 392
+                     ******************************98 PP
+
+>> XP_002100867.1  odorant receptor 10a isoform X2 [Drosophila yakuba]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  210.7  15.2   1.2e-64   3.8e-62       2     312 ..      71     395 ..      70     396 .. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 210.7 bits;  conditional E-value: 1.2e-64
+           7tm_6   2 vnelltnlqttltfivcitKflllavnrkefyelinllrqldtrplaeeeeriheiala.ekrrk...fllvilfilasalalililvkmvldhe 92 
+                     ++ +l++l++  t++v+++K++l++ +r++++ ++++lr+l  +p +++ e++ +++   ++  +   + l   f ++++++l  il+ mvl  +
+  XP_002100867.1  71 ITLALETLCPAGTSAVTLLKMFLMLHYRQDLSTMWYRLRSLIFDPNWQRLEQQDIRLSYsVMAARinfWPLSAGFFTCTTYNLKPILIAMVLCLQ 165
+                     78899*****************************************9999998888776554444669999999999999************999 PP
+
+           7tm_6  93 t.nsplpleipfpydwn..asegmyyi.syafqilgvlfsvlqnillDvlfcslllflclhlqlLkgrleelged.........nelteeee... 171
+                     +  +++ + +pf++ ++    + ++++ +y+f +++ +++++++ ++D++++ ++ +l++++++L+ ++e++ +                +    
+  XP_002100867.1 166 KrCEEFVWFTPFNMTMPnvLLSSPFFPlTYIFIAYTGYVTIFMFGGCDGFYFEFCAHLSALFEVLQAEIESIFTPykdllelspV-----QLytl 255
+                     8899*********999999788888888***********************************************7777444432.....33666 PP
+
+           7tm_6 172 rqeLkecverHkhivrlvaaindifsaallvqfllsalvlclllfqllfisgenvqaitvvlYllaallqvflyCyfGnelieeseslaeAaYss 266
+                      q+++ ++ rH+ i++l++ +++ +++++l++f+++a+v+++++++ll+++++ + a+ +v+Y++aal+q+ +yCy+G++++e+s +l++A++s+
+  XP_002100867.1 256 EQKMRSVIIRHNAIIDLARFFRERYTVITLAHFVSAAMVIGFSMVNLLTLGNNGLGAMLYVAYTIAALSQLLVYCYGGTLVAESSTELCQAMFSC 350
+                     799******************************************************************************************** PP
+
+           7tm_6 267 nWydasreyrrllliviqraqrpmsisaggfftisLdtFasvlkaa 312
+                     +W   +++ rrl+ ++i r+qrp+s+ +++ f++sL+tFa++l ++
+  XP_002100867.1 351 PWQLLKPKQRRLVHLLILRSQRPISMAVPF-FSPSLATFAAILHTS 395
+                     ******************************.***********9875 PP
+
+>> XP_039226845.1  odorant receptor 10a isoform X2 [Drosophila yakuba]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  210.7  15.2   1.2e-64   3.8e-62       2     312 ..      71     395 ..      70     396 .. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 210.7 bits;  conditional E-value: 1.2e-64
+           7tm_6   2 vnelltnlqttltfivcitKflllavnrkefyelinllrqldtrplaeeeeriheiala.ekrrk...fllvilfilasalalililvkmvldhe 92 
+                     ++ +l++l++  t++v+++K++l++ +r++++ ++++lr+l  +p +++ e++ +++   ++  +   + l   f ++++++l  il+ mvl  +
+  XP_039226845.1  71 ITLALETLCPAGTSAVTLLKMFLMLHYRQDLSTMWYRLRSLIFDPNWQRLEQQDIRLSYsVMAARinfWPLSAGFFTCTTYNLKPILIAMVLCLQ 165
+                     78899*****************************************9999998888776554444669999999999999************999 PP
+
+           7tm_6  93 t.nsplpleipfpydwn..asegmyyi.syafqilgvlfsvlqnillDvlfcslllflclhlqlLkgrleelged.........nelteeee... 171
+                     +  +++ + +pf++ ++    + ++++ +y+f +++ +++++++ ++D++++ ++ +l++++++L+ ++e++ +                +    
+  XP_039226845.1 166 KrCEEFVWFTPFNMTMPnvLLSSPFFPlTYIFIAYTGYVTIFMFGGCDGFYFEFCAHLSALFEVLQAEIESIFTPykdllelspV-----QLytl 255
+                     8899*********999999788888888***********************************************7777444432.....33666 PP
+
+           7tm_6 172 rqeLkecverHkhivrlvaaindifsaallvqfllsalvlclllfqllfisgenvqaitvvlYllaallqvflyCyfGnelieeseslaeAaYss 266
+                      q+++ ++ rH+ i++l++ +++ +++++l++f+++a+v+++++++ll+++++ + a+ +v+Y++aal+q+ +yCy+G++++e+s +l++A++s+
+  XP_039226845.1 256 EQKMRSVIIRHNAIIDLARFFRERYTVITLAHFVSAAMVIGFSMVNLLTLGNNGLGAMLYVAYTIAALSQLLVYCYGGTLVAESSTELCQAMFSC 350
+                     799******************************************************************************************** PP
+
+           7tm_6 267 nWydasreyrrllliviqraqrpmsisaggfftisLdtFasvlkaa 312
+                     +W   +++ rrl+ ++i r+qrp+s+ +++ f++sL+tFa++l ++
+  XP_039226845.1 351 PWQLLKPKQRRLVHLLILRSQRPISMAVPF-FSPSLATFAAILHTS 395
+                     ******************************.***********9875 PP
+
+>> XP_002088904.1  odorant receptor 30a [Drosophila yakuba]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  206.9  21.9   1.7e-63   5.4e-61       5     313 .]      77     381 ..      73     381 .. 0.96
+
+  Alignments for each domain:
+  == domain 1  score: 206.9 bits;  conditional E-value: 1.7e-63
+           7tm_6   5 lltnlqttltfivcitKflllavnrkefyelinllrqldtrplaeeeeriheialaekrrkfllvilfilasalalililvkmvldhetnsplpl 99 
+                     +++n+++ + f++++++ +ll+v+r  ++++i++l+  + + l+++++ i   + ++ r++ ++ +++ l+ ++ +i  ++ +++++e+   lp+
+  XP_002088904.1  77 IIRNVYLAVLFTNTVVRGVLLCVQRFSYERFISILKGFYIELLQSDDPTISLLVEETTRLSVFISRINLLMGCCTCIGFVTYPIFGSER--VLPY 169
+                     789***********************************************999999777779***************************..8888 PP
+
+           7tm_6 100 eipfpydwn..asegmyyisyafqilgvlfsvlqnillDvlfcslllflclhlqlLkgrleelgednelteeeerqeLkecverHkhivrlvaai 192
+                      +++p   +    +++y i++++q+++  + ++++i + ++++ ++lf+ l++++L+++l++l+++++++ +    eL++c++++ ++  +v+ +
+  XP_002088904.1 170 GMYLPTIDEykYASPYYEIFFVIQAIMAPMGCCMYIPYTNMVVTFTLFAILMCRVLQHKLRSLEKLKNDQVRG---ELIWCIKYQLKLTGFVDSM 261
+                     8888877776566666667***********************************************9999996...6****************** PP
+
+           7tm_6 193 ndifsaallvqfllsalvlclllfqllfisgenvqaitvvlYllaallqvflyCyfGnelieeseslaeAaYssnWydasreyrrllliviqraq 287
+                     n++ ++  lv+fl+++++lc+llf+l++ ++ + q ++v++Y+++++++ ++++y++nel+ +s ++a AaY+snW+d++++++++l ++i+r+q
+  XP_002088904.1 262 NALNTHLHLVEFLCFGAMLCVLLFSLIIAQT-IAQTVIVIAYMVMIFANSVVLYYVANELYFQSFDIAIAAYESNWMDFDVDTQKTLKFLIMRSQ 355
+                     ***************************9999.*************************************************************** PP
+
+           7tm_6 288 rpmsisaggfftisLdtFasvlkaay 313
+                     +p+ i +gg+++++L++++s+l+a+y
+  XP_002088904.1 356 KPLAILVGGTYPMNLKMLQSLLNAIY 381
+                     ***********************987 PP
+
+>> XP_039226551.1  odorant receptor 43a isoform X1 [Drosophila yakuba]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  205.6   4.8   4.1e-63   1.3e-60       4     302 ..      59     353 ..      56     357 .. 0.96
+
+  Alignments for each domain:
+  == domain 1  score: 205.6 bits;  conditional E-value: 4.1e-63
+           7tm_6   4 elltnlqttltfivcitKflllavnrkefyelinllrqldtrplaeeeeriheiala.ekrrkfllvilfilasalalililvkmvldhetnspl 97 
+                      ++ n+++++ +++++++ +l++++r +f+e++++l  l ++ l +++e+   i+++ e+  + +l il+  as+l ++ +lv++++++e+    
+  XP_039226551.1  59 AFILNMFFFSAIFNALMRTWLVIIKRGQFEEFLDQLSTLFHSLLDSTDEWGRGILRRaEREAR-NLAILNLSASFLDIVGALVSPLFREER--AH 150
+                     5899*****************************************************666666.***************************..88 PP
+
+           7tm_6  98 pleipfpydwnasegmyyisyafqilgvlfsvlqnillDvlfcslllflclhlqlLkgrleelgednelteeeerqeLkecverHkhivrlvaai 192
+                     p+   +p+  ++s++ y ++y+ q+ + l+  ++++ + +lf+ l +f +++lq+L +rl ++g  ++ +ee ++++L  c+++H++++ +v+++
+  XP_039226551.1 151 PFGVALPGVSMTSSPVYEVIYLAQLPTPLLLSMMYMPFVSLFAGLAIFGKAMLQILVHRLGQIGGAEQPEEE-RHHRLTSCIAYHTQVMSYVWQL 244
+                     888888889999******************************************************555555.68******************** PP
+
+           7tm_6 193 ndifsaallvqfllsalvlclllfqllfisgenvqaitvvlYllaallqvflyCyfGnelieeseslaeAaYssnWydasreyrrllliviqraq 287
+                     n+++  ++ v+ ++++ ++c llf l +i++ ++q+  +v+Y+l++l+ ++ y+  +ne++ e++++aeA+Y+++Wy+a +++r++lli+++++q
+  XP_039226551.1 245 NKLVANIVAVEAIIFGSIICSLLFCLNIITS-PTQVTSIVMYILTMLYVLYTYYNRANEICLENNRVAEAVYNVPWYEAGTRFRKTLLIFLMQTQ 338
+                     *******************************.*************************************************************** PP
+
+           7tm_6 288 rpmsisaggfftisL 302
+                     +p+++ +   f+ sL
+  XP_039226551.1 339 HPLEVGGCISFAESL 353
+                     ****99999888877 PP
+
+>> XP_039226839.1  odorant receptor 10a isoform X1 [Drosophila yakuba]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  205.2  15.5   5.7e-63   1.8e-60       2     306 ..      71     389 ..      70     393 .. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 205.2 bits;  conditional E-value: 5.7e-63
+           7tm_6   2 vnelltnlqttltfivcitKflllavnrkefyelinllrqldtrplaeeeeriheiala.ekrrk...fllvilfilasalalililvkmvldhe 92 
+                     ++ +l++l++  t++v+++K++l++ +r++++ ++++lr+l  +p +++ e++ +++   ++  +   + l   f ++++++l  il+ mvl  +
+  XP_039226839.1  71 ITLALETLCPAGTSAVTLLKMFLMLHYRQDLSTMWYRLRSLIFDPNWQRLEQQDIRLSYsVMAARinfWPLSAGFFTCTTYNLKPILIAMVLCLQ 165
+                     78899*****************************************9999998888776554444669999999999999************999 PP
+
+           7tm_6  93 t.nsplpleipfpydwn..asegmyyi.syafqilgvlfsvlqnillDvlfcslllflclhlqlLkgrleelged.........nelteeee... 171
+                     +  +++ + +pf++ ++    + ++++ +y+f +++ +++++++ ++D++++ ++ +l++++++L+ ++e++ +                +    
+  XP_039226839.1 166 KrCEEFVWFTPFNMTMPnvLLSSPFFPlTYIFIAYTGYVTIFMFGGCDGFYFEFCAHLSALFEVLQAEIESIFTPykdllelspV-----QLytl 255
+                     8899*********999999788888888***********************************************7777444432.....33666 PP
+
+           7tm_6 172 rqeLkecverHkhivrlvaaindifsaallvqfllsalvlclllfqllfisgenvqaitvvlYllaallqvflyCyfGnelieeseslaeAaYss 266
+                      q+++ ++ rH+ i++l++ +++ +++++l++f+++a+v+++++++ll+++++ + a+ +v+Y++aal+q+ +yCy+G++++e+s +l++A++s+
+  XP_039226839.1 256 EQKMRSVIIRHNAIIDLARFFRERYTVITLAHFVSAAMVIGFSMVNLLTLGNNGLGAMLYVAYTIAALSQLLVYCYGGTLVAESSTELCQAMFSC 350
+                     799******************************************************************************************** PP
+
+           7tm_6 267 nWydasreyrrllliviqraqrpmsisaggfftisLdtFa 306
+                     +W   +++ rrl+ ++i r+qrp+s+ +++ f++sL+tFa
+  XP_039226839.1 351 PWQLLKPKQRRLVHLLILRSQRPISMAVPF-FSPSLATFA 389
+                     ******************************.********7 PP
+
+>> XP_039226841.1  odorant receptor 10a isoform X1 [Drosophila yakuba]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  205.2  15.5   5.7e-63   1.8e-60       2     306 ..      71     389 ..      70     393 .. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 205.2 bits;  conditional E-value: 5.7e-63
+           7tm_6   2 vnelltnlqttltfivcitKflllavnrkefyelinllrqldtrplaeeeeriheiala.ekrrk...fllvilfilasalalililvkmvldhe 92 
+                     ++ +l++l++  t++v+++K++l++ +r++++ ++++lr+l  +p +++ e++ +++   ++  +   + l   f ++++++l  il+ mvl  +
+  XP_039226841.1  71 ITLALETLCPAGTSAVTLLKMFLMLHYRQDLSTMWYRLRSLIFDPNWQRLEQQDIRLSYsVMAARinfWPLSAGFFTCTTYNLKPILIAMVLCLQ 165
+                     78899*****************************************9999998888776554444669999999999999************999 PP
+
+           7tm_6  93 t.nsplpleipfpydwn..asegmyyi.syafqilgvlfsvlqnillDvlfcslllflclhlqlLkgrleelged.........nelteeee... 171
+                     +  +++ + +pf++ ++    + ++++ +y+f +++ +++++++ ++D++++ ++ +l++++++L+ ++e++ +                +    
+  XP_039226841.1 166 KrCEEFVWFTPFNMTMPnvLLSSPFFPlTYIFIAYTGYVTIFMFGGCDGFYFEFCAHLSALFEVLQAEIESIFTPykdllelspV-----QLytl 255
+                     8899*********999999788888888***********************************************7777444432.....33666 PP
+
+           7tm_6 172 rqeLkecverHkhivrlvaaindifsaallvqfllsalvlclllfqllfisgenvqaitvvlYllaallqvflyCyfGnelieeseslaeAaYss 266
+                      q+++ ++ rH+ i++l++ +++ +++++l++f+++a+v+++++++ll+++++ + a+ +v+Y++aal+q+ +yCy+G++++e+s +l++A++s+
+  XP_039226841.1 256 EQKMRSVIIRHNAIIDLARFFRERYTVITLAHFVSAAMVIGFSMVNLLTLGNNGLGAMLYVAYTIAALSQLLVYCYGGTLVAESSTELCQAMFSC 350
+                     799******************************************************************************************** PP
+
+           7tm_6 267 nWydasreyrrllliviqraqrpmsisaggfftisLdtFa 306
+                     +W   +++ rrl+ ++i r+qrp+s+ +++ f++sL+tFa
+  XP_039226841.1 351 PWQLLKPKQRRLVHLLILRSQRPISMAVPF-FSPSLATFA 389
+                     ******************************.********7 PP
+
+>> XP_002090286.2  odorant receptor 47b [Drosophila yakuba]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  200.1  14.1   1.9e-61   6.1e-59       1     313 []     139     453 ..     139     453 .. 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 200.1 bits;  conditional E-value: 1.9e-61
+           7tm_6   1 evnelltnlqttltfivcitKflllavnrkefyelinllrqldtrplaeeeeriheialaekrrkfllvilfilasalalililvkmvldhet.. 93 
+                     +v e+++ l++++ +++++tK+++++++++e+ eli ++   d+++++ ++++  e++l   ++++++vi ++l+ +++++++++++ +  ++  
+  XP_002090286.2 139 NVIEMGDDLVWISGMALVFTKIVYMHLRCDEIDELIWHF---DYYNRELRPHHTDEEVLG--WQRLCYVIESGLYINCFCLVNFFSAAIFLQPll 228
+                     68899******************************9998...99****************..7778***************************9* PP
+
+           7tm_6  94 .nsplpleipfpydwn...asegmyyisyafqilgvlfsvlqnillDvlfcslllflclhlqlLkgrleelgednelteeeerqeLkecverHkh 184
+                      + +lp+++++p++w+    +++ ++++y++q +++++++++ +++D++ +  +l+ +l+l+lL+ ++++lge++ ++e+  ++e++++v+ H+h
+  XP_002090286.2 229 gEGKLPFHCVYPFQWHrldLHPYSFWFLYIWQSVTSQHNLMSILMVDMVGITAFLQTALNLKLLCIEMRRLGEMKVSDER-FHEEFCRVVRFHQH 322
+                     ******************99******************************************************888888.58************ PP
+
+           7tm_6 185 ivrlvaaindifsaallvqfllsalvlclllfqllfisg.envqaitvvlYllaallqvflyCyfGnelieeseslaeAaYssn.Wydasreyrr 277
+                     i+ lv++ n+ f+ a+ +q++ s   ++++ f+++  +  ++  a ++vl +l+a++q+ l+C+ G++++++s ++a+Aa+++n W++ s+ +++
+  XP_002090286.2 323 IIMLVEKANRAFNGAFNAQLMASFSLISISTFETMAAAAvDPKMAAKFVLLMLVAFIQLSLWCVTGTLVYTQSVEVAQAAFDINdWHTKSPAIQK 417
+                     ************************************99999****************************************************** PP
+
+           7tm_6 278 llliviqraqrpmsisaggfftisLdtFasvlkaay 313
+                      + +vi raq+p+++ a  f++++L t++ vlk++y
+  XP_002090286.2 418 DISFVILRAQKPLMYVAEPFLPFTLGTYMLVLKNCY 453
+                     *********************************998 PP
+
+>> XP_002094289.1  odorant receptor 67c [Drosophila yakuba]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  188.7  18.3     6e-58   1.9e-55       7     313 .]      81     391 ..      75     391 .. 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 188.7 bits;  conditional E-value: 6e-58
+           7tm_6   7 tnlqttltfivcitKflllavnrkefyelinllrqldtrplaeeeeriheialaekrrkfllvilfilasalalilil.......vkmvldhet. 93 
+                      +   + +++v+ +K  +++  +k +  l+++l+ ++++ la+++e++  +  +  ++k+++ i++ l+ a+ +++++       vk+ +     
+  XP_002094289.1  81 AVAPCIGFSLVADFKQAAMIRGKKTLIMLLDDLEDMHPKTLAKQKEYKLTDFEK--TMKRVINIFTFLCLAYTTTFSFypaikasVKFNF---Lg 170
+                     55667789999*******************************************..4444666666666666666666445555554433...04 PP
+
+           7tm_6  94 ....nsplpleipfpydwnasegmyyisyafqilgvlfsvlqnillDvlfcslllflclhlqlLkgrleelgednelteeeerqeLkecverHkh 184
+                         ++++ + i+fp+d  +++  y+i+y+  + g +++ + ++++D l++++++++c+h+  +++rle++  + ++++e + + L+ ++++H +
+  XP_002094289.1 171 ydtfDRNFGFLIWFPFDATRNNLIYWIMYWDIAHGAYLAGIAFLCADLLLVVVITQICMHFNYISMRLENHPCNSNEDKE-NIEFLIGIIRYHDK 264
+                     44699**********************998888999**************************************777777.69************ PP
+
+           7tm_6 185 ivrlvaaindifsaallvqfllsalvlclllfqllfisgenvqaitvvlYllaallqvflyCyfGnelieeseslaeAaYssnWydasreyrrll 279
+                      ++l++++nd++s +ll++fl++++++c+++fq++  +     +i+++++l++ ++qvf++Cy+G+ li  s ++ +AaY+++W+++s +y+++l
+  XP_002094289.1 265 CLKLCEHVNDLYSFSLLLNFLMASMQICFIAFQVTESTV--EVIIIYCIFLMTSMVQVFMVCYYGDSLIATSLKVGDAAYNQKWFQCSKSYCTML 357
+                     ***********************************7666..567889************************************************ PP
+
+           7tm_6 280 liviqraqrpmsisaggfftisLdtFasvlkaay 313
+                      ++i+r+q+p si+ + f +isL t+++v++++y
+  XP_002094289.1 358 KLLIMRSQKPASIRPPTFPPISLVTYMKVISMSY 391
+                     *******************************998 PP
+
+>> XP_002086824.3  putative odorant receptor 92a [Drosophila yakuba]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  187.6  12.3   1.2e-57   3.9e-55       5     313 .]      84     396 ..      78     396 .. 0.91
+
+  Alignments for each domain:
+  == domain 1  score: 187.6 bits;  conditional E-value: 1.2e-57
+           7tm_6   5 lltnlqttltfivcitKflllavnrkefyelinllrqldtrplaeeeeriheialaekrrkfllvilfilasalalililvkmvldhet...... 93 
+                     +  +   + +++ + +K + l vnrk++ +l+++l+++ +  ++ + +++++  ++  + + +++ ++il+ ++ +++++ +++ +  +      
+  XP_002086824.3  84 ATAVAPCIGFSFMADFKQFGLTVNRKRLVRLLDDLKEIFPLDVEAQRKYNVSFYRT-HMNR-VMTLFTILCMTYTSSFSFYPAIKSTIKyylmgs 176
+                     55556677899999*************************99999999999999999.5555.888888888888888888444444444444555 PP
+
+           7tm_6  94 ...nsplpleipfpydwnasegmyyisyafqilgvlfsvlqnillDvlfcslllflclhlqlLkgrleelgednelteeeerqeLkecverHkhi 185
+                        +++  ++i fpyd +++   y++sy+  + + +++ ++++++D ++++++++l++h+  ++++le  +   ++t+ee+ + L++ v +H + 
+  XP_002086824.3 177 eifERNYGFHILFPYDAETDLTVYWFSYWGLAHCAYVAGVSYVCVDLVLIATITQLTMHFNFIANDLEAYEGG-DHTDEENIKYLQNLVVYHARA 270
+                     589999********************9999999**************************************99.77777789************* PP
+
+           7tm_6 186 vrlvaaindifsaallvqfllsalvlclllfqllfisgenvqaitvvlYllaallqvflyCyfGnelieeseslaeAaYssnWydasreyrrlll 280
+                     ++l +++n+ifs  +l +f+ ++lv+c+++fq++  +    +++ +++++ a l+qvf++Cy+G+e+i +s+++ ++a+++nW+ +s++y+r+l+
+  XP_002086824.3 271 LDLSEEVNNIFSFLILWNFIAASLVICFAGFQITASNV--EDIVLYFIFFSASLVQVFVVCYYGDEMISSSSRIGHSAFNQNWLPCSTKYKRILQ 363
+                     **********************************6665..999**************************************************** PP
+
+           7tm_6 281 iviqraqrpmsisaggfftisLdtFasvlkaay 313
+                     ++i+r+q+p si+ + f +is +tF++v++++y
+  XP_002086824.3 364 FIIARSQKPASIRPPTFPPISFNTFMKVISMSY 396
+                     ******************************998 PP
+
+>> XP_039230310.1  odorant receptor 63a isoform X1 [Drosophila yakuba]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  179.2  13.5   4.5e-55   1.4e-52       9     257 ..      78     352 ..      70     353 .. 0.94
+
+  Alignments for each domain:
+  == domain 1  score: 179.2 bits;  conditional E-value: 4.5e-55
+           7tm_6   9 lqttltfivcitKflllavnrkefyeli......nllrqldtrplaeeeeriheiala.ekrrk..fllvilfilasalalililvkmvldhet. 93 
+                       t l f+++i+K++++++ +k++y l+      +ll+ ++ ++++++ ++ ++i+++ e++++  +  ++ + l++++ +i+i+++++++++  
+  XP_039230310.1  78 AGTALQFLTSIAKMWYFLFAHKQIYHLLrkarchELLQRCELFERMSDLPVTKIIRQQvESTMNryWASTRRQLLIYLYSCICITTNYFINSFAi 172
+                     45667777********************9999999************************999999****************************99 PP
+
+           7tm_6  94 ...........nsplpleipfpydwn...asegmyyi.syafqilgvlfsvlqnillDvlfcslllflclhlqlLkgrleelged..nelteeee 171
+                                +++++l++p +y+ +     e++yy+ ++++++++++++ ++++++D++f++l+l+ +++++ L++++e+++++  + +++   
+  XP_039230310.1 173 nlyryftrpkgSYDIMLPLPSLYPAWehkGLEFPYYHiQMYLETCSLYICGMCAVSFDGIFIVLCLHSVGLMKSLNQMVEHATSElvPPDRRV-- 265
+                     ************************998888899**************************************************9965444555.. PP
+
+           7tm_6 172 rqeLkecverHkhivrlvaaindifsaallvqfllsalvlclllfqllfisg..envqaitvvlYllaallqvflyCyfGnelieese 257
+                      + L++c+++++++++++a++n +f+++++ qflls ++++l+lfq++++ g  +++++i++++Yl+aa +q+++yCy+G++++++ e
+  XP_039230310.1 266 -EYLRCCIYQYQRVANFAAEVNGCFRHITFSQFLLSLFNWGLALFQMSVGLGdnSSITMIRMTMYLVAAGYQIVVYCYNGQRFATAVE 352
+                     .56************************************************988999**************************99876 PP
+
+>> XP_015050488.1  putative odorant receptor 71a isoform X2 [Drosophila yakuba]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  178.7  16.2   6.4e-55     2e-52       6     313 .]      67     367 ..      62     367 .. 0.94
+
+  Alignments for each domain:
+  == domain 1  score: 178.7 bits;  conditional E-value: 6.4e-55
+           7tm_6   6 ltnlqttltfivcitKflllavnrkefyelinllrqldtrplaeeeeriheialaekrrkfllvilfilasalalililvkmvldhetnsplple 100
+                      ++l ++lt++++  K+++ + + +  + ++ ++  +d ++l++++e+ +++  +  rr   +++++ l+sa ++ +i++++++d  +  +lp+ 
+  XP_015050488.1  67 ADVLLICLTTTALGGKMINNWKYAHVAQCILTEWSTCDLFELRSQQEVDMWRFEH--RRFSRVFMFYCLCSAGVIPFIVIQPLFDIPN--QLPFW 157
+                     57889999***********************************************..55558**************************..***** PP
+
+           7tm_6 101 ipfpydwnasegmyyisyafqilgvlfsvlqnillDvlfcslllflclhlqlLkgrleelgednelteeeerqeLkecverHkhivrlvaaindi 195
+                     ++ p+dw+ ++  +++ +++q++++ +++++ni++D +  +++l+l+l l++L +rl +l++d +++ +   +++ e v+ H+++ + +  i+ +
+  XP_015050488.1 158 MWTPFDWR-QPALFWYPFIYQAITIPVTCMCNITMDAVNWYMMLHLSLCLRMLGQRLGKLQHD-DRDLR---ETFLELVQLHRRLKQQALGIECF 247
+                     ********.99999999**********************************************.44444...469******************** PP
+
+           7tm_6 196 fsaallvqfllsalvlclllfqllfisg..envqaitvvlYllaallqvflyCyfGnelieeseslaeAaYssnWydasreyrrllliviqraqr 288
+                     +s+++++q+l+s+l++c++++++       +   + +++ Ylla+++q+ l  ++Gn +i++ + l++++Y+s+W d++ + rrl+l+++  ++r
+  XP_015050488.1 248 ISKSTFTQILVSSLIICFTIYSMQMSPVlqDLPGFAAMMNYLLAMIMQIMLPTIYGNAVIDSANMLTDSMYNSDWPDMNSRMRRLVLMFMVYLNR 342
+                     ********************988754335478889999********************************************************* PP
+
+           7tm_6 289 pmsisaggfftisLdtFasvlkaay 313
+                     p+s++aggff i L++F+++++ ay
+  XP_015050488.1 343 PVSLKAGGFFHIGLPLFTKTMNQAY 367
+                     **********************998 PP
+
+>> XP_039229927.1  putative odorant receptor 69a [Drosophila yakuba]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   69.6  15.9   1.1e-21   3.3e-19       5     256 ..      77     326 ..      74     328 .. 0.85
+   2 !  112.7  16.8   7.8e-35   2.4e-32       4     308 ..     401     703 ..     398     705 .. 0.86
+
+  Alignments for each domain:
+  == domain 1  score: 69.6 bits;  conditional E-value: 1.1e-21
+           7tm_6   5 lltnlqttltfivcitKflllavnrkefyelinllrqldtrplaeeee..riheialaekrrk..fllvilfilasalalililvkmvldhet.. 93 
+                     l++  + ++ ++v +  +++l vnr +++ l+++l+++++r +++  +  ++++ a a   ++  fl++++f ++++ a +l l+   l   +  
+  XP_039229927.1  77 LSEMCSSFTLTVVGFCNVYALSVNRNQIETLLEELQEIYPRSRSNHYRcqHYFDMAMA--IMRieFLFYMFFYVYYNSAPVLLLLWEHL---Heg 166
+                     5555566667788888999999*********************665551145555555..44435888888888887776666533333...123 PP
+
+           7tm_6  94 ...nsplpleipfpydwnasegmyyisyafqilgvlfsvlqnillDvlfcslllflclhlqlLkgrleelgednelteeeerqeLkecverHkhi 185
+                        +++ +++++fp++ + s   + ++++  ++g+ + v  +i++ +l+c++ ++l+lh + ++ +l +l+ + +  ++   qeL+  +++H +i
+  XP_039229927.1 167 ydlSYKTQTNTWFPWQVHGSALGFAMAVLSITVGSFVGVGFSIVTQNLVCLFAFQLKLHYDGISSQLVSLDCR-QPGAH---QELRILIAYHSRI 257
+                     4688999******************************************************************.66666...56*********** PP
+
+           7tm_6 186 vrlvaaindifsaallvqfllsalvlclllfqllfisgenvqaitvvlYllaallqvflyCyfGneliees 256
+                     ++l +++n+i++ ++  +++ +++ +c++ +++l +     +a ++v  l+a +l  f++Cy G+e++ ++
+  XP_039229927.1 258 LQLGDQVNNILNFVFGSSLVGATIAICMSSISILLLDF--ASACKYVSSLVAFVLYNFVICYMGTEVSSAM 326
+                     **********************************8877..9*************************99875 PP
+
+  == domain 2  score: 112.7 bits;  conditional E-value: 7.8e-35
+           7tm_6   4 elltnlqttltfivcitKflllavnrkefyelinllrqldtrpl..aeeeeriheialaekrrkfllvilfilasalalililvkmvldhet... 93 
+                     el  + +++ ++iv ++ ++ ++  ++ f+ l++++++l +     + + +++he+  +    + +++i+   a +++ +l+++  + +h     
+  XP_039229927.1 401 ELASVGSMIGFTIVGSLNLWKMLSLKSHFENLLDEFEELFELTKdrSYRTHHYHEEYTR--HIR-NAFIFHSAAVVYYNSLPIILLIREHLSnsq 492
+                     6677778999**************************88865333115555555555555..444.577777777777888887666666655555 PP
+
+           7tm_6  94 ..nsplpleipfpydwnasegmyyisyafqilgvlfsvlqnillDvlfcslllflclhlqlLkgrleelgednelteeeerqeLkecverHkhiv 186
+                       ++ ++  +++p++ + s + +  +++ q+++  ++++ n+    l+  + ++l +h++ L+++le+++ ++   + +    Lk+ + +H +++
+  XP_039229927.1 493 qmSYRIQSSTWYPWQIQGSIPGFLAAVVCQMFSCIINMCVNMFIPFLVNFFGIQLEIHFDGLARQLESIDARHPNAKDQ----LKYLIVYHSKLL 583
+                     7788888888898888877777777***********************************************8888886....************ PP
+
+           7tm_6 187 rlvaaindifsaallvqfllsalvlclllfqllfisgenvqaitvvlYllaallqvflyCyfGnelieeseslaeAaYssnWydasreyrrllli 281
+                     +l++++n+ f+ ++++++ +s +  c+l+++++ +     + ++ +l +l  ++  fl+C  G++li +s ++  Aa+  nWy+++  yrr+lli
+  XP_039229927.1 584 NLADRVNQSFNFTFFISLSVSMISTCFLAISMTMFDF--GTSLKHLLGILLFITYNFLMCRSGTHLILKSGKVLPAAFYNNWYEGDLAYRRMLLI 676
+                     *********************************9988..66666666666667777*************************************** PP
+
+           7tm_6 282 viqraqrpmsisaggfftisLdtFasv 308
+                     +++ra +p + +++++ ++s  t+++v
+  XP_039229927.1 677 LMMRATKPYMWRTYKLAPVSITTYMAV 703
+                     ************************987 PP
+
+>> XP_002093286.3  odorant receptor 67a [Drosophila yakuba]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  173.7  12.6   2.1e-53   6.7e-51       2     305 ..      76     387 ..      75     391 .. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 173.7 bits;  conditional E-value: 2.1e-53
+           7tm_6   2 vnelltnlqttltfivcitKflllavnrkefyelinllrqldtrplaeeeeriheiala.ekrrkfllvilfilasalalililvkmvldhet.. 93 
+                     v e +++l+++++ ++   K+++++++r ++++l+++l+++ ++++ ++ee+ ++  l+ + + ++ +  l+++++++ ++++++ +++++    
+  XP_002093286.3  76 VLESCMVLSYLTFGAIGCSKICAVMYRRPKMTSLVKQLKSCFPSNALDQEEYDVKSCLKrTHMYTKAFGALYTVMYFAHTLTPIFVYFFEKVLlk 170
+                     778899999999**********************************99999999999997888889999***************99999988889 PP
+
+           7tm_6  94 ....nsplpleipfpydwnasegmyyisyafqilgvlfsvlqnillDvlfcslllflclhlqlLkgrleelged.....nelteeeerqeLkecv 179
+                         ++ +p++   p++w+ +++++y++y  q l+ + + + +i++D ++++++l++ +h + L++ l+e++ +     n   + e  ++L+  +
+  XP_002093286.3 171 npdaKQTMPFYQLEPWEWR-DTWWFYPTYFHQSLAGYTATCGSISSDLMIFAVVLQVIMHYDRLAKVLREFKVQalikpN--GADEDLKKLQSLI 262
+                     8888889999999999999.*******888888888888888*****************************999998533..3333389****** PP
+
+           7tm_6 180 erHkhivrlvaaindifsaallvqfllsalvlclllfqllfisgenvqaitvvlYllaallqvflyCyfGnelieeseslaeAaYssnWydasre 274
+                     + H  i+rl++ +n++f+++ll++f+ s+l +cl++fql++ ++   ++ + vl l+ +l +v+l+C f ++li++se++ +AaY+++W+da+ +
+  XP_002093286.3 263 ANHINILRLTDVMNEVFGVSLLLNFVASSLLVCLVGFQLTIKFS-LEYFGKQVLLLVSVLFEVYLLCSFSQNLIDASENVGYAAYDMDWFDADKR 356
+                     ****************************************9999.8888899******************************************* PP
+
+           7tm_6 275 yrrllliviqraqrpmsisaggfftisLdtF 305
+                     ++++l+++ +raq+p+ ++a+ f+ +s++t 
+  XP_002093286.3 357 FKKMLIFISMRAQQPVCLKATVFLDLSMSTV 387
+                     ****************************997 PP
+
+>> XP_039226135.1  odorant receptor 13a isoform X3 [Drosophila yakuba]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -2.3   0.1       8.3   2.6e+03     100     137 ..      28      63 ..      13      76 .. 0.49
+   2 !  172.2  14.5     6e-53   1.9e-50       7     312 ..      78     399 ..      72     400 .. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: -2.3 bits;  conditional E-value: 8.3
+           7tm_6 100 eipfpydwnasegmyyisyafqilgvlfsvlqnillDv 137
+                           +w+ s   +  +y++ +++v  sv   i++ +
+  XP_039226135.1  28 SESS-RPWK-SDSFLATAYVMWAWYVIASVGITISYQT 63 
+                     5544.4444.3333333444444444444444444333 PP
+
+  == domain 2  score: 172.2 bits;  conditional E-value: 6e-53
+           7tm_6   7 tnlqttltfivcitKflllavnrkefyelinllrqldtrplaeeeeriheialaekrrk.fllvilfilasalalililvkmvldhet...nspl 97 
+                     +n +tt+  +++++++l+l +n+++f++li+ +    + p +++  +  + +++  + +   ++ l  +  +++++l+lv+++++      n+p+
+  XP_039226135.1  78 ENCCTTFMGVLNFVRLLHLRLNQSKFRQLIENFSYEIWIPDSSKNNVAADCRRR--MITfSIMTSLLACLIIMYCVLPLVEIFFGPAIdaqNKPF 170
+                     799999999************************777777777777666666666..666667788888889999***********999999**** PP
+
+           7tm_6  98 pleipfpydwnasegmyyisyafqilgvlfsvlqnillDvlfcslllflclhlqlLkgrleelgednelteeee..rqeLkecverHkhivrlva 190
+                     p+++ fpyd ++s ++y+++y+f  ++  + v+   + D+++  ++++ c+++qlL +r+  l  d + +  e+   +++k++ve+H++++++++
+  XP_039226135.1 171 PYKMIFPYDAQNSWIRYVLTYIFTSYAGICVVTTLFAEDTILGFFITYTCGQFQLLHQRIAALFADSSAELGENiqLERIKRIVEKHNTVIDFAK 265
+                     ***********99999999***********************************************6555555566******************* PP
+
+           7tm_6 191 aindifsaallvqfllsalvlclllfqllfisg.envqaitvvlYllaallqvflyCyfGnelieeseslaeAaYssnWyd...........asr 273
+                     +++d+f+++ll+++++s++ +c+++fq++++ +  + +++++++Y+  al+q++++C +G+eli++s   a+ +Y+++W +            + 
+  XP_039226135.1 266 RLEDFFNPILLANLMISSVLICMVGFQIITGKNmFIGDYVKFIIYISSALSQLYVLCENGDELIKQSTLTAQILYECQWEGsnrmeshsftpTNK 360
+                     *******************************998899********************************************************** PP
+
+           7tm_6 274 eyrrllliviqraqrpmsisaggfftisLdtFasvlkaa 312
+                     ++r ++ ++i  +qrp++i+a++f t+sL+ F+++l+++
+  XP_039226135.1 361 RIRNHISFMILCSQRPVRITAFKFSTLSLQSFTAILSTS 399
+                     ***********************************9876 PP
+
+>> XP_039232194.1  odorant receptor 82a [Drosophila yakuba]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  171.0   8.0   1.5e-52   4.5e-50       7     308 ..      63     377 ..      57     380 .. 0.87
+
+  Alignments for each domain:
+  == domain 1  score: 171.0 bits;  conditional E-value: 1.5e-52
+           7tm_6   7 tnlqttltfivcitKflllavnrkefyelinllrqldtrplae.....eeeriheiala.ekrrkfllvilfilasalalililvkmvldhet.. 93 
+                       l++++t +++++K+  +++nr++f e+i+++r+++++ l++     ++ ++  + l  ++  +  l  + + a++l + l+ v ++l+     
+  XP_039232194.1  63 ACLSVVFTNMLTVIKISTFLANRRDFWEMIRRFRKMHEQSLKRmfrsaSPTQRNGEGLDyVAEAN-KLAFFLGRAYCLSCGLTGVYFMLGPILki 156
+                     557788899***************************99987652222244555555555455555.77777888888888888866666655555 PP
+
+           7tm_6  94 ..........nsplpleipfpydwnasegmyyisyafqilgvlfsvlqnillDvlfcslllflclhlqlLkgrleelgednelteeeerqeLkec 178
+                               +++lp+++ fp++   +++ y + + + +l++ + v  + ++D+lf+s+ ++l++h+q L+ ++e+ +   ++++ +  ++Lk +
+  XP_039232194.1 157 gacrwhgttcDKELPMPMKFPFNDL-KSPEYEVCFFYTVLVTVVVVAYASAVDGLFISFAINLRAHFQTLQAQIENWEFPLSKQDTQ--ARLKSI 248
+                     5666668899888888888877666.999****999999999999999*****************************9997777776..8***** PP
+
+           7tm_6 179 verHkhivrlvaaindifsaallvqfllsalvlclllfqllfisgenvqaitvvlYllaallqvflyCyfGnelieeseslaeAaYssnWydasr 273
+                     ve+H  +  l  +++++++++++ qf++++l+++++++ql++  ++ ++++ ++ +++ ++lq+f+yCy+G+ ++ es ++  A+  s+W+ as+
+  XP_039232194.1 249 VEYHVLLHSLSSKLRSMYTPTVMGQFVITSLQVGVIIYQLVTNMDSVMDLLLYASFFGSIMLQLFIYCYGGEIIKAESLQVDTAVRLSDWHLASP 343
+                     *********************************************************************************************** PP
+
+           7tm_6 274 eyrrllliviqraqrpmsisaggfftisLdtFasv 308
+                     + r++l ++i ++q+ + i+ag+ f  sL+ F+ v
+  XP_039232194.1 344 KSRTSLSLIILQSQKEVVIRAGF-FVASLANFVGV 377
+                     ***********************.99***999766 PP
+
+>> XP_039226847.1  odorant receptor 10a isoform X3 [Drosophila yakuba]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  170.9   5.8   1.5e-52   4.8e-50     112     306 ..       8     209 ..       2     213 .. 0.94
+
+  Alignments for each domain:
+  == domain 1  score: 170.9 bits;  conditional E-value: 1.5e-52
+           7tm_6 112 gmyyi.syafqilgvlfsvlqnillDvlfcslllflclhlqlLkgrleelged.........nelteeee...rqeLkecverHkhivrlvaain 193
+                      ++++ +y+f +++ +++++++ ++D++++ ++ +l++++++L+ ++e++ +                +     q+++ ++ rH+ i++l++ ++
+  XP_039226847.1   8 SPFFPlTYIFIAYTGYVTIFMFGGCDGFYFEFCAHLSALFEVLQAEIESIFTPykdllelspV-----QLytlEQKMRSVIIRHNAIIDLARFFR 97 
+                     578888***********************************************7777444432.....33666799******************* PP
+
+           7tm_6 194 difsaallvqfllsalvlclllfqllfisgenvqaitvvlYllaallqvflyCyfGnelieeseslaeAaYssnWydasreyrrllliviqraqr 288
+                     + +++++l++f+++a+v+++++++ll+++++ + a+ +v+Y++aal+q+ +yCy+G++++e+s +l++A++s++W   +++ rrl+ ++i r+qr
+  XP_039226847.1  98 ERYTVITLAHFVSAAMVIGFSMVNLLTLGNNGLGAMLYVAYTIAALSQLLVYCYGGTLVAESSTELCQAMFSCPWQLLKPKQRRLVHLLILRSQR 192
+                     *********************************************************************************************** PP
+
+           7tm_6 289 pmsisaggfftisLdtFa 306
+                     p+s+ +++ f++sL+tFa
+  XP_039226847.1 193 PISMAVPF-FSPSLATFA 209
+                     ********.********7 PP
+
+>> XP_039226850.1  odorant receptor 10a isoform X3 [Drosophila yakuba]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  170.9   5.8   1.5e-52   4.8e-50     112     306 ..       8     209 ..       2     213 .. 0.94
+
+  Alignments for each domain:
+  == domain 1  score: 170.9 bits;  conditional E-value: 1.5e-52
+           7tm_6 112 gmyyi.syafqilgvlfsvlqnillDvlfcslllflclhlqlLkgrleelged.........nelteeee...rqeLkecverHkhivrlvaain 193
+                      ++++ +y+f +++ +++++++ ++D++++ ++ +l++++++L+ ++e++ +                +     q+++ ++ rH+ i++l++ ++
+  XP_039226850.1   8 SPFFPlTYIFIAYTGYVTIFMFGGCDGFYFEFCAHLSALFEVLQAEIESIFTPykdllelspV-----QLytlEQKMRSVIIRHNAIIDLARFFR 97 
+                     578888***********************************************7777444432.....33666799******************* PP
+
+           7tm_6 194 difsaallvqfllsalvlclllfqllfisgenvqaitvvlYllaallqvflyCyfGnelieeseslaeAaYssnWydasreyrrllliviqraqr 288
+                     + +++++l++f+++a+v+++++++ll+++++ + a+ +v+Y++aal+q+ +yCy+G++++e+s +l++A++s++W   +++ rrl+ ++i r+qr
+  XP_039226850.1  98 ERYTVITLAHFVSAAMVIGFSMVNLLTLGNNGLGAMLYVAYTIAALSQLLVYCYGGTLVAESSTELCQAMFSCPWQLLKPKQRRLVHLLILRSQR 192
+                     *********************************************************************************************** PP
+
+           7tm_6 289 pmsisaggfftisLdtFa 306
+                     p+s+ +++ f++sL+tFa
+  XP_039226850.1 193 PISMAVPF-FSPSLATFA 209
+                     ********.********7 PP
+
+>> XP_002100758.2  odorant receptor 13a isoform X2 [Drosophila yakuba]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  170.3  15.6   2.4e-52   7.6e-50       7     312 ..     178     499 ..     172     500 .. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 170.3 bits;  conditional E-value: 2.4e-52
+           7tm_6   7 tnlqttltfivcitKflllavnrkefyelinllrqldtrplaeeeeriheialaekrrk.fllvilfilasalalililvkmvldhet...nspl 97 
+                     +n +tt+  +++++++l+l +n+++f++li+ +    + p +++  +  + +++  + +   ++ l  +  +++++l+lv+++++      n+p+
+  XP_002100758.2 178 ENCCTTFMGVLNFVRLLHLRLNQSKFRQLIENFSYEIWIPDSSKNNVAADCRRR--MITfSIMTSLLACLIIMYCVLPLVEIFFGPAIdaqNKPF 270
+                     799999999************************777777777777666666666..666667788888889999***********999999**** PP
+
+           7tm_6  98 pleipfpydwnasegmyyisyafqilgvlfsvlqnillDvlfcslllflclhlqlLkgrleelgednelteeee..rqeLkecverHkhivrlva 190
+                     p+++ fpyd ++s ++y+++y+f  ++  + v+   + D+++  ++++ c+++qlL +r+  l  d + +  e+   +++k++ve+H++++++++
+  XP_002100758.2 271 PYKMIFPYDAQNSWIRYVLTYIFTSYAGICVVTTLFAEDTILGFFITYTCGQFQLLHQRIAALFADSSAELGENiqLERIKRIVEKHNTVIDFAK 365
+                     ***********99999999***********************************************6555555566******************* PP
+
+           7tm_6 191 aindifsaallvqfllsalvlclllfqllfisg.envqaitvvlYllaallqvflyCyfGnelieeseslaeAaYssnWyd...........asr 273
+                     +++d+f+++ll+++++s++ +c+++fq++++ +  + +++++++Y+  al+q++++C +G+eli++s   a+ +Y+++W +            + 
+  XP_002100758.2 366 RLEDFFNPILLANLMISSVLICMVGFQIITGKNmFIGDYVKFIIYISSALSQLYVLCENGDELIKQSTLTAQILYECQWEGsnrmeshsftpTNK 460
+                     *******************************998899********************************************************** PP
+
+           7tm_6 274 eyrrllliviqraqrpmsisaggfftisLdtFasvlkaa 312
+                     ++r ++ ++i  +qrp++i+a++f t+sL+ F+++l+++
+  XP_002100758.2 461 RIRNHISFMILCSQRPVRITAFKFSTLSLQSFTAILSTS 499
+                     ***********************************9876 PP
+
+>> XP_039226134.1  odorant receptor 13a isoform X1 [Drosophila yakuba]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  170.1  15.6   2.7e-52   8.5e-50       7     312 ..     199     520 ..     193     521 .. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 170.1 bits;  conditional E-value: 2.7e-52
+           7tm_6   7 tnlqttltfivcitKflllavnrkefyelinllrqldtrplaeeeeriheialaekrrk.fllvilfilasalalililvkmvldhet...nspl 97 
+                     +n +tt+  +++++++l+l +n+++f++li+ +    + p +++  +  + +++  + +   ++ l  +  +++++l+lv+++++      n+p+
+  XP_039226134.1 199 ENCCTTFMGVLNFVRLLHLRLNQSKFRQLIENFSYEIWIPDSSKNNVAADCRRR--MITfSIMTSLLACLIIMYCVLPLVEIFFGPAIdaqNKPF 291
+                     799999999************************777777777777666666666..666667788888889999***********999999**** PP
+
+           7tm_6  98 pleipfpydwnasegmyyisyafqilgvlfsvlqnillDvlfcslllflclhlqlLkgrleelgednelteeee..rqeLkecverHkhivrlva 190
+                     p+++ fpyd ++s ++y+++y+f  ++  + v+   + D+++  ++++ c+++qlL +r+  l  d + +  e+   +++k++ve+H++++++++
+  XP_039226134.1 292 PYKMIFPYDAQNSWIRYVLTYIFTSYAGICVVTTLFAEDTILGFFITYTCGQFQLLHQRIAALFADSSAELGENiqLERIKRIVEKHNTVIDFAK 386
+                     ***********99999999***********************************************6555555566******************* PP
+
+           7tm_6 191 aindifsaallvqfllsalvlclllfqllfisg.envqaitvvlYllaallqvflyCyfGnelieeseslaeAaYssnWyd...........asr 273
+                     +++d+f+++ll+++++s++ +c+++fq++++ +  + +++++++Y+  al+q++++C +G+eli++s   a+ +Y+++W +            + 
+  XP_039226134.1 387 RLEDFFNPILLANLMISSVLICMVGFQIITGKNmFIGDYVKFIIYISSALSQLYVLCENGDELIKQSTLTAQILYECQWEGsnrmeshsftpTNK 481
+                     *******************************998899********************************************************** PP
+
+           7tm_6 274 eyrrllliviqraqrpmsisaggfftisLdtFasvlkaa 312
+                     ++r ++ ++i  +qrp++i+a++f t+sL+ F+++l+++
+  XP_039226134.1 482 RIRNHISFMILCSQRPVRITAFKFSTLSLQSFTAILSTS 520
+                     ***********************************9876 PP
+
+>> XP_002100948.2  putative odorant receptor 19b [Drosophila yakuba]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  161.4  11.6   1.2e-49   3.9e-47       2     313 .]      66     372 ..      65     372 .. 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 161.4 bits;  conditional E-value: 1.2e-49
+           7tm_6   2 vnelltnlqttltfivcitKflllavnrkefyelinllrqldtrplaeeeeriheialaekrrkfllvilfilasalalililvkmvldhetnsp 96 
+                     +++++++l++t+  ++ ++K+++++  r+e+ +  + l++ld r  ++ee+ri+  + +    k ++++ f    + ++i+ ++ m + +e+   
+  XP_002100948.2  66 LETFCESLCVTMPHTLYMLKLINVYRMRDEMIRSHRVLNHLDRRLGSSEERRIVGANIE--LAK-FVFRHFSRGVISIIIVGILYMAMANEP--T 155
+                     6789*****************************************9********99999..888.788888888888999************..* PP
+
+           7tm_6  97 lpleipfpydwnasegmyyisyafqilgvlfsvlqnillDvlfcslllflclhlqlLkgrleelgednelteeeerqeLkecverHkhivrlvaa 191
+                     l+++ ++p++w+ s+    ++ ++++ ++  +++    l +++  +l+++++h ++L+ r+++lg+   l ++   + L+ c+ +H++i++l++ 
+  XP_002100948.2 156 LMYPSWIPWNWRDSTSVSLPTAILHTSALIANATTVTNLCTYPGTYLILVSAHTKALALRVSKLGHGTPLPAARIQAILIGCIHDHQTILHLFKS 250
+                     ************99999999999999888888888888889**************************888888557889**************** PP
+
+           7tm_6 192 indifsaallvqfllsalvlclllfqllfisgenvqaitvvlYllaallqvflyCyfGnelieeseslaeAaYssnWydasreyrrllliviqra 286
+                     +++ +s+++++q++++a   c + + llf++  ++ ++ +++ ll + +++ l+Cy +++++++ + l  A+Ys+nW+ + +++rrll+++++r+
+  XP_002100948.2 251 LERSLSMTCFLQLFCTACAQCSISYFLLFGNVGIMRFMNMMVLLLGVSTETLLLCYAAELVSKAGDGLVAAVYSCNWLCQTVQFRRLLILMLARC 345
+                     ******************************999************************************************************** PP
+
+           7tm_6 287 qrpmsisaggfftisLdtFasvlkaay 313
+                     q+p+ +  g +++is++tF  v+k+ay
+  XP_002100948.2 346 QKPLILVSGIIVPISMKTFLGVIKGAY 372
+                     ************************998 PP
+
+>> XP_015049427.1  odorant receptor 67a [Drosophila yakuba]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  159.6  15.0   4.4e-49   1.4e-46       4     313 .]      78     395 ..      75     395 .. 0.89
+
+  Alignments for each domain:
+  == domain 1  score: 159.6 bits;  conditional E-value: 4.4e-49
+           7tm_6   4 elltnlqttltfivcitKflllavnrkefyelinllrqldtrplaeeeeriheiala.ekrrkfllvilfilasalalililvkmvldhet.... 93 
+                     e +++l++++++i+ + K+++++++r ++++l+++l+++ +  + ++ee+ ++  l+ + + ++ +  l+++++++ ++++++ ++ ++      
+  XP_015049427.1  78 EGCMVLSYCTFVIIGLSKICAVLYRRPKMTSLVKQLKSCFPLSALDQEEYDVKFCLKrTHMYTKAFGALYTVMYFAHTLTPIFVYFCEKVLlknp 172
+                     66789999********************************9999999999999888877777789999999999999999997777766666744 PP
+
+           7tm_6  94 ..nsplpleipfpydwnasegmyyisyafqilgvlfsvlqnillDvlfcslllflclhlqlLkgrleelged.....nelteeeerqeLkecver 181
+                       ++ +p+    +++w+ +++++y++y  q l+ + + + +i++D ++++++l++ +h + L++ l+e++ +     n   + e  ++L+  ++ 
+  XP_015049427.1 173 daKQTMPFFQLELWEWR-DNWWFYPTYFHQSLAGYTATCGSISSDLMIFAVVLQVIMHYDRLAKVLREFKVQalikpN--GADEDLKKLQSLIAN 264
+                     45455555544557777.*******888888888888888*****************************999998533..3333389******** PP
+
+           7tm_6 182 HkhivrlvaaindifsaallvqfllsalvlclllfqllfisgenvqaitvvlYllaallqvflyCyfGnelieeseslaeAaYssnWydasreyr 276
+                     H  i+rl++ +n++f+++ll++f+ s+l +cl++fql++ ++   ++ + vl l+ +l +v+l+  f ++li++se++ +AaY+++W+da+ +++
+  XP_015049427.1 265 HINILRLTDVMNEVFGVSLLLNFVASSLLVCLVGFQLTIKFS-LEYFGKQVLLLVSVLFEVYLLSSFSQKLIDASENVGYAAYDMDWFDADKRIK 358
+                     **************************************9999.8888899********************************************* PP
+
+           7tm_6 277 rllliviqraqrpmsisaggfftisLdtFasvlkaay 313
+                     ++l+++ +raq+p+ ++a+ f+ +s++t +  l+++y
+  XP_015049427.1 359 KMLIFISMRAQKPVCLKATVFLDLSMSTVTIFLSMTY 395
+                     ****************************988888876 PP
+
+>> XP_039228434.1  odorant receptor 56a [Drosophila yakuba]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  152.3  15.5     7e-47   2.2e-44       6     313 .]      76     407 ..      71     407 .. 0.85
+
+  Alignments for each domain:
+  == domain 1  score: 152.3 bits;  conditional E-value: 7e-47
+           7tm_6   6 ltnlqttltfivcitKflllavnrkefyelinllrqldtrpl.aeeeeriheialaekrrkfllvilfilasalalilil............... 84 
+                      t++ t + ++++++  ++ +v+r+++ +l++   + d ++l  e + +++e ++a  +++ + ++++ l+++  +i  l               
+  XP_039228434.1  76 ATSYATAVQYFAVSIATFNAYVQRDKVISLLRVA-HSDIQNLmLEADNQEMELLVA--TQT-YTRTITLLIWVPSVIAGLmaysdciyrtlflpk 166
+                     56777888889999999999*********99877.555555526666666666666..444.566666666666666666555666766666666 PP
+
+           7tm_6  85 ....vkmvldhetnsplpleipfpydwnasegmyyisyafqilgvlfsvlqnillDvlfcslllflclhlqlLkgrleelged............ 163
+                         v++v ++e+  p+ l     +++ +   ++++ y+  ++++ + ++   l  +++ +l+ +++l+lq+Lk+r+ee++              
+  XP_039228434.1 167 svfnVPAVRRGEE-HPILLFQL--FPFGELCDNFVVGYLGPWYALGLGITTIPLWHTFITCLMKYVNLKLQVLKKRVEEMDISrlnpnleinrlt 258
+                     6554443333333.44444444..566666899999999999999999999999*************************************9999 PP
+
+           7tm_6 164 nelteeeerqeLkecverHkhivrlvaaindifsaallvqfllsalvlclllfqllfisgenvqaitvvlYllaallqvflyCyfGnelieeses 258
+                      ++ + +++q +ke+v+++ +i ++v++++++++++++++f+++++ +c+l+f+l+++++++++++++++Yl+++   +++y++++++++e++++
+  XP_039228434.1 259 GSELTFWQMQLFKEFVREQLRIRKFVQELQELICVPVMADFIIFSVLICFLFFALTVGVPSKMDYFFMFIYLFVMAGILWIYHWHATLIVECHDE 353
+                     88888888*************************************************************************************** PP
+
+           7tm_6 259 laeAaYssnWydasreyrrllliviqraqrpmsisaggfftisLdtFasvlkaay 313
+                     l+ A++s+ Wy+++++ +++l++++++aqrpm+++a   + ++L+tF+++ ++ay
+  XP_039228434.1 354 LSLAYFSCGWYNFEMPLQKMLVFMMMHAQRPMKMRALL-VDLNLRTFIDIGRGAY 407
+                     **************************************.*************998 PP
+
+>> XP_002098706.1  putative odorant receptor 98b [Drosophila yakuba]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  137.6  12.3   2.1e-42   6.5e-40       1     312 [.      59     373 ..      59     374 .. 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 137.6 bits;  conditional E-value: 2.1e-42
+           7tm_6   1 evnelltnlqttltfivcitKflllavnrkefyelinllrqldtrpl.aeeeeriheiala.ekrrkfllvilfilasalalililvkmvldhet 93 
+                     +v++l ++l+ +l  ++++ K+ ++++  k+f+ li+++  + +r++     e i+ ++ +  ++ +  +  +fi+a + a++++ + m++++++
+  XP_002098706.1  59 NVEQLTDSLCSVLVDLLALCKIGVFLWLYKDFRFLIRQFYCVLQREThCLAGELIVTRESRrDQFISAIYAHCFITAGLSACLMSPLAMLISYQR 153
+                     6899********************************99877666666555555555555554457778999************************ PP
+
+           7tm_6  94 ..nsplpleipfpydwnasegmyyi.syafqilgvlfsvlqnillDvlfcslllflclhlqlLkgrleelgednelteeeerqeLkecverHkhi 185
+                       + +  +++p  y+w +++ + y+ sy++++ + l  +l  +++D+lfc l ++l++++q+ ++++ +++ +n  +++e    L+ +++ ++  
+  XP_002098706.1 154 tgEFQPDFPFPSVYPWDNKKLPNYLiSYVWNVSAALGVALPTVCVDTLFCFLSHNLSALFQIARHKMMHFEGRNAAETRE---NLRHVFQLYELC 245
+                     66555556666669999888888877********************************************9998888885...6*********** PP
+
+           7tm_6 186 vrlvaaindifsaallvqfllsalvlclllfqllfisgenvqaitvvlYllaallqvflyCyfGnelieeseslaeAaYssnWyd...asreyrr 277
+                     ++l   +n+ f++ +++qf+ ++l lc+l +ql+     + ++++++++++a++ qv +yC++G  +  e++ + +A+Y+s W+     ++   +
+  XP_002098706.1 246 LQLGHSLNEYFRPLIFAQFVAASLHLCVLCYQLSANIL-QPALLFYAAFTAAIVGQVSIYCFCGSSVHSECQLFGQAIYESSWLHllqENPLLVS 339
+                     **********************************8888.9*******************************************98776899999* PP
+
+           7tm_6 278 llliviqraqrpmsisaggfftisLdtFasvlkaa 312
+                     +l i ++r+  ++ i++++ f+ + +t++ +++ a
+  XP_002098706.1 340 SLKIAMMRSSLGCPIDGYF-FAANRETLIRIVRSA 373
+                     *******************.***********9987 PP
+
+>> XP_039227242.1  odorant receptor 42b isoform X2 [Drosophila yakuba]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -1.9   0.6       6.3     2e+03     213     246 ..      22      56 ..      21      65 .. 0.50
+   2 !  135.0   0.4   1.3e-41   4.2e-39       2     188 ..      77     257 ..      76     272 .. 0.98
+
+  Alignments for each domain:
+  == domain 1  score: -1.9 bits;  conditional E-value: 6.3
+           7tm_6 213 lllfqllfisg..envqaitvvlYllaallqvflyC 246
+                     ++l++++++ g   + q++   +Yl    l +f++C
+  XP_039227242.1  22 IYLYRAMKFIGwlPPKQGVLRYVYLTWT-LMTFVWC 56 
+                     5555555555555555555555554332.2344444 PP
+
+  == domain 2  score: 135.0 bits;  conditional E-value: 1.3e-41
+           7tm_6   2 vnelltnlqttltfivcitKflllavnrkefyelinllrqldtrplaeeeeriheialaekrrkfllvilfilasalalililvkmvldhetnsp 96 
+                     + e+lt+lq++++ + +++K+ +++  ++++ ++ n+l+qld r++a ee++++++++a  r +  ++ +f+++++ ++ +++++ vl++ +  p
+  XP_039227242.1  77 PGEFLTSLQVCINAYGSSVKVAITYSMLWRLIKAKNILDQLDLRCTAMEEREKIHRVVA--RSN-HAFLIFTFVYCGYAGSTYLSSVLSGRP--P 166
+                     579********************************************************..999.9**************************..* PP
+
+           7tm_6  97 lpleipfpydwnasegmyyisyafqilgvlfsvlqnillDvlfcslllflclhlqlLkgrleelgednelteeeerqeLkecverHkhivrl 188
+                     ++l++pf +dw+  +  ++++  +++++++ +vlq+ l+D+++++++l+l++hl++L++r+++l++d +l+e+e+++eL++cv +Hk i+r 
+  XP_039227242.1 167 WQLYNPF-IDWHDGTLKLWVASTLEYMVMSGAVLQDQLSDTYPLIYTLILRAHLDMLRERIRRLRSDGNLSEAESYEELVKCVMDHKLILRH 257
+                     *******.*********************************************************************************985 PP
+
+>> XP_002093923.1  putative odorant receptor 65b [Drosophila yakuba]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  100.0   6.3   6.1e-31   1.9e-28       4     313 .]      88     399 ..      85     399 .. 0.87
+
+  Alignments for each domain:
+  == domain 1  score: 100.0 bits;  conditional E-value: 6.1e-31
+           7tm_6   4 elltnlqttltfivcitKflllavnrkefyelinllrqldtrpl.aeeeeriheialaekrrkfllvilfilasalalililvkmvldhetnspl 97 
+                     e+++ + ++l  ++ ++K++++ ++ +++ ++in+l++ ++     +    +    +++  + f+lv +  +  +++++l +++++  h++  +l
+  XP_002093923.1  88 EMGRDFAFILGAFFIVFKVFYFNWYGDDLDQVINELEEFHPWTKiGPGAVDYRAGKRWYFVMAFFLVSSWAFFLCVFILLLITSPMWVHQQ--NL 180
+                     788889999999***************************9999956666666666666333334555555555555555555555555555..6* PP
+
+           7tm_6  98 pleipfpydwn...asegmyyisyafqilgvlfsvlqnillDvlfcslllflclhlqlLkgrleelgednelteeeerqeLkecverHkhivrlv 189
+                     p+++ fp++w+    +++  +i+y++q + ++ +++  ++  +l ++    ++  +++L+ +l+++ + ++  +e  r+e ++ v+ H++iv++ 
+  XP_002093923.1 181 PFHAAFPFQWHdrsLHPIGHFIIYVYQSYFSAYALTWLLCIEGLSVCIYAEITFAIEVLCLELRHIHRFKDGLTEL-RMETNRLVKLHQKIVEIL 274
+                     ***********997666777779*************99999*99999999999***************96666664.79**************** PP
+
+           7tm_6 190 aaindifsaallvqfllsalvlclllfqllfisgenvqaitvvlYllaallqvflyCyfGnelieeseslaeAaY.ssnWydasreyrrlllivi 283
+                     ++ n++f+ +l +q+ +    +++++ +++   +++  ++ +++ ++ al  + ++ +fG++l++es ++++AaY   + +++s +  r l ++i
+  XP_002093923.1 275 DRTNNVFHGTLIMQMGVNFSLVSISVLEAMEARKDPKVVVQFAILMMLALGHLSMWSFFGDMLSQESLKISDAAYdAYDPTKGSKDVYRDLCLII 369
+                     ***************************************************************************4456999************* PP
+
+           7tm_6 284 qraqrpmsisaggfftisLdtFasvlkaay 313
+                      r q p+ ++a  f +++L  ++++l+ +y
+  XP_002093923.1 370 RRGQEPLIMRASPFPSFNLINYSAILNQCY 399
+                     *************************99877 PP
+
+>> XP_039230328.1  putative odorant receptor 71a isoform X1 [Drosophila yakuba]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   96.0  12.3     1e-29   3.2e-27       6     221 ..      67     273 ..      62     280 .. 0.94
+
+  Alignments for each domain:
+  == domain 1  score: 96.0 bits;  conditional E-value: 1e-29
+           7tm_6   6 ltnlqttltfivcitKflllavnrkefyelinllrqldtrplaeeeeriheialaekrrkfllvilfilasalalililvkmvldhetnsplple 100
+                      ++l ++lt++++  K+++ + + +  + ++ ++  +d ++l++++e+ +++  +  rr   +++++ l+sa ++ +i++++++d  +  +lp+ 
+  XP_039230328.1  67 ADVLLICLTTTALGGKMINNWKYAHVAQCILTEWSTCDLFELRSQQEVDMWRFEH--RRFSRVFMFYCLCSAGVIPFIVIQPLFDIPN--QLPFW 157
+                     57889999***********************************************..55558**************************..***** PP
+
+           7tm_6 101 ipfpydwnasegmyyisyafqilgvlfsvlqnillDvlfcslllflclhlqlLkgrleelgednelteeeerqeLkecverHkhivrlvaaindi 195
+                     ++ p+dw+ ++  +++ +++q++++ +++++ni++D +  +++l+l+l l++L +rl +l++d +++ +   +++ e v+ H+++ + +  i+ +
+  XP_039230328.1 158 MWTPFDWR-QPALFWYPFIYQAITIPVTCMCNITMDAVNWYMMLHLSLCLRMLGQRLGKLQHD-DRDLR---ETFLELVQLHRRLKQQALGIECF 247
+                     ********.99999999**********************************************.44444...469******************** PP
+
+           7tm_6 196 fsaallvqfllsalvlclllfqllfi 221
+                     +s+++++q+l+s+l++c++++++  +
+  XP_039230328.1 248 ISKSTFTQILVSSLIICFTIYSMQMV 273
+                     **********************9876 PP
+
+>> XP_002093922.1  odorant receptor 65a [Drosophila yakuba]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   95.9  14.6   1.1e-29   3.4e-27       4     313 .]      94     406 ..      91     406 .. 0.85
+
+  Alignments for each domain:
+  == domain 1  score: 95.9 bits;  conditional E-value: 1.1e-29
+           7tm_6   4 elltnlqttltfivcitKflllavnrkefyelinllrqldtrplaeeeeriheialaekrrkfllvilfilasalalilil......vkmvldhe 92 
+                      l++ l++++t+i+  ++++++a + +e+  +i+ l+ +++  ++    +++ ++++  r++fll++   + + + +++i+      ++++++++
+  XP_002093922.1  94 NLGRDLVFIITTIFICFRLVFYAQYADEIDVIIDALEDIYHWSVKGPG-WKEVQENK--RLRFLLFMAVVISW-FTCLIIFmliklsTPFWIESQ 184
+                     67889*******************************999887775443.33333333..45534444333333.333333335566688889888 PP
+
+           7tm_6  93 tnsplpleipfpydwnasegmyyi.syafqilgvlfsvlqnillDvlfcslllflclhlqlLkgrleelgednelteeeerqeLkecverHkhiv 186
+                        p+++  pf+   +a+++   + +++ q +++l  ++   ++ ++ +s ++ l++ l++L+ +l++l+e+   +ee  ++eL+++   H++i+
+  XP_002093922.1 185 I-LPFHVAWPFQLHDPAQHPIAHViIFVSQSITMLYFLIWLGVVENMGVSIFYELTSALRVLCIELRNLQELCLGDEEMLFRELCRMTNFHQQII 278
+                     8.77777777777777888888777**************9********************************66666666*************** PP
+
+           7tm_6 187 rlvaaindifsaallvqfllsalvlclllfqllfisgenvqaitvvlYllaallqvflyCyfGnelieeseslaeAaYssnWyd.asreyrrlll 280
+                      l++++n+if+ a+ +q+l+  l ++l+lf++l    ++  a  +++ ll+ l  +  +  fG++++ees+++a A+Y+    + +s  + r   
+  XP_002093922.1 279 LLTDRCNQIFNGAFIMQMLINFLLVSLSLFEVLAAKRDPQVAAEYMVILLMTLGHLSFWSKFGDMFSEESKQVALAVYEAYDPNvGSKTIHRQFC 373
+                     *************************************9999999999999****************************8843336999999**** PP
+
+           7tm_6 281 iviqraqrpmsisaggfftisLdtFasvlkaay 313
+                     ++iqraq+p+ ++a+ f +++L+ ++ +lk +y
+  XP_002093922.1 374 FFIQRAQKPLIMRAAPFPPFNLENNMFILKQCY 406
+                     **************************9999876 PP
+
+>> XP_015049841.1  putative odorant receptor 65c [Drosophila yakuba]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   91.2   6.0   2.9e-28   9.1e-26       5     313 .]      89     399 ..      86     399 .. 0.85
+
+  Alignments for each domain:
+  == domain 1  score: 91.2 bits;  conditional E-value: 2.9e-28
+           7tm_6   5 lltnlqttltfivcitKflllavnrkefyelinllrqldtrplaeeeeriheiala.ekrrkfllvilfilasala.lililvkmvldhetnspl 97 
+                     +++ l +++ f++  +K++++ ++ + + e+++ l+ l++ + +   ++  +  ++ +  + f+l  +  +  +++ l+li+ +m++ ++    l
+  XP_015049841.1  89 IGRDLAFIIGFFFITFKIYYFQWYGDGLDEVVETLDRLHPWAQKGPGAVDCRTGKRwYFVLAFVLASSWMVFLCIFlLLLITSPMWVHQQI---L 180
+                     67889999***************************99987777666666666666622233322222222222222023333556666666...* PP
+
+           7tm_6  98 pleipfpydwn...asegmyyisyafqilgvlfsvlqnillDvlfcslllflclhlqlLkgrleelgednelteeeerqeLkecverHkhivrlv 189
+                     p+++ fp++w+    +++   i+y+fq ++   +++  ++  +l +   + l+  +++L+ +l++l ++  + ee  r e ++ v+ H++i++l 
+  XP_015049841.1 181 PFHAAFPFQWHdksIHPISHAIIYLFQSWCAVYTLTWLVCIEGLSVNIYVELTFAIEVLCLELRNLHRRCHEYEEL-RLETNRLVKFHQKIIDLL 274
+                     ***********97777777788***********************************************7777665.68889************* PP
+
+           7tm_6 190 aaindifsaallvqfllsalvlclllfqllfisgenvqaitvvlYllaallqvflyCyfGnelieeseslaeAaY.ssnWydasreyrrlllivi 283
+                     ++ n++f+ +l +q+ +  + ++l++ +++   +++  ++ +++ +l al  + ++ +fG++l++es ++++AaY   + +++s +  r l ++i
+  XP_015049841.1 275 DRTNNVFHGTLIMQMGVNFFLVSLSVLEAMEARKDPKVVVQFAILMLLALGHLSMWSFFGDLLSQESLKISDAAYeAYDPTKGSKDVYRDLCLII 369
+                     ***************************************************************************4456999************* PP
+
+           7tm_6 284 qraqrpmsisaggfftisLdtFasvlkaay 313
+                      r q+p+ ++a  f +++   ++++l+ +y
+  XP_015049841.1 370 RRGQKPLIMRASPFPPFNFINYSAILNQCY 399
+                     *************99999999999998776 PP
+
+>> XP_002096051.1  odorant receptor 83a [Drosophila yakuba]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -1.4   0.2       4.3   1.4e+03     111     145 ..      67     102 ..       3     132 .. 0.46
+   2 !   91.7  13.5   1.9e-28     6e-26      70     312 ..     149     439 ..      86     440 .. 0.90
+
+  Alignments for each domain:
+  == domain 1  score: -1.4 bits;  conditional E-value: 4.3
+           7tm_6 111 egmyyi.syafqilgvlfsvlqnillDvlfcslllf 145
+                        +yi ++++++    +  + n+l  ++++++++ 
+  XP_002096051.1  67 IAGLYIcTIYINYGQGDLDFFVNCLIQTIIYLWTIA 102
+                     222222244444444444444444444444444444 PP
+
+  == domain 2  score: 91.7 bits;  conditional E-value: 1.9e-28
+           7tm_6  70 ilfilasalalililvkmvldhetnsplpleipfpydwnasegmyyisyafqilgvlfsvlqnillDvlfcslllflclhlqlLkgrleelged. 163
+                     ++ + ++++++ +i++ ++    ++ +lpl +++p+d+  +++ y +++++q++g    + ++ ++ +l ++++++++++ ++L   l+++    
+  XP_002096051.1 149 WIKTYVYCCYIGTIFWLALPIAYRDGSLPLACWYPFDYT-QPIVYELVFLLQAMGQIQVAASFASSSGLHMVFCVLISGQYDVLFCSLKNVLASs 242
+                     56677888888888855554444456***********99.9999999**********************************************9* PP
+
+           7tm_6 164 ................................................nelteeee..rqeLkecverHkhivrlvaaindifsaallvqfllsa 208
+                                                                     + +    +     +++c++ H+ iv   ++i++++s++ +v++  ++
+  XP_002096051.1 243 yvlmganmtelnqlqaeqsaadaelgqytysmeeetplrellevgssmDFS----SafGLSFVRCIQHHRYIVAALKKIERFYSPIWFVKIGEVT 333
+                     **************************************9999875443222....2446789********************************* PP
+
+           7tm_6 209 lvlclllfqllfisg..envqaitvvlYllaallqvflyCyfGnelieeseslaeAaYssnWydasreyrrllliviqraqrpmsisaggfftis 301
+                     + +cl++f  ++ ++  + + ++    Yll +l+++f++Cyf++ + + s++  eA+  s+W  +  e r+ +++++ ++ r ++++ag++ +++
+  XP_002096051.1 334 FLMCLVAFVSTKSTSanSLMRMVSLGQYLLLVLYELFIICYFADIVFQNSQRCGEALWRSPWQRHLKEVRSDYIFFMLNSRRQFQLTAGKITNLN 428
+                     ************99976778888899********************************************************************* PP
+
+           7tm_6 302 LdtFasvlkaa 312
+                      d F  ++ +a
+  XP_002096051.1 429 VDRFRGTITTA 439
+                     **998887766 PP
+
+>> XP_002096824.1  putative odorant receptor 85e [Drosophila yakuba]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   90.5   9.9   4.6e-28   1.4e-25       4     310 ..      96     446 ..      93     449 .. 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 90.5 bits;  conditional E-value: 4.6e-28
+           7tm_6   4 elltnlqttltfivcitKflllavnrkefyelinllrqldtrpl.aeeeeriheialaekrrkfllvilfilasalalilil....vkmvldhet 93 
+                      + ++l++t++++++    ++ +++ +++   +++++  + +   a    +  + a++  + +      f+la+++ ++l +    v++++ + +
+  XP_002096824.1  96 AITDALTMTIIYFFTGYGTIYWCLRSRRLLAYMDHMNREYRHHSlAGVTFVSGHAAYR--MSR-----NFTLAWMMSCLLGVifwgVSPLMMGIR 183
+                     5678899999999999999999999999999999998888777657777777777777..444.....345555555554444455999999999 PP
+
+           7tm_6  94 nsplpleipfpydwnasegmyyisyafqilgvlfsvlqnillDvlfcslllflclhlqlLkgrleelged......................... 163
+                        lpl++++p+d    +++y  +ya q++g  +  + +    +lf+ l l+l +++++L+  l++l+                           
+  XP_002096824.1 184 --MLPLHCWYPFDAL-GPVTYSAVYATQLFGQILVGMTFSFGGSLFVTLSLLLLGQFDVLYCSLKNLDAHskllsgesinglsllqeelllgdat 275
+                     ..9*********999.8888888************************************************************************ PP
+
+           7tm_6 164 .........................nelteeeerqeLkecverHkhivrlvaaindifsaallvqfllsalvlclllfqllfisgenvqaitvvl 233
+                                              +++  +  + +L+ecv+ H+ i++++++++++fs+++lv+ l ++++lcll+f  + ++ e + ++  + 
+  XP_002096824.1 276 relnqyallqehptdllrmsagrkcPGQGNA-FHNALVECVRLHRFILHCAQELENLFSPYCLVKSLQITIQLCLLVFVGVSGTREVLRIVNQLQ 369
+                     ********************99987555555.379************************************************************ PP
+
+           7tm_6 234 YllaallqvflyCyfGnelieeseslaeAaYssnWydasreyrrllliviqraqrpmsisaggfftisLdtFasvlk 310
+                     Yl+  + ++ ++ y+G++l+ +s +  +A+    W ++   +r+ +li++ ++ r++ ++ag+f+ ++ + + sv+ 
+  XP_002096824.1 370 YLGLTIFELLMFTYCGELLSRHSIRSGDAFWRGAWWQHAHFIRQDILIFLVNSRRAVHVTAGKFYVMDVNRLRSVIT 446
+                     *******************************************************************9999999876 PP
+
+>> XP_002098107.2  putative odorant receptor 83c [Drosophila yakuba]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   80.9   7.1   3.9e-25   1.2e-22       7     308 ..      69     381 ..      66     383 .] 0.88
+
+  Alignments for each domain:
+  == domain 1  score: 80.9 bits;  conditional E-value: 3.9e-25
+           7tm_6   7 tnlqttltfivcitKflllavnrkefyelinllrqldtrplaeeeeriheiala.ekrrkfllvilfilasalalilil..vkmvldhet.nspl 97 
+                     ++  ++   i+ + Kfl  ++++ke+++++   + ++++  ++ e++ +  +l   + +   + i+ + + ++++++ +  + m+++  t  + +
+  XP_002098107.2  69 KASLMIGGLIHGLGKFLTCLLKHKEMRRTVLYTQGIYEEYENRGESYHKTLNLNiDRLL-GIMKIVRNGYVFAFCLMEIqpLAMLMYDGTrVTAM 162
+                     566788889********************************999999999999955555.48888888889999999888888988888868888 PP
+
+           7tm_6  98 pleipfpydwnasegmyyisyafqilgvlfsvlqnillDvlfcslllflclhlqlLkgrleelged.................nelteeeerqeL 175
+                     ++ ip   + + +++ y+++y++q +++ ++ + +++ D ++++ l+++    ++L+ ++ +l                    +++  ++  + L
+  XP_002098107.2 163 QYVIPG-LPLE-KNYGYVVTYLIQSVTMVVTGVGFYAGDLFVFLGLTQILTFADMLQLKVNDLNDAlkqkaetrvlvpvgasvKGEANRQ--RLL 253
+                     888888.6777.9999999**********************************************9************998765555555..799 PP
+
+           7tm_6 176 kecverHkhivrlvaaindifsaallvqfllsalvlclllfqllfisgenvqaitvvlYllaallqvflyCyfGnelieeseslaeAaYssnWyd 270
+                      e+++ H+   ++++ain+++ + + +q+l+ al + l++  +   s      + +++++++  +   +yC+ G+ l+   +++ e + ++ Wy+
+  XP_002098107.2 254 LEVIKWHQLFTEYCRAINALYYELIATQVLSMALAMMLSF-CINLSS----FHMPSAIFFVVSAYSMSIYCILGTILEFGYDQVYEGICNVAWYE 343
+                     ****************************999887654333.222222....23556888999999****************************** PP
+
+           7tm_6 271 asreyrrllliviqraqrpmsisaggfftisLdtFasv 308
+                      s + r+l  +++  +q p +i+  g++++s +t  +v
+  XP_002098107.2 344 LSGDQRKLFSFLLRESQYPHNIQILGVMPLSVRTALQV 381
+                     *******************************9987665 PP
+
+>> XP_002093275.2  odorant receptor 67b [Drosophila yakuba]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    0.4   0.4       1.2   3.7e+02     172     223 ..      66     119 ..      12     131 .. 0.58
+   2 !   80.2  21.4   6.4e-25     2e-22      66     311 ..     173     427 ..     160     429 .. 0.85
+
+  Alignments for each domain:
+  == domain 1  score: 0.4 bits;  conditional E-value: 1.2
+           7tm_6 172 rqeLkecverHkhivrlvaai..ndifsaallvqfllsalvlclllfqllfisg 223
+                       +++  +     i  lva i  n ++s  + v+ +l +++l++ +++++++++
+  XP_002093275.2  66 LTRIAVLIVNLSIIYSLVAFIveNYMISFETYVEAVLLTFQLSVGVVKMFHFQS 119
+                     444555555555555555555334555555666666777777777777766666 PP
+
+  == domain 2  score: 80.2 bits;  conditional E-value: 6.4e-25
+           7tm_6  66 fllvilfilasalalililvkmvldhet......nsplpleipfpydwn.asegmyyi.syafqilgvlfsvlqnillDvlfcslllflclhlql 152
+                     ++++ +  +  ++++  +++++++d         +  l +++ +py    + e + y+  +++   g l++ +   ++ +lf++l+ + ++++++
+  XP_002093275.2 173 MFFFKIVCMPVLYYCGRPYFQYIFDCYIkdkdtcEMTLTYPAIVPYLQLgKYELPSYViRFVLLQSGPLWCFFAVFGFNSLFVVLTRYESGLIKV 267
+                     345555555556677777777777766666666877888888888866674444444448888888999************************** PP
+
+           7tm_6 153 LkgrleelgednelteeeerqeLkecverHkhivrlvaaindifsaallvqfllsalvlclllfqllfisgenvqaitv.vlYllaallqvflyC 246
+                     L+  +++ ++d    +e++++ L++cv+   +i   +++i+++f+ ++lvq  +s++ +c+ll++++++ ++ +  + + ++Y++++ l++ ly 
+  XP_002093275.2 268 LRFLVQNSTSDILVPKEQRVKYLQCCVRLFARISSHHNQIENLFKYIILVQCSVSSILICMLLYKISTVLEVGWVWMGMiMVYFVTIALEITLYN 362
+                     ***********77777777889************************************************977766655267************* PP
+
+           7tm_6 247 yfGnelieeseslaeAaYssnWydasreyrrllliviqraqrpmsisaggfftisLdtFasvlka 311
+                     + +++++ +se l +  Y++ Wy+ sre++ ++ +++  + r++ +s+ggf ++s + +++v ++
+  XP_002093275.2 363 VSAQKVESQSELLFQDWYNCGWYNESREFKFMIKMMLLFSRRTFVLSVGGFTSLSHKFLVQVFRL 427
+                     **************************************************999998888887765 PP
+
+>> XP_002099663.1  odorant receptor 1a isoform X2 [Drosophila yakuba]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   76.3  12.3   9.4e-24   2.9e-21       5     306 ..      69     369 ..      65     376 .. 0.86
+
+  Alignments for each domain:
+  == domain 1  score: 76.3 bits;  conditional E-value: 9.4e-24
+           7tm_6   5 lltnlqttltfivcitKflllavnrkefyelinllrqldtrplaeeeeriheiala.ekrrkfllvilfilasalalilil.vkmvldhet.... 93 
+                      +++l   l ++ +++K+ +++++ +++  li+++ + +       + +  +++++ + +   +++++   +s+ +l++++ ++m+ +h t    
+  XP_002099663.1  69 CSEALMHGLQMVSSLLKMAIFLAKSHDLMALIQQI-LAPFAGEDLGDTEWRSQNRRgQLMAA-VYFMMCAGTSVSFLLMPVaLTMLKYHSTgefa 161
+                     567788888999********************988.66666667777777777777678887.89999999999999999967788888887665 PP
+
+           7tm_6  94 .nsplpleipfpydwnasegmyyisyafqilgvlfsvlqnillDvlfcslllflclhlqlLkgrleelgednelteeeerqeLkecverHkhivr 187
+                       s++ + +p+  d   +++ y +  ++ +++++f +++  ++D+l+ +  l l+++ + L ++l+ +++  +  ++++   L   + +H ++++
+  XP_002099663.1 162 pVSSFRVLLPY--DVT-QPHVYAMDCCLMVFVLSFFCCSTTGVDTLYGWCALGLSSQYRRLGQQLKGMRSCFNPHRSDY--GLSGLFVEHARLLK 251
+                     55555555555..666.789999999********************************************966666664..7************* PP
+
+           7tm_6 188 lvaaindifsaallvqfllsalvlclllfqllfisgenvqaitvvlYllaallqvflyCyfGnelieeseslaeAaYs.snWydasreyrrllli 281
+                     lv+++n +f ++ +v+++++ +  c ++ q +   + n ++ +  ++ +++++q+ +y ++++++  e e++++ +Y+ ++W +  +++r+l l+
+  XP_002099663.1 252 LVQQFNLCFMEIAFVEVVIICVLYCSVICQYIMPHT-NQNFAFLGFFSMVVTTQLCIYLFGAEQVRLEAERFSRLLYEvIPWQNLPPQHRKLFLF 345
+                     *******************************98888.99999999********************************7257************** PP
+
+           7tm_6 282 viqraqrpmsisaggfftisLdtFa 306
+                      ++raqr   + a++ f++  ++++
+  XP_002099663.1 346 PLERAQRETVLGAYF-FELGRPLLV 369
+                     *************99.877666555 PP
+
+>> XP_039230016.1  odorant receptor 1a isoform X5 [Drosophila yakuba]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   76.0  11.8   1.2e-23   3.7e-21       5     298 ..      69     361 ..      65     368 .. 0.87
+
+  Alignments for each domain:
+  == domain 1  score: 76.0 bits;  conditional E-value: 1.2e-23
+           7tm_6   5 lltnlqttltfivcitKflllavnrkefyelinllrqldtrplaeeeeriheiala.ekrrkfllvilfilasalalilil.vkmvldhet.... 93 
+                      +++l   l ++ +++K+ +++++ +++  li+++ + +       + +  +++++ + +   +++++   +s+ +l++++ ++m+ +h t    
+  XP_039230016.1  69 CSEALMHGLQMVSSLLKMAIFLAKSHDLMALIQQI-LAPFAGEDLGDTEWRSQNRRgQLMAA-VYFMMCAGTSVSFLLMPVaLTMLKYHSTgefa 161
+                     567788888999********************988.66666667777777777777678887.89999999999999999967788888887665 PP
+
+           7tm_6  94 .nsplpleipfpydwnasegmyyisyafqilgvlfsvlqnillDvlfcslllflclhlqlLkgrleelgednelteeeerqeLkecverHkhivr 187
+                       s++ + +p+  d   +++ y +  ++ +++++f +++  ++D+l+ +  l l+++ + L ++l+ +++  +  ++++   L   + +H ++++
+  XP_039230016.1 162 pVSSFRVLLPY--DVT-QPHVYAMDCCLMVFVLSFFCCSTTGVDTLYGWCALGLSSQYRRLGQQLKGMRSCFNPHRSDY--GLSGLFVEHARLLK 251
+                     55555555555..666.789999999********************************************966666664..7************* PP
+
+           7tm_6 188 lvaaindifsaallvqfllsalvlclllfqllfisgenvqaitvvlYllaallqvflyCyfGnelieeseslaeAaYs.snWydasreyrrllli 281
+                     lv+++n +f ++ +v+++++ +  c ++ q +   + n ++ +  ++ +++++q+ +y ++++++  e e++++ +Y+ ++W +  +++r+l l+
+  XP_039230016.1 252 LVQQFNLCFMEIAFVEVVIICVLYCSVICQYIMPHT-NQNFAFLGFFSMVVTTQLCIYLFGAEQVRLEAERFSRLLYEvIPWQNLPPQHRKLFLF 345
+                     *******************************98888.99999999********************************7257************** PP
+
+           7tm_6 282 viqraqrpmsisaggff 298
+                      ++raqr   + a++ f
+  XP_039230016.1 346 PLERAQRETVLGAYF-F 361
+                     ***********9999.5 PP
+
+>> XP_039230012.1  odorant receptor 1a isoform X4 [Drosophila yakuba]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   75.8  12.0   1.3e-23   4.2e-21       5     299 ..      69     362 ..      65     369 .. 0.87
+
+  Alignments for each domain:
+  == domain 1  score: 75.8 bits;  conditional E-value: 1.3e-23
+           7tm_6   5 lltnlqttltfivcitKflllavnrkefyelinllrqldtrplaeeeeriheiala.ekrrkfllvilfilasalalilil.vkmvldhet.... 93 
+                      +++l   l ++ +++K+ +++++ +++  li+++ + +       + +  +++++ + +   +++++   +s+ +l++++ ++m+ +h t    
+  XP_039230012.1  69 CSEALMHGLQMVSSLLKMAIFLAKSHDLMALIQQI-LAPFAGEDLGDTEWRSQNRRgQLMAA-VYFMMCAGTSVSFLLMPVaLTMLKYHSTgefa 161
+                     567788888999********************988.66666667777777777777678887.89999999999999999967788888887665 PP
+
+           7tm_6  94 .nsplpleipfpydwnasegmyyisyafqilgvlfsvlqnillDvlfcslllflclhlqlLkgrleelgednelteeeerqeLkecverHkhivr 187
+                       s++ + +p+  d   +++ y +  ++ +++++f +++  ++D+l+ +  l l+++ + L ++l+ +++  +  ++++   L   + +H ++++
+  XP_039230012.1 162 pVSSFRVLLPY--DVT-QPHVYAMDCCLMVFVLSFFCCSTTGVDTLYGWCALGLSSQYRRLGQQLKGMRSCFNPHRSDY--GLSGLFVEHARLLK 251
+                     55555555555..666.789999999********************************************966666664..7************* PP
+
+           7tm_6 188 lvaaindifsaallvqfllsalvlclllfqllfisgenvqaitvvlYllaallqvflyCyfGnelieeseslaeAaYs.snWydasreyrrllli 281
+                     lv+++n +f ++ +v+++++ +  c ++ q +   + n ++ +  ++ +++++q+ +y ++++++  e e++++ +Y+ ++W +  +++r+l l+
+  XP_039230012.1 252 LVQQFNLCFMEIAFVEVVIICVLYCSVICQYIMPHT-NQNFAFLGFFSMVVTTQLCIYLFGAEQVRLEAERFSRLLYEvIPWQNLPPQHRKLFLF 345
+                     *******************************98888.99999999********************************7257************** PP
+
+           7tm_6 282 viqraqrpmsisaggfft 299
+                      ++raqr   + a++ f+
+  XP_039230012.1 346 PLERAQRETVLGAYF-FE 362
+                     ***********9999.65 PP
+
+>> XP_039226136.1  odorant receptor 13a isoform X4 [Drosophila yakuba]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -1.9   0.1       6.4     2e+03      96     137 ..     145     184 ..     118     197 .. 0.56
+   2 !   75.7   3.9   1.5e-23   4.6e-21       7     189 ..     199     385 ..     193     386 .] 0.89
+
+  Alignments for each domain:
+  == domain 1  score: -1.9 bits;  conditional E-value: 6.4
+           7tm_6  96 plpleipfpydwnasegmyyisyafqilgvlfsvlqnillDv 137
+                     ++pl      +w+ s   +  +y++ +++v  sv   i++ +
+  XP_039226136.1 145 SWPLSESS-RPWK-SDSFLATAYVMWAWYVIASVGITISYQT 184
+                     45555444.4444.3333333444444444444444444333 PP
+
+  == domain 2  score: 75.7 bits;  conditional E-value: 1.5e-23
+           7tm_6   7 tnlqttltfivcitKflllavnrkefyelinllrqldtrplaeeeeriheialaekrrk.fllvilfilasalalililvkmvldhet...nspl 97 
+                     +n +tt+  +++++++l+l +n+++f++li+ +    + p +++  +  + +++  + +   ++ l  +  +++++l+lv+++++      n+p+
+  XP_039226136.1 199 ENCCTTFMGVLNFVRLLHLRLNQSKFRQLIENFSYEIWIPDSSKNNVAADCRRR--MITfSIMTSLLACLIIMYCVLPLVEIFFGPAIdaqNKPF 291
+                     799999999************************777777777777666666666..666667788888889999***********999999**** PP
+
+           7tm_6  98 pleipfpydwnasegmyyisyafqilgvlfsvlqnillDvlfcslllflclhlqlLkgrleelgednelteeee..rqeLkecverHkhivrlv 189
+                     p+++ fpyd ++s ++y+++y+f  ++  + v+   + D+++  ++++ c+++qlL +r+  l  d + +  e+   +++k++ve+H+++++l+
+  XP_039226136.1 292 PYKMIFPYDAQNSWIRYVLTYIFTSYAGICVVTTLFAEDTILGFFITYTCGQFQLLHQRIAALFADSSAELGENiqLERIKRIVEKHNTVIELF 385
+                     ***********99999999***********************************************6555555566****************97 PP
+
+>> XP_039230005.1  odorant receptor 1a isoform X1 [Drosophila yakuba]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   74.8  12.8   2.8e-23   8.8e-21       6     299 ..      70     362 ..      65     372 .. 0.87
+
+  Alignments for each domain:
+  == domain 1  score: 74.8 bits;  conditional E-value: 2.8e-23
+           7tm_6   6 ltnlqttltfivcitKflllavnrkefyelinllrqldtrplaeeeeriheiala.ekrrkfllvilfilasalalilil.vkmvldhet..... 93 
+                     +++l   l ++ +++K+ +++++ +++  li+++ + +       + +  +++++ + +   +++++   +s+ +l++++ ++m+ +h t     
+  XP_039230005.1  70 SEALMHGLQMVSSLLKMAIFLAKSHDLMALIQQI-LAPFAGEDLGDTEWRSQNRRgQLMAA-VYFMMCAGTSVSFLLMPVaLTMLKYHSTgefap 162
+                     67788888999********************988.66666667777777777777678887.899999999999999999677888888876655 PP
+
+           7tm_6  94 nsplpleipfpydwnasegmyyisyafqilgvlfsvlqnillDvlfcslllflclhlqlLkgrleelgednelteeeerqeLkecverHkhivrl 188
+                      s++ + +p+  d   +++ y +  ++ +++++f +++  ++D+l+ +  l l+++ + L ++l+ +++  +  ++++   L   + +H ++++l
+  XP_039230005.1 163 VSSFRVLLPY--DVT-QPHVYAMDCCLMVFVLSFFCCSTTGVDTLYGWCALGLSSQYRRLGQQLKGMRSCFNPHRSDY--GLSGLFVEHARLLKL 252
+                     5555555555..666.789999999********************************************966666664..7************** PP
+
+           7tm_6 189 vaaindifsaallvqfllsalvlclllfqllfisgenvqaitvvlYllaallqvflyCyfGnelieeseslaeAaYs.snWydasreyrrllliv 282
+                     v+++n +f ++ +v+++++ +  c ++ q +   + n ++ +  ++ +++++q+ +y ++++++  e e++++ +Y+ ++W +  +++r+l l+ 
+  XP_039230005.1 253 VQQFNLCFMEIAFVEVVIICVLYCSVICQYIMPHT-NQNFAFLGFFSMVVTTQLCIYLFGAEQVRLEAERFSRLLYEvIPWQNLPPQHRKLFLFP 346
+                     ******************************98888.99999999********************************7257*************** PP
+
+           7tm_6 283 iqraqrpmsisaggfft 299
+                     ++raqr   + a++ f+
+  XP_039230005.1 347 LERAQRETVLGAYF-FE 362
+                     **********9999.65 PP
+
+>> XP_002094291.1  odorant receptor 67d [Drosophila yakuba]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   67.5  12.5   4.7e-21   1.5e-18       3     313 .]      68     377 ..      66     377 .. 0.85
+
+  Alignments for each domain:
+  == domain 1  score: 67.5 bits;  conditional E-value: 4.7e-21
+           7tm_6   3 nelltnlqttltfivcitKflllavnrkefyelinllrqldtrplaeeeeriheialaekrrkfllvilfilasalalilil....vkmvldhet 93 
+                     + +l++l ++   i  +tK+l++a n   ++e+ n  ++++ +   + e++ +  +++  r ++ l+i f l++++ l li+    +  ++ h++
+  XP_002094291.1  68 TVILQALAMVGSAIQGLTKLLVTANNACHMREVQNTYEEIYREYGPKGEAYAKCLEKR-IRITWTLLIGFMLVYIILLGLIItfpiFYLLILHQK 161
+                     6789*********************************999988888888888777777.555577877777777766666663332555556666 PP
+
+           7tm_6  94 nsplpleipfpydwnasegmyyisyafqilgvlfsvlqnillDvlfcslllflclhlqlLkgrleelgednelteeee...rqeLkecverHkhi 185
+                        l +++ +p+  +++ g   i++a +++ ++f  + n++ D++++++++++ l  ++ + +l e+ e+  l++++    r+ L++    H+  
+  XP_002094291.1 162 --VLVMQFLIPFLDHTTDGGHLILTAAHVALITFGGFGNYGGDMYLFLFVTHVPLIKDIFCVKLTEFNEL-VLKRNDFpkvRAMLCDLLVWHQLY 253
+                     ..5555555555677799999999**********************************************.66666667789************* PP
+
+           7tm_6 186 vrlvaaindifsaallvqfllsal.vlclllfqllfisgenvqaitvvlYllaallqvflyCyfGnelieeseslaeAaY.ssnWydasreyrrl 278
+                         ++ ++i+s++l+vq+ +s +  lc++   +++         +  lYll+a++ ++ +C  G++++ ++e++   +Y ++ Wy+  ++  +l
+  XP_002094291.1 254 TSTLQTTKKIYSIVLFVQLSTSCVgLLCTISCIFMKAW------PAAPLYLLYAVITLYTFCGLGTLVENSNEDFLSVIYtNCLWYELPVKEEKL 342
+                     ******************99887614455444444444......58889********************************************** PP
+
+           7tm_6 279 lliviqraqrpmsisaggfftisLdtFasvlkaay 313
+                     ++++++ aq  + ++a+ + ++s++t  +++k++y
+  XP_002094291.1 343 IIMMLAKAQNEVCLTAADMAPLSMNTALQLTKGIY 377
+                     **************************999998876 PP
+
+>> XP_039228708.1  odorant receptor 49a [Drosophila yakuba]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   63.2   5.5   9.3e-20   2.9e-17      13     187 ..      81     259 .]      70     259 .] 0.79
+
+  Alignments for each domain:
+  == domain 1  score: 63.2 bits;  conditional E-value: 9.3e-20
+           7tm_6  13 ltfivcitKflllavnrkefyelinllrqldtrplaeeeeriheiala.ekrrkfllvilfilasalalilil..vkmvldhet....nsplple 100
+                     + ++ +++Kf+++++nrk++ +l n+l++l+++  +++ ++++++ +   ++++ +l+ ++ ++ ++al   l  + m +  ++    +++  ++
+  XP_039228708.1  81 FYMLSALVKFVAFMINRKRLLQLSNHLKELYPHKEQSQRRYEVNRFYLsRSTQY-VLYAYYFVMVVMALGPLLqsCIMYIVDFGkaefSYKRIYP 174
+                     4678899****************************************9667776.7777777777555443334433333333323333444555 PP
+
+           7tm_6 101 ipfpydwnasegmyyisyafqilgvlfsvlqnillDvlfcslllflclhlqlLkgrleelgednelteeeerqeLkecverHkhivr 187
+                     + + +d + ++  y+++y++++ +++f v  ++++D ++++   ++++hl  L++ l +l++   +te++ +  L+ +v+rH+ ++r
+  XP_039228708.1 175 TRLTFDSE-NPLGYVVAYVIDFTYSQFIVNVSLGTDLWMMCISSQISMHLAYLANVLASLRPS-PETEQQDCYLLAGIVRRHQLMLR 259
+                     55655666.6666666***********************************************.56666669***********9986 PP
+
+>> XP_039230017.1  odorant receptor 1a isoform X6 [Drosophila yakuba]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   55.4   7.5   2.2e-17   6.9e-15     121     299 ..       6     181 ..       2     191 .. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 55.4 bits;  conditional E-value: 2.2e-17
+           7tm_6 121 qilgvlfsvlqnillDvlfcslllflclhlqlLkgrleelgednelteeeerqeLkecverHkhivrlvaaindifsaallvqfllsalvlclll 215
+                      +++++f +++  ++D+l+ +  l l+++ + L ++l+ +++  +  ++++   L   + +H ++++lv+++n +f ++ +v+++++ +  c ++
+  XP_039230017.1   6 MVFVLSFFCCSTTGVDTLYGWCALGLSSQYRRLGQQLKGMRSCFNPHRSDY--GLSGLFVEHARLLKLVQQFNLCFMEIAFVEVVIICVLYCSVI 98 
+                     57889999**********************************966666664..7***************************************** PP
+
+           7tm_6 216 fqllfisgenvqaitvvlYllaallqvflyCyfGnelieeseslaeAaYs.snWydasreyrrllliviqraqrpmsisaggfft 299
+                      q +   + n ++ +  ++ +++++q+ +y ++++++  e e++++ +Y+ ++W +  +++r+l l+ ++raqr   + a++ f+
+  XP_039230017.1  99 CQYIMPHT-NQNFAFLGFFSMVVTTQLCIYLFGAEQVRLEAERFSRLLYEvIPWQNLPPQHRKLFLFPLERAQRETVLGAYF-FE 181
+                     ***98888.99999999********************************7257*************************9999.65 PP
+
+>> XP_002095029.1  odorant receptor 74a [Drosophila yakuba]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   48.7  15.6   2.4e-15   7.5e-13       2     313 .]      76     394 ..      75     394 .. 0.79
+
+  Alignments for each domain:
+  == domain 1  score: 48.7 bits;  conditional E-value: 2.4e-15
+           7tm_6   2 vnelltnlqttltfivcitKflllavnrkefyelinllrqldtrplaeeeeriheialaekrrk.fllvilfilasalalililvkmvldhetns 95 
+                     +  llt + t+l+ + + ++++ la+++++f+ l++++ +  +     e+    +i+++  ++  ++  +++ l+ + +++++ v+ v++h +  
+  XP_002095029.1  76 MDNLLTGMPTYLILVELQIRCFQLAWHKDRFRALLQRFYAEIYVSEVMEPLLFARIQRQ--MLAtRVNSTVYLLTLFNFFLVP-VTNVIYHRR-- 165
+                     5678999999***************************9544444444444444444444..4432344555555554444444.666777777.. PP
+
+           7tm_6  96 plpleipfpydwnasegmyyi.syafqilgvlfsvlqnillDvlfcslllflclhlqlLkgrleelged.....nelteeee.....rqeLkecv 179
+                     ++ ++ ++p+d  +++ +++i + ++++++  +   +  +  +++  l+++l++    L ++l++  ++      +l    +     r  L  + 
+  XP_002095029.1 166 EMLYKQVYPFD--NTQLHFFIpLLVLNFWVGFIITSMLFGELNVMGELMMHLNARYVQLGQDLRRSAQRllkrsSSL----NvatgyRLILTHIL 254
+                     67777777665..5588888889999999998877755555555555666666666666666666555576654222....13456678899999 PP
+
+           7tm_6 180 erHkhivrlvaaindifsaallvqfllsalvlclllfqllfisgenvqaitvvlYllaallqvflyCyfGnelieeseslaeAaYssnWyd.... 270
+                     +r   + ++ ++++d f+  ++v f  sa  lc l+f+++  ++ +++ +++++ +la ++++  + + G  l +  ++l   +Y  nW +    
+  XP_002095029.1 255 RRNAALRDFGQRVEDEFTLRIFVMFAFSAGLLCALFFKAF--TN-PWANVAYIMWFLAKFMELLALGMLGSTLLKTTDELGMMYYTANWEQvihq 346
+                     99999********************************998..33.79******************************************999999 PP
+
+           7tm_6 271 .....asreyrrllliviqraqrpmsisaggfftisLdtFasvlkaay 313
+                           +++  +l+ + iq   rp+ i++ ++f++sL +  +++++a+
+  XP_002095029.1 347 sdnvgENVKLMKLVTLAIQLNSRPFFITGLNYFRVSLTAVLKIIQGAF 394
+                     99999**************************************99885 PP
+
+>> XP_043062971.1  putative odorant receptor 65c [Drosophila yakuba]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   29.2   0.0   2.1e-09   6.7e-07     203     300 ..       2     100 ..       1     108 [. 0.92
+
+  Alignments for each domain:
+  == domain 1  score: 29.2 bits;  conditional E-value: 2.1e-09
+           7tm_6 203 qfllsalvlclllfqllfisgenvqaitvvlYllaallqvflyCyfGnelieeseslaeAaY.ssnWydasreyrrllliviqraqrpmsisagg 296
+                     q+ +  + ++l++ +++   +e+  ++ +++ +l al  + ++ +fG++l+++s +++eAaY   + +++s ++ r l ++i r q p+ ++a  
+  XP_043062971.1   2 QMGVNLFLVSLSVLEVMEARKEPKVVVQFAILMLLALGHLSMWSFFGDLLSQKSLKISEAAYeAYDPTKGSKDIYRDLCLIIRRGQEPLIMRASP 96 
+                     8888899999****************************************************4456999************************99 PP
+
+           7tm_6 297 ffti 300
+                     f ++
+  XP_043062971.1  97 FPPF 100
+                     7666 PP
+
+>> XP_002087334.3  putative gustatory receptor 2a isoform X4 [Drosophila yakuba]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   12.0   5.4   0.00035      0.11     151     312 ..     209     390 ..     138     391 .. 0.81
+
+  Alignments for each domain:
+  == domain 1  score: 12.0 bits;  conditional E-value: 0.00035
+           7tm_6 151 qlLkgrleelged............nelteeee.rqeLkecverHkhivrlvaaindifsaallvqfllsalvlclllfqllfisg.......en 225
+                     ++L + l++l+              +++ ee   + +L+++   ++++  lva +n++f+ ++l+q+    l ++ + + ++  +        ++
+  XP_002087334.3 209 DVLLMALQQLQLHrkgpavdtvleaQDDLEE-AaMDRLIAVRLVYQRVWALVALLNRCFGLSVLMQVGNDFLAITSNCYWMFLNFRqsaaspfDI 302
+                     4444444444444666667777753333333.35999999999***********************87777777766666655444444555999 PP
+
+           7tm_6 226 vqaitvvlYllaallqvflyCyfGnelieeseslaeAaYssnWydasreyrrll.liviqraqrpmsisaggfftisLdtFasvlkaa 312
+                     +q++++ +  +  l +v ++   +++ +++  +la  + ++     ++++  l+ ++ +q +++ + +sa+gff+++  ++ ++++a+
+  XP_002087334.3 303 LQIVASGVWSAPHLGNVLVLSLLCDRTAQCATRLALCLHQVTVDLRNESHNALItQFSLQLLHQRLHFSAAGFFNVDCTLLYTIVGAT 390
+                     99***************************************988888887776538999*****************999999998875 PP
+
+>> XP_002099984.1  gustatory receptor 5a for trehalose [Drosophila yakuba]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   11.7   5.2   0.00044      0.14     111     233 ..     227     343 ..     126     361 .. 0.66
+
+  Alignments for each domain:
+  == domain 1  score: 11.7 bits;  conditional E-value: 0.00044
+           7tm_6 111 egmyyisyafqilgvlfsvlqnillDvlfcslllflclhlqlLkgrleelgednelteeeerqeLkecverHkhivrlvaaindifsaallvqfl 205
+                     ++  +++++ +i  vl++      +D+++++l + l+++l  L++ le+  +++  ++ +      +  + ++ iv+l +++ d +s ++l++f 
+  XP_002099984.1 227 PYSNWLAWLGKIQNVLLTFG-WSYMDIFLMMLGIGLSEMLARLNRSLEQQVRQPMPEAYW-----TWSRTLYRSIVELIREVDDAVSGIMLISFG 315
+                     33334444444444444444.234799999999999999999999999999999999998.....577789************************ PP
+
+           7tm_6 206 lsalvlclllfqllfisgenvqaitvvl 233
+                     +    +cl l + + + +++  a+++ +
+  XP_002099984.1 316 SNLYFICLQLLKSINTMPSSAHAVYFYF 343
+                     *********9999988886666665532 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (313 nodes)
+Target sequences:                      25398  (19896100 residues searched)
+Passed MSV filter:                      2630  (0.103551); expected 508.0 (0.02)
+Passed bias filter:                     1291  (0.0508308); expected 508.0 (0.02)
+Passed Vit filter:                       223  (0.00878022); expected 25.4 (0.001)
+Passed Fwd filter:                        81  (0.00318923); expected 0.3 (1e-05)
+Initial search space (Z):              25398  [actual number of targets]
+Domain search space  (domZ):              81  [number of targets reported over threshold]
+# CPU time: 0.65u 0.02s 00:00:00.67 Elapsed: 00:00:00.29
+# Mc/sec: 20773.09
+//
+[ok]
